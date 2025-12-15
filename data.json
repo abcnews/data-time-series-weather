@@ -1,0 +1,5495 @@
+✅ Database '/Users/kyd.ashley/Web/data-time-series-weather/data/weather.sqlite' initialized and table 'weather_data' ready with time-series index.
+{
+  "timestamps": [
+    "2025-12-11T04:50:00Z",
+    "2025-12-11T05:00:00Z",
+    "2025-12-11T05:10:00Z",
+    "2025-12-11T06:20:00Z",
+    "2025-12-12T05:00:00Z",
+    "2025-12-12T06:10:00Z",
+    "2025-12-12T06:40:00Z"
+  ],
+  "series": {
+    "aurora://location/loc004e26acc9fa": [
+      null,
+      null,
+      33.5,
+      31.2,
+      30.4,
+      30.8,
+      32.7
+    ],
+    "aurora://location/loc0072f7062952": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc00dfefe6aadb": [
+      null,
+      38.3,
+      38.3,
+      38.3,
+      35.4,
+      35.4,
+      35.9
+    ],
+    "aurora://location/loc013b7af36a79": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc0230d351bb60": [
+      null,
+      35.8,
+      35.8,
+      35.8,
+      33.1,
+      33.1,
+      33.4
+    ],
+    "aurora://location/loc02634b305072": [
+      null,
+      null,
+      32,
+      32.6,
+      27.7,
+      28.6,
+      28.1
+    ],
+    "aurora://location/loc026581c7d572": [
+      null,
+      null,
+      29.2,
+      29.2,
+      24.6,
+      24.6,
+      22.9
+    ],
+    "aurora://location/loc02a0328ba570": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc02cd9dda073a": [
+      null,
+      40.5,
+      40.5,
+      40.5,
+      38.5,
+      38.5,
+      38.8
+    ],
+    "aurora://location/loc03c2ec5dcf24": [
+      null,
+      null,
+      34.2,
+      34.2,
+      34.8,
+      35.2,
+      34.2
+    ],
+    "aurora://location/loc04f488809737": [
+      null,
+      null,
+      39.5,
+      39.5,
+      39.2,
+      39.2,
+      39.5
+    ],
+    "aurora://location/loc04f4a3a04f73": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc057be79960f4": [
+      null,
+      33.9,
+      null,
+      33.9,
+      31.2,
+      31.2,
+      32
+    ],
+    "aurora://location/loc058b48d23db6": [
+      null,
+      37.4,
+      37.4,
+      37.4,
+      37.2,
+      37.4,
+      37.4
+    ],
+    "aurora://location/loc05cd64439d58": [
+      null,
+      33.9,
+      null,
+      33.9,
+      32.8,
+      32.8,
+      34.8
+    ],
+    "aurora://location/loc062098462b8d": [
+      null,
+      29.3,
+      29.3,
+      29.3,
+      35.6,
+      35.6,
+      34.2
+    ],
+    "aurora://location/loc06b39c473667": [
+      null,
+      28.2,
+      null,
+      28.2,
+      21.2,
+      21.2,
+      20.6
+    ],
+    "aurora://location/loc07a89165c12d": [
+      null,
+      36.5,
+      36.5,
+      36.5,
+      31,
+      31,
+      33.5
+    ],
+    "aurora://location/loc07b67fabed0a": [
+      null,
+      34,
+      34,
+      34,
+      37.8,
+      37.8,
+      37.8
+    ],
+    "aurora://location/loc07bac9c4ec77": [
+      null,
+      37.1,
+      37.1,
+      37.1,
+      38.2,
+      38.2,
+      37.8
+    ],
+    "aurora://location/loc09187a0f22ed": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc09d18a2c8ca1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc0a49871cb62b": [
+      null,
+      null,
+      38.9,
+      38.5,
+      null,
+      35,
+      33.5
+    ],
+    "aurora://location/loc0adb998e4ff6": [
+      null,
+      null,
+      38.1,
+      38.1,
+      39.3,
+      40.4,
+      40.4
+    ],
+    "aurora://location/loc0aee89e74496": [
+      null,
+      33,
+      null,
+      33,
+      29.3,
+      29.3,
+      29.9
+    ],
+    "aurora://location/loc0b761cb6a0eb": [
+      null,
+      null,
+      38.4,
+      39.6,
+      31.7,
+      31.7,
+      33.5
+    ],
+    "aurora://location/loc0c200faf2f2b": [
+      null,
+      31.7,
+      31.7,
+      31.7,
+      31.9,
+      31.9,
+      30.2
+    ],
+    "aurora://location/loc0c2c818d5b76": [
+      null,
+      null,
+      36.1,
+      35.2,
+      35.2,
+      35.2,
+      35.1
+    ],
+    "aurora://location/loc0c3ed32f4998": [
+      null,
+      null,
+      30.3,
+      30.3,
+      29,
+      29,
+      30.1
+    ],
+    "aurora://location/loc0c7c57b906ad": [
+      null,
+      null,
+      42.3,
+      42.3,
+      39.6,
+      39.6,
+      43.3
+    ],
+    "aurora://location/loc0c9542430b96": [
+      null,
+      33.8,
+      33.8,
+      33.8,
+      33.5,
+      33.5,
+      33
+    ],
+    "aurora://location/loc0cfd0b7c7056": [
+      null,
+      null,
+      33,
+      34.8,
+      29.3,
+      30.7,
+      31.1
+    ],
+    "aurora://location/loc0d1e28dcfb8e": [
+      null,
+      null,
+      31.6,
+      31.6,
+      37.8,
+      37.8,
+      37
+    ],
+    "aurora://location/loc0d610362fa92": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc0f0f7cdc4547": [
+      null,
+      null,
+      32.2,
+      32.2,
+      32.2,
+      32.2,
+      32.2
+    ],
+    "aurora://location/loc0f6834982039": [
+      null,
+      null,
+      34.2,
+      34.2,
+      34.8,
+      34.8,
+      35.2
+    ],
+    "aurora://location/loc0fd70b6791c3": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc0fff39c4ba3c": [
+      null,
+      null,
+      34.4,
+      34.4,
+      34.1,
+      34.1,
+      32.6
+    ],
+    "aurora://location/loc103d22d150ab": [
+      29,
+      29,
+      null,
+      29,
+      30.5,
+      30.5,
+      28.1
+    ],
+    "aurora://location/loc107055d668bf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc107ecd4d2a87": [
+      null,
+      42.3,
+      42.3,
+      42.3,
+      38.6,
+      38.6,
+      38.3
+    ],
+    "aurora://location/loc11ef949dddae": [
+      null,
+      null,
+      29.7,
+      29.7,
+      26,
+      26,
+      26
+    ],
+    "aurora://location/loc122afff6324a": [
+      null,
+      null,
+      34.9,
+      34.9,
+      38.2,
+      38.2,
+      38.2
+    ],
+    "aurora://location/loc127d603df611": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc12ca6fd5f9fa": [
+      null,
+      38.3,
+      38.3,
+      38.3,
+      36.5,
+      36.5,
+      37.8
+    ],
+    "aurora://location/loc12d8cb3714d1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1300d397268b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc136a1721d960": [
+      null,
+      42,
+      42,
+      42,
+      39.7,
+      39.7,
+      39.7
+    ],
+    "aurora://location/loc14f80864277a": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc155a5868e14f": [
+      30.5,
+      30.5,
+      null,
+      30.5,
+      30.4,
+      30.4,
+      30.1
+    ],
+    "aurora://location/loc162ba431d5ad": [
+      null,
+      31.8,
+      31.8,
+      31.8,
+      32.5,
+      32.5,
+      31.6
+    ],
+    "aurora://location/loc165387b02683": [
+      null,
+      null,
+      37.1,
+      37.1,
+      38.2,
+      37.8,
+      37.8
+    ],
+    "aurora://location/loc16e0564957a1": [
+      null,
+      26.6,
+      26.6,
+      26.6,
+      25.1,
+      25.1,
+      24.3
+    ],
+    "aurora://location/loc178b60c7f4b4": [
+      null,
+      null,
+      33,
+      34.8,
+      34.7,
+      34.5,
+      34.5
+    ],
+    "aurora://location/loc179783eae7c5": [
+      27.8,
+      27.8,
+      null,
+      27.8,
+      27,
+      27,
+      27.3
+    ],
+    "aurora://location/loc17fd4ae7853a": [
+      null,
+      18.1,
+      18.1,
+      18.1,
+      27.5,
+      27.5,
+      26.7
+    ],
+    "aurora://location/loc187876e52b47": [
+      null,
+      null,
+      38.1,
+      39.2,
+      37.8,
+      38.6,
+      39.1
+    ],
+    "aurora://location/loc19635326d925": [
+      null,
+      null,
+      31.2,
+      31.2,
+      33.9,
+      34.7,
+      35.2
+    ],
+    "aurora://location/loc19dd4f1f7bae": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1a120a92975c": [
+      null,
+      30.6,
+      30.6,
+      30.6,
+      35.2,
+      35.2,
+      35.5
+    ],
+    "aurora://location/loc1a7c57a88c87": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1aad23bceb79": [
+      null,
+      30.1,
+      null,
+      30.1,
+      33.2,
+      33.2,
+      34.3
+    ],
+    "aurora://location/loc1b141c17bec9": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1b289d3ff2fc": [
+      null,
+      30.8,
+      null,
+      30.8,
+      32,
+      32,
+      32.3
+    ],
+    "aurora://location/loc1b43c7b4f1f0": [
+      null,
+      32.8,
+      null,
+      32.8,
+      33.3,
+      33.3,
+      35.2
+    ],
+    "aurora://location/loc1b7fd8eb5577": [
+      null,
+      null,
+      36,
+      36,
+      27.5,
+      27.5,
+      27.1
+    ],
+    "aurora://location/loc1ba8526b9d11": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1c026961b8ee": [
+      null,
+      39.7,
+      39.7,
+      39.7,
+      39.5,
+      39.5,
+      40.6
+    ],
+    "aurora://location/loc1ca21c8effff": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1d0687f2c06b": [
+      27.8,
+      27.8,
+      null,
+      27.8,
+      26.2,
+      26.2,
+      25.6
+    ],
+    "aurora://location/loc1d45a8c5bc6b": [
+      null,
+      18.6,
+      null,
+      18.6,
+      22.8,
+      22.8,
+      23.1
+    ],
+    "aurora://location/loc1e6d7495ba54": [
+      null,
+      34.8,
+      34.8,
+      34.8,
+      34.8,
+      34.8,
+      33.9
+    ],
+    "aurora://location/loc1efb23136c03": [
+      null,
+      null,
+      40.5,
+      39.6,
+      38.5,
+      38.8,
+      38.8
+    ],
+    "aurora://location/loc1efbd971952f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc1f00f121f8d7": [
+      null,
+      40.4,
+      40.4,
+      40.4,
+      38.6,
+      38.6,
+      37.9
+    ],
+    "aurora://location/loc1f73672977ce": [
+      null,
+      19.1,
+      null,
+      19.1,
+      24.6,
+      24.6,
+      23.6
+    ],
+    "aurora://location/loc1f97fb783207": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc20127ef37c08": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc20d8d973aee4": [
+      null,
+      26.8,
+      26.8,
+      26.8,
+      21,
+      21,
+      20.5
+    ],
+    "aurora://location/loc21230ebdb183": [
+      null,
+      null,
+      36.6,
+      36.6,
+      41.2,
+      41.2,
+      41.8
+    ],
+    "aurora://location/loc214db52e63ad": [
+      null,
+      28.2,
+      28.2,
+      28.2,
+      26.7,
+      26.7,
+      27
+    ],
+    "aurora://location/loc2189f3f2c252": [
+      null,
+      null,
+      30.3,
+      28.7,
+      30.1,
+      29.5,
+      29.2
+    ],
+    "aurora://location/loc218ece9c35a1": [
+      null,
+      null,
+      20,
+      20,
+      19.5,
+      19.5,
+      19.3
+    ],
+    "aurora://location/loc21e5abe47ad0": [
+      null,
+      null,
+      14.8,
+      14.8,
+      18.8,
+      18.8,
+      18.2
+    ],
+    "aurora://location/loc22c85f74420e": [
+      null,
+      null,
+      42.3,
+      43.4,
+      38.6,
+      38.3,
+      38.3
+    ],
+    "aurora://location/loc232da9d11723": [
+      null,
+      18.9,
+      null,
+      18.9,
+      26.2,
+      26.2,
+      26.5
+    ],
+    "aurora://location/loc233f7c87e3e8": [
+      null,
+      33.9,
+      33.9,
+      34.3,
+      32.8,
+      34.8,
+      33.9
+    ],
+    "aurora://location/loc2401b33a0811": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc24d9ff7f55fc": [
+      null,
+      37.4,
+      37.4,
+      37.4,
+      37.2,
+      37.2,
+      37.4
+    ],
+    "aurora://location/loc26cb59d091a8": [
+      null,
+      null,
+      33.4,
+      33.4,
+      33.7,
+      33.9,
+      34.6
+    ],
+    "aurora://location/loc285fd94d452d": [
+      null,
+      33,
+      33,
+      33,
+      31.6,
+      31.6,
+      32.3
+    ],
+    "aurora://location/loc2872982f7868": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc291ab9be67bc": [
+      null,
+      null,
+      18.5,
+      34,
+      36.7,
+      37.8,
+      37.5
+    ],
+    "aurora://location/loc2951b5ba47b8": [
+      null,
+      null,
+      39.1,
+      39.1,
+      38.3,
+      38.3,
+      38.3
+    ],
+    "aurora://location/loc2999a06bb961": [
+      null,
+      31.8,
+      31.8,
+      31.8,
+      33.3,
+      33.3,
+      32.3
+    ],
+    "aurora://location/loc2a382417888d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc2bef51870c10": [
+      null,
+      null,
+      37.8,
+      35.5,
+      33.5,
+      34.5,
+      34.9
+    ],
+    "aurora://location/loc2bfa569bfd8e": [
+      null,
+      14.1,
+      null,
+      14.1,
+      22,
+      22,
+      16.8
+    ],
+    "aurora://location/loc2d13554b8dbb": [
+      null,
+      25.6,
+      null,
+      25.6,
+      27.6,
+      27.6,
+      27.3
+    ],
+    "aurora://location/loc2d3ddabf5d73": [
+      29.2,
+      29.2,
+      null,
+      29.2,
+      30.5,
+      30.5,
+      30.5
+    ],
+    "aurora://location/loc2dd377e94ef1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc2e7e0523f2e1": [
+      null,
+      38.3,
+      38.3,
+      38.8,
+      36.5,
+      37.8,
+      38
+    ],
+    "aurora://location/loc2ea88964023a": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc2ef85abd8483": [
+      null,
+      28.1,
+      null,
+      28.1,
+      21.2,
+      21.2,
+      22
+    ],
+    "aurora://location/loc2f1689667a65": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc2f41fdac3b65": [
+      null,
+      null,
+      27,
+      27,
+      31.1,
+      31.1,
+      31.1
+    ],
+    "aurora://location/loc2f959d3c3e1a": [
+      null,
+      null,
+      40.3,
+      40.3,
+      38.8,
+      38.8,
+      38.8
+    ],
+    "aurora://location/loc303959fa0905": [
+      null,
+      22.6,
+      22.6,
+      22.6,
+      31.1,
+      31.1,
+      28
+    ],
+    "aurora://location/loc304c42aee58f": [
+      null,
+      null,
+      29.7,
+      29.7,
+      26,
+      26,
+      26
+    ],
+    "aurora://location/loc30630d0b45b8": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc308484e1f9fb": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc30e0eeb0e622": [
+      null,
+      null,
+      39.7,
+      39.7,
+      39.5,
+      40.6,
+      40.6
+    ],
+    "aurora://location/loc315f84c2d273": [
+      null,
+      29.3,
+      29.3,
+      29.3,
+      29.9,
+      29.9,
+      28
+    ],
+    "aurora://location/loc31a549ad0023": [
+      null,
+      33.4,
+      null,
+      33.4,
+      28.3,
+      28.3,
+      29.9
+    ],
+    "aurora://location/loc31cb8a416f37": [
+      null,
+      32,
+      32,
+      32.6,
+      27.7,
+      28.6,
+      28.1
+    ],
+    "aurora://location/loc320247db6936": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc32f08f43ca50": [
+      null,
+      31.1,
+      31.1,
+      31.1,
+      32.2,
+      32.2,
+      31.8
+    ],
+    "aurora://location/loc3309e461981d": [
+      null,
+      29.2,
+      29.2,
+      29.2,
+      34.6,
+      34.6,
+      35.3
+    ],
+    "aurora://location/loc3395a1caa799": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc341def567cc3": [
+      null,
+      null,
+      33.9,
+      31.8,
+      33.4,
+      33.9,
+      33.5
+    ],
+    "aurora://location/loc35493747f875": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc35ae937ff1b4": [
+      24.7,
+      24.7,
+      null,
+      24.7,
+      23.4,
+      23.4,
+      23.1
+    ],
+    "aurora://location/loc362f1186bb21": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc36a0208bc4d2": [
+      null,
+      31.5,
+      31.5,
+      31.5,
+      31.3,
+      31.3,
+      31.5
+    ],
+    "aurora://location/loc36bc6dda27c9": [
+      null,
+      16.5,
+      16.5,
+      16.5,
+      18.2,
+      18.2,
+      17.8
+    ],
+    "aurora://location/loc36e38fd681a4": [
+      null,
+      null,
+      40.5,
+      40.7,
+      42.9,
+      42.9,
+      42.9
+    ],
+    "aurora://location/loc37cb85502a9b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc37ec11afe97f": [
+      null,
+      null,
+      37.8,
+      39,
+      41.5,
+      40.9,
+      40.9
+    ],
+    "aurora://location/loc391f9624ba6f": [
+      null,
+      35,
+      35,
+      35,
+      34.4,
+      34.4,
+      34.3
+    ],
+    "aurora://location/loc39f58b228284": [
+      null,
+      36.5,
+      36.5,
+      39,
+      30,
+      31.1,
+      30.7
+    ],
+    "aurora://location/loc3b1409295d07": [
+      null,
+      33,
+      33,
+      34.2,
+      31.6,
+      32.3,
+      32.6
+    ],
+    "aurora://location/loc3b1886c0bad4": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc3b3d9365e89e": [
+      null,
+      null,
+      18.7,
+      18.7,
+      26.6,
+      26.6,
+      25.9
+    ],
+    "aurora://location/loc3b86449e539e": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc3b8e1e97fc22": [
+      null,
+      null,
+      34.1,
+      34.7,
+      33.6,
+      33.7,
+      32.8
+    ],
+    "aurora://location/loc3ce9545be8bc": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc3ec5fd5ac40a": [
+      null,
+      16.8,
+      null,
+      16.8,
+      19.9,
+      19.9,
+      19.7
+    ],
+    "aurora://location/loc3f4fde39dc0c": [
+      null,
+      null,
+      37.1,
+      37.1,
+      38.2,
+      37.8,
+      37.8
+    ],
+    "aurora://location/loc3f6c237e3fc5": [
+      null,
+      null,
+      36.2,
+      36.2,
+      34.8,
+      34.8,
+      35.5
+    ],
+    "aurora://location/loc3f70d42d0be6": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc40b23642c6a5": [
+      null,
+      null,
+      33.4,
+      33.4,
+      28.3,
+      29.9,
+      30.2
+    ],
+    "aurora://location/loc40cef1070821": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc40fdc9035f11": [
+      null,
+      33,
+      33,
+      24.7,
+      29.3,
+      29.9,
+      30.6
+    ],
+    "aurora://location/loc411089f52416": [
+      21,
+      21,
+      null,
+      21,
+      18.5,
+      18.5,
+      19.1
+    ],
+    "aurora://location/loc415590444c10": [
+      null,
+      41.6,
+      null,
+      41.6,
+      42.1,
+      42.1,
+      42.4
+    ],
+    "aurora://location/loc418868c02148": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc422cbe07d20f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc428c5e94ea08": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc42e8c113ddd4": [
+      null,
+      28.9,
+      28.9,
+      29.1,
+      29.9,
+      28.7,
+      28.8
+    ],
+    "aurora://location/loc43add4c26fd1": [
+      null,
+      39.8,
+      39.8,
+      39.8,
+      42.3,
+      42.3,
+      41.5
+    ],
+    "aurora://location/loc4423238fcdd8": [
+      null,
+      24,
+      null,
+      24,
+      29.9,
+      29.9,
+      30.7
+    ],
+    "aurora://location/loc4514ef69060f": [
+      null,
+      23.4,
+      null,
+      23.4,
+      22.2,
+      22.2,
+      21.2
+    ],
+    "aurora://location/loc4529e7b8cffb": [
+      null,
+      37.8,
+      37.8,
+      37.8,
+      41.5,
+      41.5,
+      40.9
+    ],
+    "aurora://location/loc458634711fb8": [
+      null,
+      null,
+      29.2,
+      29.2,
+      29.2,
+      29.2,
+      29.2
+    ],
+    "aurora://location/loc46e6625bb24d": [
+      23.2,
+      23.2,
+      null,
+      22.7,
+      20.6,
+      20.6,
+      20.8
+    ],
+    "aurora://location/loc46ffa0c908a6": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc483a3ab098b2": [
+      null,
+      17.2,
+      17.2,
+      17.2,
+      21.8,
+      21.8,
+      20.6
+    ],
+    "aurora://location/loc4977a21323f2": [
+      null,
+      31.8,
+      31.8,
+      31.8,
+      36,
+      36,
+      37.4
+    ],
+    "aurora://location/loc49ca4157f3f7": [
+      null,
+      null,
+      32.8,
+      32.8,
+      33.3,
+      35.2,
+      34.5
+    ],
+    "aurora://location/loc49cd705b550c": [
+      null,
+      null,
+      27.8,
+      27.8,
+      28.6,
+      27.6,
+      27.8
+    ],
+    "aurora://location/loc4a0fae7351ea": [
+      null,
+      null,
+      29.2,
+      30.4,
+      30.5,
+      30.5,
+      30.1
+    ],
+    "aurora://location/loc4a95e73f4db7": [
+      null,
+      null,
+      22.9,
+      22.9,
+      18.7,
+      18.7,
+      19.3
+    ],
+    "aurora://location/loc4ab7c55055fc": [
+      null,
+      null,
+      32.1,
+      31.9,
+      36,
+      37.3,
+      37.3
+    ],
+    "aurora://location/loc4b38c2d9d987": [
+      null,
+      null,
+      41.6,
+      40.2,
+      42.1,
+      42.4,
+      36.7
+    ],
+    "aurora://location/loc4b55e79a87d3": [
+      null,
+      null,
+      41.5,
+      41.4,
+      36.2,
+      36.2,
+      37.3
+    ],
+    "aurora://location/loc4b6f885b33aa": [
+      null,
+      null,
+      16.5,
+      16.5,
+      13.7,
+      13.7,
+      14.2
+    ],
+    "aurora://location/loc4b996ebfa425": [
+      null,
+      null,
+      36.2,
+      36.6,
+      34.8,
+      35.5,
+      35.9
+    ],
+    "aurora://location/loc4c798cd31bee": [
+      null,
+      29.2,
+      29.2,
+      29.2,
+      34.5,
+      34.5,
+      29.1
+    ],
+    "aurora://location/loc4c857c5cac7a": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc4cbcc6945304": [
+      null,
+      null,
+      26.5,
+      26.5,
+      21.3,
+      21.3,
+      21.3
+    ],
+    "aurora://location/loc4cbff6096dc5": [
+      null,
+      24,
+      24,
+      24,
+      19.7,
+      19.7,
+      19.9
+    ],
+    "aurora://location/loc4d0105f273bd": [
+      null,
+      30.8,
+      30.8,
+      30.8,
+      32.5,
+      33.2,
+      33.2
+    ],
+    "aurora://location/loc4d9450978a29": [
+      null,
+      34.4,
+      34.4,
+      34.4,
+      28.6,
+      28.6,
+      27.8
+    ],
+    "aurora://location/loc4e0f1850dd66": [
+      null,
+      null,
+      26.4,
+      26.4,
+      23.3,
+      23.3,
+      18
+    ],
+    "aurora://location/loc4eb3fb54fa57": [
+      null,
+      15.7,
+      15.7,
+      15.7,
+      24.6,
+      24.6,
+      26.5
+    ],
+    "aurora://location/loc500334df224a": [
+      null,
+      20.8,
+      20.8,
+      20.8,
+      25.5,
+      25.5,
+      24.3
+    ],
+    "aurora://location/loc505caada930b": [
+      null,
+      25.6,
+      null,
+      25.6,
+      30.2,
+      30.2,
+      31.1
+    ],
+    "aurora://location/loc515028b0f98a": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc5173a19f9111": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc51b2e300cc6b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc528888eb2e92": [
+      null,
+      27.1,
+      27.1,
+      27.1,
+      32.5,
+      32.5,
+      33.3
+    ],
+    "aurora://location/loc529a7cbe00bf": [
+      null,
+      41.5,
+      41.5,
+      41.5,
+      36.2,
+      36.2,
+      37.3
+    ],
+    "aurora://location/loc52aa675fb7ca": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc53126d97b04e": [
+      null,
+      null,
+      38.3,
+      38.4,
+      35.4,
+      35.9,
+      36.2
+    ],
+    "aurora://location/loc53b3d8d99287": [
+      null,
+      32.1,
+      32.1,
+      32.1,
+      31,
+      31,
+      31
+    ],
+    "aurora://location/loc53b9665bcecd": [
+      null,
+      24.8,
+      24.8,
+      24.8,
+      24.6,
+      24.6,
+      24.6
+    ],
+    "aurora://location/loc53be93fc501d": [
+      null,
+      27,
+      27,
+      27,
+      20.4,
+      20.4,
+      20.4
+    ],
+    "aurora://location/loc546c1c65ba2c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc55298aaac40e": [
+      null,
+      16.3,
+      null,
+      16.3,
+      17.6,
+      17.6,
+      15.7
+    ],
+    "aurora://location/loc55458305128c": [
+      null,
+      null,
+      28.3,
+      28.3,
+      32.3,
+      32.3,
+      32.9
+    ],
+    "aurora://location/loc55aacbd47fe0": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc55dba97f453b": [
+      null,
+      null,
+      41.1,
+      41.8,
+      38.8,
+      37.6,
+      29.3
+    ],
+    "aurora://location/loc55ebdd5b3116": [
+      null,
+      26.1,
+      26.1,
+      26.1,
+      37,
+      37,
+      35.9
+    ],
+    "aurora://location/loc560f052e64cf": [
+      null,
+      null,
+      33.9,
+      33.9,
+      22.9,
+      22.9,
+      23.7
+    ],
+    "aurora://location/loc5673ff820dbe": [
+      null,
+      32.9,
+      32.9,
+      32.9,
+      34,
+      34,
+      33
+    ],
+    "aurora://location/loc57301df15fcc": [
+      null,
+      null,
+      29.4,
+      29.4,
+      36.1,
+      36.1,
+      36.1
+    ],
+    "aurora://location/loc5743b15b6d35": [
+      null,
+      33.9,
+      33.9,
+      33.9,
+      33.4,
+      33.4,
+      33.9
+    ],
+    "aurora://location/loc57ade01a1760": [
+      23.8,
+      23.8,
+      null,
+      23.8,
+      19.3,
+      19.3,
+      19.4
+    ],
+    "aurora://location/loc5820c072e621": [
+      null,
+      null,
+      40.4,
+      41.3,
+      40.2,
+      40.9,
+      42
+    ],
+    "aurora://location/loc5836de01c0a7": [
+      null,
+      31.3,
+      31.3,
+      32.4,
+      35.8,
+      35.7,
+      35.1
+    ],
+    "aurora://location/loc585f5c8ef22a": [
+      null,
+      null,
+      30.1,
+      30.1,
+      28.4,
+      28.4,
+      28.4
+    ],
+    "aurora://location/loc5899edefdaff": [
+      null,
+      null,
+      18.3,
+      18.3,
+      24.8,
+      24.8,
+      21.5
+    ],
+    "aurora://location/loc5900b8cc74c8": [
+      null,
+      20.3,
+      20.3,
+      20.3,
+      26.8,
+      26.8,
+      25.8
+    ],
+    "aurora://location/loc59269f818774": [
+      22.6,
+      22.6,
+      null,
+      22.6,
+      19.7,
+      19.7,
+      19.3
+    ],
+    "aurora://location/loc595ab72d52ed": [
+      null,
+      null,
+      32.3,
+      32.3,
+      34.6,
+      34.6,
+      32
+    ],
+    "aurora://location/loc5989e5f03d74": [
+      null,
+      35.1,
+      35.1,
+      35.1,
+      34.4,
+      34.4,
+      35
+    ],
+    "aurora://location/loc5a1ffdf7a8ae": [
+      null,
+      35.5,
+      35.5,
+      35.5,
+      28.2,
+      28.2,
+      27.8
+    ],
+    "aurora://location/loc5c66856e055f": [
+      null,
+      null,
+      28.9,
+      28.9,
+      22.6,
+      22.6,
+      23.1
+    ],
+    "aurora://location/loc5c7c3d320a8a": [
+      null,
+      31,
+      null,
+      31,
+      30.6,
+      30.6,
+      30.8
+    ],
+    "aurora://location/loc5db46885585c": [
+      null,
+      null,
+      38.2,
+      38.7,
+      41.3,
+      39.6,
+      36.9
+    ],
+    "aurora://location/loc5de3ca6719b3": [
+      null,
+      null,
+      33.8,
+      35.2,
+      33.5,
+      33.8,
+      34.6
+    ],
+    "aurora://location/loc5e335a6c8725": [
+      null,
+      17.7,
+      17.7,
+      17.7,
+      24,
+      24,
+      24
+    ],
+    "aurora://location/loc5e451c6e2efc": [
+      null,
+      33.8,
+      33.8,
+      33.8,
+      33.5,
+      33.5,
+      33.8
+    ],
+    "aurora://location/loc5edfd394d3e1": [
+      null,
+      null,
+      37.6,
+      37.6,
+      34,
+      34,
+      34.4
+    ],
+    "aurora://location/loc5f76c7e750c9": [
+      null,
+      23.7,
+      23.7,
+      23.4,
+      20.3,
+      20.2,
+      20
+    ],
+    "aurora://location/loc60118d160784": [
+      26.9,
+      26.9,
+      null,
+      26.9,
+      29.1,
+      29.1,
+      28.2
+    ],
+    "aurora://location/loc605825a97fdd": [
+      null,
+      35,
+      35,
+      35,
+      34.9,
+      34.9,
+      34.7
+    ],
+    "aurora://location/loc606c484562a9": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc609cf4397af7": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc614540415a0a": [
+      null,
+      null,
+      30.1,
+      30.1,
+      28.8,
+      28.8,
+      28.6
+    ],
+    "aurora://location/loc61830aa53526": [
+      null,
+      null,
+      31.8,
+      31.6,
+      36,
+      36,
+      37.4
+    ],
+    "aurora://location/loc62728834f3b4": [
+      null,
+      36.8,
+      36.8,
+      36.8,
+      36.7,
+      36.7,
+      36.4
+    ],
+    "aurora://location/loc62b96cb88d77": [
+      null,
+      null,
+      39.6,
+      40.8,
+      36,
+      36,
+      37.2
+    ],
+    "aurora://location/loc639e4a635b21": [
+      null,
+      39.8,
+      39.8,
+      39.8,
+      38.6,
+      38.6,
+      38.6
+    ],
+    "aurora://location/loc6407f14c9185": [
+      null,
+      null,
+      40.2,
+      40.2,
+      38.1,
+      38.1,
+      39.8
+    ],
+    "aurora://location/loc6447f199d870": [
+      null,
+      40.4,
+      40.4,
+      40.4,
+      40.4,
+      40.4,
+      40.6
+    ],
+    "aurora://location/loc6495f72fb46d": [
+      null,
+      37.8,
+      37.8,
+      37.8,
+      33.5,
+      33.5,
+      34.5
+    ],
+    "aurora://location/loc6497cf02f9de": [
+      null,
+      null,
+      36.2,
+      36.6,
+      34.8,
+      34.8,
+      35.5
+    ],
+    "aurora://location/loc64c24ff06baa": [
+      null,
+      21.6,
+      null,
+      21.6,
+      29.2,
+      29.2,
+      26
+    ],
+    "aurora://location/loc65a70f5b44fe": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc66261d6a4be4": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc6666b8ae7bcf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc66cf000d3819": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc66cf48ccb5f8": [
+      null,
+      32.4,
+      32.4,
+      32.4,
+      28.9,
+      28.9,
+      29.9
+    ],
+    "aurora://location/loc67e4180ea3e4": [
+      null,
+      null,
+      29.4,
+      28.4,
+      28.5,
+      26.7,
+      26.8
+    ],
+    "aurora://location/loc6955ed6a1cf2": [
+      null,
+      33.5,
+      33.5,
+      33.5,
+      30.4,
+      30.4,
+      30.8
+    ],
+    "aurora://location/loc6992e605ac71": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc6a49f012018c": [
+      null,
+      null,
+      24,
+      24,
+      27.8,
+      27.8,
+      26.9
+    ],
+    "aurora://location/loc6a55b0f322be": [
+      null,
+      null,
+      30.1,
+      30.1,
+      28.8,
+      28.8,
+      28.6
+    ],
+    "aurora://location/loc6a9b492e1384": [
+      null,
+      35.4,
+      35.4,
+      35.4,
+      31,
+      31,
+      32.3
+    ],
+    "aurora://location/loc6d197c0fc5d8": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc6e1b13589c03": [
+      null,
+      23,
+      23,
+      23,
+      28.7,
+      28.7,
+      30.2
+    ],
+    "aurora://location/loc6e42ae6a4e3d": [
+      null,
+      21.4,
+      null,
+      21.4,
+      19.5,
+      19.5,
+      19.3
+    ],
+    "aurora://location/loc6e97670af52a": [
+      null,
+      22.4,
+      22.4,
+      22.4,
+      21,
+      21,
+      21.5
+    ],
+    "aurora://location/loc6e99df82a211": [
+      null,
+      17.7,
+      17.7,
+      17.7,
+      18.6,
+      18.6,
+      18.2
+    ],
+    "aurora://location/loc6e9ed7278db1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc6f0c08e0f00b": [
+      null,
+      25.6,
+      25.6,
+      26.1,
+      27.6,
+      27.3,
+      26.9
+    ],
+    "aurora://location/loc6f281614c050": [
+      null,
+      39.5,
+      39.5,
+      39.5,
+      39.4,
+      39.4,
+      39.6
+    ],
+    "aurora://location/loc6faabb766a17": [
+      null,
+      null,
+      33.4,
+      33.4,
+      36.6,
+      36.6,
+      37.5
+    ],
+    "aurora://location/loc711d8ac56fc7": [
+      26.4,
+      26.4,
+      null,
+      26.4,
+      25.8,
+      25.8,
+      24.7
+    ],
+    "aurora://location/loc725320e7ab1a": [
+      null,
+      null,
+      25.5,
+      25.5,
+      29.1,
+      29.1,
+      29.5
+    ],
+    "aurora://location/loc72abaa4befcd": [
+      null,
+      26.6,
+      null,
+      26.6,
+      27.4,
+      27.4,
+      26.3
+    ],
+    "aurora://location/loc7315de3f2e4f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc737573d8f877": [
+      null,
+      34,
+      null,
+      34,
+      33.3,
+      33.3,
+      34.1
+    ],
+    "aurora://location/loc746a56930f22": [
+      null,
+      33.4,
+      33.4,
+      33.4,
+      33.7,
+      33.7,
+      33.9
+    ],
+    "aurora://location/loc76166a14c514": [
+      20.1,
+      20.1,
+      null,
+      20.1,
+      27.8,
+      27.8,
+      27.1
+    ],
+    "aurora://location/loc765729a06569": [
+      null,
+      null,
+      33.5,
+      33.5,
+      34.7,
+      34.7,
+      33.1
+    ],
+    "aurora://location/loc779194d5bec6": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc7797e2dfe35c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc77bc8792791f": [
+      null,
+      null,
+      40.5,
+      40.5,
+      42.9,
+      42.9,
+      42.9
+    ],
+    "aurora://location/loc77c3b720243d": [
+      null,
+      29.5,
+      29.5,
+      29.5,
+      30.1,
+      30.1,
+      29.1
+    ],
+    "aurora://location/loc78d50d88ce2d": [
+      null,
+      null,
+      22.5,
+      22.5,
+      23.4,
+      23.4,
+      27.5
+    ],
+    "aurora://location/loc793532e01092": [
+      null,
+      34.5,
+      34.5,
+      34.5,
+      31.4,
+      31.4,
+      32
+    ],
+    "aurora://location/loc798d16577de7": [
+      null,
+      null,
+      33,
+      33,
+      29.3,
+      29.3,
+      30.7
+    ],
+    "aurora://location/loc79b769d86937": [
+      null,
+      null,
+      15.7,
+      15.2,
+      24.6,
+      26.5,
+      26.5
+    ],
+    "aurora://location/loc79e36a104129": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc7a294dcd77ec": [
+      null,
+      17.7,
+      17.7,
+      17.7,
+      20.9,
+      20.9,
+      20
+    ],
+    "aurora://location/loc7a42a6a6682f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc7a63f0d76472": [
+      null,
+      null,
+      29.9,
+      29.9,
+      30.5,
+      29.1,
+      29.3
+    ],
+    "aurora://location/loc7ae1941f89eb": [
+      null,
+      null,
+      40.9,
+      40.9,
+      39.3,
+      39.3,
+      37.8
+    ],
+    "aurora://location/loc7dc114b77e2f": [
+      null,
+      null,
+      30.9,
+      30.9,
+      32,
+      32,
+      31.7
+    ],
+    "aurora://location/loc7e16c4f91337": [
+      null,
+      null,
+      33.4,
+      33.6,
+      33.7,
+      33.9,
+      34.6
+    ],
+    "aurora://location/loc7e42ffbee935": [
+      null,
+      35.7,
+      35.7,
+      35.7,
+      31.1,
+      31.1,
+      34
+    ],
+    "aurora://location/loc7e84408f2236": [
+      null,
+      34.9,
+      34.9,
+      34.9,
+      31.3,
+      31.3,
+      31.9
+    ],
+    "aurora://location/loc7e8c1c32b88c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc7edee3af895b": [
+      null,
+      26.5,
+      26.5,
+      26.5,
+      37.5,
+      37.5,
+      37.9
+    ],
+    "aurora://location/loc7f54fb3ab7f6": [
+      null,
+      32,
+      null,
+      32,
+      27.7,
+      27.7,
+      28.6
+    ],
+    "aurora://location/loc7f9aacb81337": [
+      null,
+      15.4,
+      15.4,
+      15.4,
+      20.1,
+      20.1,
+      20.1
+    ],
+    "aurora://location/loc80ac8ac63a61": [
+      null,
+      34.2,
+      34.2,
+      34.2,
+      16.6,
+      16.6,
+      16.1
+    ],
+    "aurora://location/loc80b1088ee1a8": [
+      null,
+      31.9,
+      31.9,
+      31.9,
+      33,
+      33,
+      32.6
+    ],
+    "aurora://location/loc811b21f4cd8e": [
+      null,
+      33,
+      33,
+      33,
+      34.7,
+      34.7,
+      34.5
+    ],
+    "aurora://location/loc8121a01cd9e4": [
+      null,
+      32.9,
+      null,
+      32.9,
+      32.9,
+      32.9,
+      33.1
+    ],
+    "aurora://location/loc8139ce942ef2": [
+      null,
+      null,
+      27.5,
+      35,
+      28.6,
+      28.6,
+      28.6
+    ],
+    "aurora://location/loc81af781183a2": [
+      null,
+      null,
+      36.5,
+      39,
+      30,
+      31.1,
+      30.7
+    ],
+    "aurora://location/loc81cf1a3b5b3f": [
+      null,
+      35.3,
+      35.3,
+      35.3,
+      35.3,
+      35.3,
+      35.6
+    ],
+    "aurora://location/loc8211b0fe7983": [
+      null,
+      null,
+      34.1,
+      34.1,
+      31.5,
+      31.5,
+      33.6
+    ],
+    "aurora://location/loc82507c8287ad": [
+      null,
+      null,
+      21.4,
+      21.4,
+      20.1,
+      20.1,
+      20.6
+    ],
+    "aurora://location/loc82b470ac72bc": [
+      null,
+      null,
+      32,
+      32.6,
+      27.7,
+      28.6,
+      28.1
+    ],
+    "aurora://location/loc82baa1179308": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc82dcf6c6d63d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc835e1e181656": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8368d32786cc": [
+      null,
+      42.1,
+      42.1,
+      42.1,
+      40.2,
+      40.2,
+      39.9
+    ],
+    "aurora://location/loc839119753983": [
+      null,
+      null,
+      30.6,
+      30.1,
+      31.3,
+      30,
+      30
+    ],
+    "aurora://location/loc83e422126662": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc84884b2d0de3": [
+      null,
+      21.6,
+      21.6,
+      21.6,
+      30.5,
+      30.5,
+      26.4
+    ],
+    "aurora://location/loc8494a97d1462": [
+      17.5,
+      17.5,
+      null,
+      17.5,
+      30.8,
+      30.8,
+      29.5
+    ],
+    "aurora://location/loc84b3661b905b": [
+      null,
+      32.2,
+      32.2,
+      32.2,
+      30.5,
+      30.5,
+      31.2
+    ],
+    "aurora://location/loc84efb431061b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc855f34b1147c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc85ef635f171a": [
+      null,
+      31,
+      null,
+      31,
+      28.8,
+      28.8,
+      28.5
+    ],
+    "aurora://location/loc862def0b5d8e": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc86c2274ba061": [
+      null,
+      null,
+      39.4,
+      39.4,
+      40.2,
+      40.2,
+      41.5
+    ],
+    "aurora://location/loc877e132707eb": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc87f67715aaea": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc88786309a2fd": [
+      null,
+      23.7,
+      null,
+      23.7,
+      20.3,
+      20.3,
+      20.2
+    ],
+    "aurora://location/loc889bddaa6f71": [
+      null,
+      null,
+      38.9,
+      38.9,
+      null,
+      null,
+      35
+    ],
+    "aurora://location/loc88df4c1f6c87": [
+      31,
+      31,
+      null,
+      31,
+      35.5,
+      35.5,
+      38
+    ],
+    "aurora://location/loc893d6f44bdaf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc89a639617f57": [
+      null,
+      38.6,
+      38.6,
+      38.6,
+      36.8,
+      36.8,
+      37.3
+    ],
+    "aurora://location/loc8aa1eda9924b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8ae9f86b2fc2": [
+      30.9,
+      30.9,
+      null,
+      30.9,
+      30.1,
+      30.1,
+      31.5
+    ],
+    "aurora://location/loc8b2ce002e875": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8b6645f0e502": [
+      28.9,
+      28.9,
+      null,
+      28.9,
+      29.9,
+      29.9,
+      28.7
+    ],
+    "aurora://location/loc8b75c9de8653": [
+      null,
+      null,
+      30.5,
+      29,
+      30.4,
+      30.4,
+      30.3
+    ],
+    "aurora://location/loc8b9bf8a37688": [
+      null,
+      29.7,
+      29.7,
+      29.7,
+      26,
+      26,
+      26
+    ],
+    "aurora://location/loc8b9f0793f5ab": [
+      null,
+      null,
+      18.5,
+      18.5,
+      24.2,
+      24.2,
+      23.5
+    ],
+    "aurora://location/loc8bee412a99e7": [
+      null,
+      19.6,
+      null,
+      19.6,
+      25.1,
+      25.1,
+      24.5
+    ],
+    "aurora://location/loc8c246cc0ccee": [
+      null,
+      40.4,
+      40.4,
+      40.4,
+      37.7,
+      37.7,
+      39.8
+    ],
+    "aurora://location/loc8c5e89999ca4": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8c73153ed39b": [
+      null,
+      41.1,
+      41.1,
+      41.1,
+      38.8,
+      38.8,
+      37.6
+    ],
+    "aurora://location/loc8ca4c35dce72": [
+      null,
+      40.1,
+      40.1,
+      40.1,
+      35.2,
+      35.2,
+      35.1
+    ],
+    "aurora://location/loc8cbd812f33f3": [
+      null,
+      35.1,
+      35.1,
+      35.1,
+      35.7,
+      36.1,
+      36.1
+    ],
+    "aurora://location/loc8d393e0cefdc": [
+      null,
+      null,
+      32.1,
+      33.4,
+      33.9,
+      35.5,
+      35.5
+    ],
+    "aurora://location/loc8d8657609bd3": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8dc7175c8b2b": [
+      null,
+      null,
+      34.4,
+      36.3,
+      28.6,
+      27.8,
+      27.8
+    ],
+    "aurora://location/loc8e2916c92321": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8e5a2b16aaaa": [
+      null,
+      22.8,
+      null,
+      22.8,
+      30.1,
+      30.1,
+      24
+    ],
+    "aurora://location/loc8fb4f5d64c10": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc8fc83938d45b": [
+      null,
+      41.6,
+      41.6,
+      40.2,
+      42.1,
+      42.4,
+      36.7
+    ],
+    "aurora://location/loc9019f0fd0448": [
+      null,
+      null,
+      20.9,
+      20.9,
+      21.3,
+      21.3,
+      21.1
+    ],
+    "aurora://location/loc903748aad8c8": [
+      null,
+      null,
+      24,
+      24,
+      28.7,
+      28.7,
+      27.7
+    ],
+    "aurora://location/loc907ad15f970c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc90fb84638015": [
+      null,
+      31.8,
+      31.8,
+      31.8,
+      37,
+      37,
+      37.5
+    ],
+    "aurora://location/loc90ffd6e9687e": [
+      null,
+      null,
+      24.9,
+      24.9,
+      31.3,
+      31.3,
+      33.1
+    ],
+    "aurora://location/loc91a393700d50": [
+      null,
+      null,
+      29.2,
+      30.1,
+      34.6,
+      35.3,
+      35
+    ],
+    "aurora://location/loc91ab470f6b62": [
+      null,
+      30.6,
+      30.6,
+      31.4,
+      35.2,
+      35.2,
+      35.5
+    ],
+    "aurora://location/loc91ad2d4b4161": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc91dca446d2f9": [
+      null,
+      null,
+      33.6,
+      33.6,
+      28.5,
+      28.8,
+      28.5
+    ],
+    "aurora://location/loc92006d7c0d05": [
+      null,
+      23.5,
+      23.5,
+      23.5,
+      30,
+      30,
+      30.8
+    ],
+    "aurora://location/loc929d68b9a513": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc92b436e14fab": [
+      null,
+      32.6,
+      32.6,
+      32.6,
+      33.2,
+      34.3,
+      33.9
+    ],
+    "aurora://location/loc92dd4ad0dc9a": [
+      null,
+      null,
+      34.8,
+      34.8,
+      29.3,
+      30.8,
+      31.1
+    ],
+    "aurora://location/loc92e8da31beea": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc92eca3999dae": [
+      null,
+      41.6,
+      41.6,
+      40.2,
+      42.1,
+      42.4,
+      36.7
+    ],
+    "aurora://location/loc93a1abde8231": [
+      null,
+      39.5,
+      39.5,
+      39.5,
+      38.6,
+      38.6,
+      40.2
+    ],
+    "aurora://location/loc93bc16f42416": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc943e1f39604f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc94682508ae6d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc94954cdc227f": [
+      null,
+      16.9,
+      16.9,
+      16.9,
+      20,
+      20,
+      18.6
+    ],
+    "aurora://location/loc94c4d7a0dcfc": [
+      null,
+      null,
+      28,
+      28,
+      23,
+      23,
+      21.7
+    ],
+    "aurora://location/loc950a21b73c24": [
+      null,
+      null,
+      32.1,
+      33.7,
+      31,
+      31,
+      31.3
+    ],
+    "aurora://location/loc951a8a6ab33c": [
+      null,
+      null,
+      22.4,
+      21.6,
+      21,
+      21.5,
+      21.5
+    ],
+    "aurora://location/loc956eb929dcf3": [
+      null,
+      24.2,
+      24.2,
+      24.2,
+      27.5,
+      27.5,
+      27.5
+    ],
+    "aurora://location/loc96348326cde2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc963a35d9e907": [
+      null,
+      null,
+      35.4,
+      35.4,
+      31.5,
+      31.5,
+      32.6
+    ],
+    "aurora://location/loc9686fa07b50b": [
+      null,
+      38.8,
+      38.8,
+      38.8,
+      39.1,
+      39.1,
+      38.6
+    ],
+    "aurora://location/loc97151a21e267": [
+      null,
+      null,
+      24,
+      22,
+      19.7,
+      19.9,
+      19.5
+    ],
+    "aurora://location/loc97297ea17110": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc9732f5db02b8": [
+      null,
+      null,
+      34.1,
+      34.1,
+      33.6,
+      33.6,
+      33.7
+    ],
+    "aurora://location/loc973da3f2ca29": [
+      null,
+      null,
+      22.9,
+      22.9,
+      30.3,
+      30.3,
+      31.1
+    ],
+    "aurora://location/loc97f05fe92592": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc980db1b391ba": [
+      null,
+      26.9,
+      26.9,
+      26.9,
+      30.4,
+      30.4,
+      31.4
+    ],
+    "aurora://location/loc984ac34d6c93": [
+      null,
+      23.7,
+      null,
+      23.7,
+      31.4,
+      31.4,
+      31.5
+    ],
+    "aurora://location/loc9874417177f8": [
+      null,
+      42.2,
+      42.2,
+      42.2,
+      39.4,
+      39.4,
+      39.6
+    ],
+    "aurora://location/loc98bd7da9256a": [
+      null,
+      null,
+      30.3,
+      30.3,
+      30.1,
+      30.1,
+      29.5
+    ],
+    "aurora://location/loc9901d119afda_3004": [
+      18.6,
+      18.6,
+      null,
+      18.6,
+      31,
+      31,
+      31.6
+    ],
+    "aurora://location/loc992164394f0b": [
+      null,
+      null,
+      21.7,
+      21.7,
+      20.3,
+      20.3,
+      20.3
+    ],
+    "aurora://location/loc9965de0bb08f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc9a4d0f770ec9": [
+      null,
+      null,
+      39.1,
+      39.1,
+      38.3,
+      38.3,
+      38.3
+    ],
+    "aurora://location/loc9a514311121a": [
+      null,
+      38.2,
+      38.2,
+      38.2,
+      38.1,
+      38.1,
+      37.2
+    ],
+    "aurora://location/loc9b2c36221ba8": [
+      null,
+      29.9,
+      29.9,
+      29.9,
+      30.5,
+      30.5,
+      29.1
+    ],
+    "aurora://location/loc9db2c809d7d1": [
+      null,
+      21.6,
+      21.6,
+      21.6,
+      21.3,
+      21.3,
+      21.3
+    ],
+    "aurora://location/loc9de1bae43caf": [
+      null,
+      null,
+      39.8,
+      39.8,
+      38.6,
+      38.6,
+      38.3
+    ],
+    "aurora://location/loc9e0c7b3ad507": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc9e279591e3e6": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc9e371788c776": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc9e7f6e8294a1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loc9e9fbf70b23d": [
+      null,
+      null,
+      31.7,
+      31.7,
+      31.7,
+      31.7,
+      31.5
+    ],
+    "aurora://location/loc9ea046456f4f": [
+      null,
+      23.2,
+      23.2,
+      23.2,
+      26,
+      26,
+      24.3
+    ],
+    "aurora://location/loc9ebd8279f3f5": [
+      null,
+      27.7,
+      27.7,
+      27.7,
+      26.6,
+      26.6,
+      26.7
+    ],
+    "aurora://location/loc9f6e29ba3f26": [
+      null,
+      null,
+      37.8,
+      37.8,
+      33.5,
+      34.5,
+      34.9
+    ],
+    "aurora://location/loc9f98215b5f40": [
+      null,
+      37,
+      null,
+      37,
+      38,
+      38,
+      39.1
+    ],
+    "aurora://location/loc9f9ef5bea7b2": [
+      null,
+      null,
+      42.5,
+      42.5,
+      43.6,
+      43.6,
+      44.6
+    ],
+    "aurora://location/loc9fa1fdaa0739": [
+      null,
+      23.4,
+      null,
+      23.4,
+      22.6,
+      22.6,
+      22.2
+    ],
+    "aurora://location/loc9fb848dc7ad2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loca028f441b43c": [
+      null,
+      null,
+      34.8,
+      34.8,
+      34,
+      34,
+      33.4
+    ],
+    "aurora://location/loca05149647fb1": [
+      null,
+      null,
+      35.4,
+      35.4,
+      31,
+      32.3,
+      32.6
+    ],
+    "aurora://location/loca09c3e723a15": [
+      null,
+      null,
+      32.4,
+      32.4,
+      27.4,
+      27.5,
+      27.9
+    ],
+    "aurora://location/loca0a4c010a0ae": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loca11bdfc7ddeb": [
+      null,
+      null,
+      33,
+      33,
+      32.7,
+      32.7,
+      32.2
+    ],
+    "aurora://location/loca11edcab2012": [
+      null,
+      37.9,
+      37.9,
+      37.9,
+      37.8,
+      37.8,
+      37.8
+    ],
+    "aurora://location/loca12563189fa9": [
+      null,
+      21.3,
+      21.3,
+      21.3,
+      19.7,
+      19.7,
+      18
+    ],
+    "aurora://location/loca1daa13892d0": [
+      null,
+      null,
+      33.5,
+      33.5,
+      31.5,
+      31.5,
+      30.6
+    ],
+    "aurora://location/loca2016d077bd0": [
+      null,
+      null,
+      38.4,
+      39.6,
+      31.7,
+      31.7,
+      33.5
+    ],
+    "aurora://location/loca384883a1099": [
+      null,
+      29.6,
+      29.6,
+      29.6,
+      26.8,
+      26.8,
+      27.6
+    ],
+    "aurora://location/loca39fe0127b3c": [
+      20.8,
+      20.8,
+      null,
+      20.8,
+      20.4,
+      20.4,
+      20.6
+    ],
+    "aurora://location/loca3f677b3203f": [
+      null,
+      20.5,
+      20.5,
+      20.5,
+      20.8,
+      20.8,
+      22.3
+    ],
+    "aurora://location/loca47ee7164993": [
+      null,
+      19.7,
+      19.7,
+      19.7,
+      16.1,
+      16.1,
+      16.5
+    ],
+    "aurora://location/loca4f4cff9c39c": [
+      null,
+      33.3,
+      33.3,
+      33.3,
+      25.5,
+      25.5,
+      26.3
+    ],
+    "aurora://location/loca52a19ef7d4c": [
+      null,
+      null,
+      28.8,
+      28.8,
+      29,
+      29,
+      29.2
+    ],
+    "aurora://location/loca6d6fcc27095": [
+      null,
+      35.8,
+      35.8,
+      35.8,
+      34.9,
+      34.9,
+      34.9
+    ],
+    "aurora://location/loca6ef5b7f5516": [
+      null,
+      31.6,
+      31.6,
+      31.6,
+      34.5,
+      34.5,
+      34.4
+    ],
+    "aurora://location/loca7426c97156f": [
+      null,
+      32.2,
+      32.2,
+      32.2,
+      30.5,
+      31.2,
+      30.4
+    ],
+    "aurora://location/loca765625635f0": [
+      null,
+      27.8,
+      null,
+      27.8,
+      28.6,
+      28.6,
+      27.6
+    ],
+    "aurora://location/loca792223c41e1": [
+      null,
+      29.5,
+      29.5,
+      29.5,
+      27.4,
+      27.4,
+      26.6
+    ],
+    "aurora://location/loca80ce6325972": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loca8186f46af3b": [
+      null,
+      null,
+      33.5,
+      32.5,
+      31.5,
+      30.6,
+      30.4
+    ],
+    "aurora://location/loca861f6ca2ab3": [
+      null,
+      null,
+      19.4,
+      19.4,
+      27.2,
+      27.2,
+      25.9
+    ],
+    "aurora://location/loca8bfc7a7c326": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loca8fe3e059ae3": [
+      null,
+      31.3,
+      null,
+      31.3,
+      32,
+      32,
+      31.7
+    ],
+    "aurora://location/loca93d20d3942e": [
+      null,
+      33.5,
+      33.5,
+      33.5,
+      27.8,
+      27.8,
+      27.9
+    ],
+    "aurora://location/loca9861d8db0b3": [
+      null,
+      null,
+      28.7,
+      28.8,
+      29.4,
+      28.6,
+      27.5
+    ],
+    "aurora://location/loca993f7eb4e9b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locaa8caad9c8ae": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locab18a34c33b8": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locab5dc4f25985": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locab67768125b5": [
+      null,
+      null,
+      33.7,
+      33.7,
+      33.7,
+      33.7,
+      33.7
+    ],
+    "aurora://location/locabef68aaba40": [
+      null,
+      null,
+      26.5,
+      26.5,
+      30.8,
+      30.8,
+      31.7
+    ],
+    "aurora://location/locac77ca6c5ec7": [
+      null,
+      null,
+      34.8,
+      34.8,
+      29.3,
+      30.8,
+      31.1
+    ],
+    "aurora://location/locac94ac1f2430": [
+      null,
+      null,
+      36.5,
+      39,
+      30,
+      31.1,
+      30.7
+    ],
+    "aurora://location/locad3be5bd3883": [
+      21.3,
+      21.3,
+      null,
+      21.3,
+      22,
+      22,
+      22.6
+    ],
+    "aurora://location/locadfae48a0fff": [
+      null,
+      15.6,
+      15.6,
+      15.6,
+      17.1,
+      17.1,
+      17.1
+    ],
+    "aurora://location/locae233db5b779": [
+      null,
+      20.2,
+      20.2,
+      20.2,
+      19.2,
+      19.2,
+      19.2
+    ],
+    "aurora://location/locae719be38833": [
+      null,
+      null,
+      36.8,
+      36.2,
+      36.7,
+      36.4,
+      36.4
+    ],
+    "aurora://location/locae86bbf6dd32": [
+      null,
+      32.1,
+      32.1,
+      32.1,
+      33.9,
+      33.9,
+      35.5
+    ],
+    "aurora://location/locae8a6b7ef728": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locaec0f54990f9": [
+      null,
+      28,
+      28,
+      28,
+      26.7,
+      26.7,
+      26.1
+    ],
+    "aurora://location/locaefad5c507de": [
+      null,
+      36.1,
+      36.1,
+      36.1,
+      35.2,
+      35.2,
+      35.1
+    ],
+    "aurora://location/locaf740d6d9d5e": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locaf9fbcd9d50a": [
+      null,
+      null,
+      29.2,
+      31.4,
+      34.5,
+      29.1,
+      26.9
+    ],
+    "aurora://location/locafeb1be5c176": [
+      null,
+      25.9,
+      25.9,
+      25.9,
+      25.9,
+      25.9,
+      25.9
+    ],
+    "aurora://location/locb15f9ad2128e": [
+      null,
+      31.5,
+      31.5,
+      31.5,
+      30.8,
+      31.1,
+      31.1
+    ],
+    "aurora://location/locb15fdfe8a83e": [
+      null,
+      null,
+      34.8,
+      35.3,
+      34.8,
+      33.9,
+      33.1
+    ],
+    "aurora://location/locb17eadb1c8c7": [
+      null,
+      null,
+      36.1,
+      36.1,
+      35.2,
+      35.2,
+      35.1
+    ],
+    "aurora://location/locb2683140c1e4": [
+      null,
+      null,
+      21.8,
+      21.8,
+      23.6,
+      23.6,
+      23
+    ],
+    "aurora://location/locb29f979bbe74": [
+      null,
+      null,
+      28.3,
+      23.6,
+      32.3,
+      32.3,
+      32.9
+    ],
+    "aurora://location/locb33038501da1": [
+      null,
+      null,
+      37.8,
+      35.5,
+      33.5,
+      34.5,
+      34.9
+    ],
+    "aurora://location/locb38176770610": [
+      null,
+      31,
+      31,
+      31,
+      30.8,
+      30.8,
+      29.3
+    ],
+    "aurora://location/locb401bb70ad98": [
+      null,
+      null,
+      31.5,
+      31.5,
+      31.3,
+      31.5,
+      30.2
+    ],
+    "aurora://location/locb4ab39e29062": [
+      null,
+      17.9,
+      null,
+      17.9,
+      28.2,
+      28.2,
+      26
+    ],
+    "aurora://location/locb4bb58e9b5b0": [
+      null,
+      null,
+      25.6,
+      25.6,
+      30.2,
+      31.1,
+      29.8
+    ],
+    "aurora://location/locb5326cdda3ea": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locb56d085c497f": [
+      null,
+      35.1,
+      35.1,
+      35.1,
+      35.7,
+      35.7,
+      36.1
+    ],
+    "aurora://location/locb5889fd87f6e": [
+      null,
+      null,
+      34.2,
+      34.2,
+      16.6,
+      16.6,
+      16.1
+    ],
+    "aurora://location/locb71d10cf3b7c": [
+      null,
+      31.3,
+      null,
+      31.3,
+      35.8,
+      35.8,
+      35.7
+    ],
+    "aurora://location/locb75513741f4a": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locb76b0bc297f2": [
+      null,
+      29.4,
+      null,
+      29.4,
+      28.5,
+      28.5,
+      26.7
+    ],
+    "aurora://location/locb7ad7b0760ee": [
+      null,
+      null,
+      32.4,
+      32.4,
+      38.5,
+      38.5,
+      36.9
+    ],
+    "aurora://location/locb89b2a1925bb": [
+      null,
+      null,
+      28,
+      28,
+      28.6,
+      28.6,
+      28.6
+    ],
+    "aurora://location/locb8bc91c4b9c7": [
+      null,
+      38.1,
+      38.1,
+      37.6,
+      39,
+      39,
+      39
+    ],
+    "aurora://location/locb928e0c02161": [
+      null,
+      32.1,
+      32.1,
+      32.1,
+      31,
+      31,
+      31.3
+    ],
+    "aurora://location/locba0f15910532": [
+      null,
+      null,
+      30.6,
+      30.6,
+      31.3,
+      31.3,
+      30
+    ],
+    "aurora://location/locba1434ee15df": [
+      null,
+      39.6,
+      39.6,
+      39.6,
+      36,
+      36,
+      37.2
+    ],
+    "aurora://location/locba3f7f2c7ac2": [
+      null,
+      null,
+      33.9,
+      32.9,
+      37.1,
+      36.2,
+      37.1
+    ],
+    "aurora://location/locbb32e1449ca9": [
+      null,
+      null,
+      13.3,
+      13.3,
+      14.6,
+      14.6,
+      14.4
+    ],
+    "aurora://location/locbbb61158aea8": [
+      null,
+      32.5,
+      32.5,
+      32.5,
+      32.3,
+      32.3,
+      33.7
+    ],
+    "aurora://location/locbbefb82220a4": [
+      null,
+      null,
+      34.7,
+      34.7,
+      29.9,
+      29.9,
+      32.4
+    ],
+    "aurora://location/locbcd4f85f5bfa": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locbd433de58ed0": [
+      null,
+      null,
+      32.9,
+      32.6,
+      32.9,
+      33.1,
+      33
+    ],
+    "aurora://location/locbd605b309fd5": [
+      null,
+      18.3,
+      18.3,
+      18.3,
+      23.4,
+      23.4,
+      22.7
+    ],
+    "aurora://location/locbd8a59e54c0a": [
+      null,
+      36.5,
+      null,
+      36.5,
+      30,
+      30,
+      31.1
+    ],
+    "aurora://location/locbdb5ded1b100": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locbe880eeb23d0": [
+      null,
+      null,
+      22.8,
+      22.8,
+      26.5,
+      26.5,
+      25.7
+    ],
+    "aurora://location/locbedde106f78f": [
+      null,
+      null,
+      26.6,
+      25.4,
+      25.1,
+      24.3,
+      24.3
+    ],
+    "aurora://location/locbf2fb90b3640": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locc07f6ef95a39": [
+      null,
+      36.6,
+      null,
+      36.6,
+      28.5,
+      28.5,
+      30.4
+    ],
+    "aurora://location/locc0be79de0be9": [
+      null,
+      null,
+      33.4,
+      33.4,
+      33.4,
+      33.4,
+      33.4
+    ],
+    "aurora://location/locc10656da6de4": [
+      null,
+      null,
+      19,
+      19,
+      16.9,
+      16.9,
+      17.4
+    ],
+    "aurora://location/locc2313a4a9faa": [
+      null,
+      27.5,
+      27.5,
+      27.5,
+      29.4,
+      29.2,
+      28.5
+    ],
+    "aurora://location/locc2eca36bc712": [
+      null,
+      23.5,
+      23.5,
+      23.5,
+      30.2,
+      30.2,
+      30.3
+    ],
+    "aurora://location/locc3579bfcfc70": [
+      null,
+      null,
+      14,
+      14,
+      18.4,
+      18.4,
+      16.5
+    ],
+    "aurora://location/locc358bce007c6": [
+      31.3,
+      31.3,
+      null,
+      31.3,
+      32.5,
+      32.5,
+      34.6
+    ],
+    "aurora://location/locc387719c9a84": [
+      null,
+      null,
+      36.8,
+      36.2,
+      36.7,
+      36.4,
+      36.4
+    ],
+    "aurora://location/locc3c65a9075db": [
+      null,
+      null,
+      35.4,
+      35.4,
+      35.3,
+      35.3,
+      34.5
+    ],
+    "aurora://location/locc47a93a1bb8d": [
+      null,
+      30.4,
+      null,
+      30.4,
+      39.3,
+      39.3,
+      39.1
+    ],
+    "aurora://location/locc4ab76e771ec": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locc5428720300d": [
+      30.6,
+      30.6,
+      null,
+      30.6,
+      33.1,
+      33.1,
+      33.9
+    ],
+    "aurora://location/locc5e4df598b5d": [
+      null,
+      32.2,
+      null,
+      32.2,
+      30.9,
+      30.9,
+      30.2
+    ],
+    "aurora://location/locc67d88b073c3": [
+      null,
+      28.3,
+      28.3,
+      28.3,
+      28.3,
+      28.3,
+      28.3
+    ],
+    "aurora://location/locc6d86292226b": [
+      null,
+      null,
+      38.2,
+      38.2,
+      41.3,
+      41.3,
+      39.6
+    ],
+    "aurora://location/locc6dee303d0b5": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locc7311d651111": [
+      null,
+      null,
+      34.5,
+      34.5,
+      31.4,
+      32,
+      32.4
+    ],
+    "aurora://location/locc7d535671df7": [
+      null,
+      30.6,
+      30.6,
+      30.6,
+      29.2,
+      29.2,
+      28.8
+    ],
+    "aurora://location/locc7db8f18469c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locc81a6ec90a1b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locc82b22aecac6": [
+      null,
+      null,
+      40.1,
+      40.7,
+      35.2,
+      35.1,
+      35.1
+    ],
+    "aurora://location/locc88b25a3da3e": [
+      null,
+      null,
+      33.8,
+      35.2,
+      33.5,
+      33.8,
+      34.6
+    ],
+    "aurora://location/locc894eedf57c7": [
+      null,
+      39.8,
+      39.8,
+      39.8,
+      42.3,
+      41.5,
+      42.6
+    ],
+    "aurora://location/locc90a2804a379": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locc96690d1ca1b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loccbffb11990f2": [
+      16.7,
+      16.7,
+      null,
+      16.7,
+      23.8,
+      23.8,
+      25.7
+    ],
+    "aurora://location/locccbec10a846c": [
+      null,
+      33.6,
+      null,
+      33.6,
+      28.5,
+      28.5,
+      28.8
+    ],
+    "aurora://location/loccd6690afbf95": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loccd9082fe4b16": [
+      null,
+      null,
+      24,
+      24.1,
+      29.9,
+      30.7,
+      30.6
+    ],
+    "aurora://location/loccdfc709471ce": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loccead3f35f54d": [
+      null,
+      null,
+      33.4,
+      33.9,
+      28.3,
+      29.9,
+      30.2
+    ],
+    "aurora://location/loccf0e64395d17": [
+      null,
+      null,
+      35.3,
+      35.3,
+      35.3,
+      35.6,
+      34.9
+    ],
+    "aurora://location/loccff4bde474bf": [
+      null,
+      null,
+      33.9,
+      33.9,
+      31.2,
+      32,
+      31.6
+    ],
+    "aurora://location/locd07a4f73f008": [
+      null,
+      null,
+      37.8,
+      37.8,
+      41.5,
+      41.5,
+      41.9
+    ],
+    "aurora://location/locd0d1f35aba34": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locd101f030be53": [
+      null,
+      38.4,
+      null,
+      38.4,
+      37.8,
+      37.8,
+      28.8
+    ],
+    "aurora://location/locd124976ffef7": [
+      null,
+      25.7,
+      25.7,
+      25.7,
+      36.5,
+      36.5,
+      36.6
+    ],
+    "aurora://location/locd12b51a6f5b6": [
+      null,
+      20.3,
+      null,
+      20.3,
+      19.6,
+      19.6,
+      20.6
+    ],
+    "aurora://location/locd139e36e8bee": [
+      null,
+      null,
+      33.8,
+      33.8,
+      33.5,
+      33.8,
+      34.6
+    ],
+    "aurora://location/locd15d2b03c332": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locd1b4aca76d9c": [
+      null,
+      36.6,
+      36.6,
+      36.6,
+      34.9,
+      34.9,
+      34.4
+    ],
+    "aurora://location/locd1d7426e4967": [
+      null,
+      28.2,
+      28.2,
+      28.2,
+      34.4,
+      34.4,
+      30.8
+    ],
+    "aurora://location/locd1f06da0adb3": [
+      null,
+      30.8,
+      30.8,
+      30.8,
+      32.5,
+      32.5,
+      33.2
+    ],
+    "aurora://location/locd205ee4eba9d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locd2bb8d4e6f2a": [
+      null,
+      null,
+      40.3,
+      39.7,
+      38.8,
+      38.8,
+      38.8
+    ],
+    "aurora://location/locd2d698b6a0f4": [
+      null,
+      null,
+      32.5,
+      32.5,
+      34,
+      34,
+      33.9
+    ],
+    "aurora://location/locd308173d1f7e": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locd36637c79b57": [
+      null,
+      null,
+      40.4,
+      40.4,
+      40.2,
+      40.2,
+      40.9
+    ],
+    "aurora://location/locd38527b236f3": [
+      null,
+      34.2,
+      34.2,
+      34.2,
+      34.5,
+      34.5,
+      33.9
+    ],
+    "aurora://location/locd42ffd8b2301": [
+      null,
+      21.5,
+      21.5,
+      21.5,
+      28.6,
+      28.6,
+      27.1
+    ],
+    "aurora://location/locd4c3841dcc21": [
+      null,
+      null,
+      18.5,
+      34,
+      36.7,
+      37.8,
+      37.8
+    ],
+    "aurora://location/locd51b69ccf236": [
+      null,
+      30.3,
+      null,
+      30.3,
+      30.7,
+      30.7,
+      30.6
+    ],
+    "aurora://location/locd6190ebbe554": [
+      null,
+      15.8,
+      15.8,
+      15.8,
+      16.2,
+      16.2,
+      15.9
+    ],
+    "aurora://location/locd632054a0315": [
+      null,
+      40.1,
+      40.1,
+      40.1,
+      42.2,
+      42.2,
+      42.8
+    ],
+    "aurora://location/locd64f1d435ab1": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locd665688d0e4d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locd6ae4065a07f": [
+      null,
+      null,
+      34.2,
+      34.2,
+      34.3,
+      35.7,
+      35
+    ],
+    "aurora://location/locd6e73cd1a7cb": [
+      null,
+      null,
+      36.5,
+      39,
+      30,
+      31.1,
+      30.7
+    ],
+    "aurora://location/locd6fe6259bb4d": [
+      null,
+      null,
+      28.9,
+      29.1,
+      29.9,
+      28.7,
+      28.8
+    ],
+    "aurora://location/locd785f9ba7293": [
+      null,
+      null,
+      42.6,
+      42.6,
+      38.6,
+      38.6,
+      38.5
+    ],
+    "aurora://location/locd78ca9bd8673": [
+      null,
+      38.4,
+      38.4,
+      38.4,
+      31.7,
+      31.7,
+      33.5
+    ],
+    "aurora://location/locd8f6b9436d94": [
+      null,
+      30.4,
+      null,
+      30.4,
+      31.3,
+      31.3,
+      29.2
+    ],
+    "aurora://location/locd92342d322b7": [
+      null,
+      null,
+      34.1,
+      34.7,
+      33.6,
+      33.7,
+      32.8
+    ],
+    "aurora://location/locd941fb799556": [
+      24.3,
+      24.3,
+      null,
+      24.3,
+      17.3,
+      17.3,
+      18.9
+    ],
+    "aurora://location/locd9513c703858": [
+      null,
+      null,
+      30.6,
+      30.6,
+      29,
+      29,
+      30
+    ],
+    "aurora://location/locd9e657a13bfd": [
+      null,
+      null,
+      37.8,
+      35.5,
+      33.5,
+      34.5,
+      34.9
+    ],
+    "aurora://location/locdae32538a4b2": [
+      null,
+      null,
+      28.9,
+      28.9,
+      22.6,
+      22.6,
+      23.1
+    ],
+    "aurora://location/locdb12d236a23c": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locdb279048ee6d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locdb8620eee890": [
+      null,
+      35.7,
+      35.7,
+      35.7,
+      36.4,
+      36.4,
+      37.5
+    ],
+    "aurora://location/locdbd1c87a1f0b": [
+      null,
+      28.2,
+      28.2,
+      28.2,
+      29.3,
+      29.3,
+      29.3
+    ],
+    "aurora://location/locdbdf572d47dd": [
+      null,
+      null,
+      38.3,
+      38.3,
+      30.8,
+      30.8,
+      32.9
+    ],
+    "aurora://location/locdc84c0b14133": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locdddb1e9f2d4a": [
+      null,
+      22,
+      null,
+      22,
+      28.5,
+      28.5,
+      28.6
+    ],
+    "aurora://location/locde2380bf48b2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locdf0288b649a4": [
+      null,
+      31.1,
+      null,
+      31.1,
+      29.4,
+      29.4,
+      30.8
+    ],
+    "aurora://location/locdf7fea60a488": [
+      null,
+      32.4,
+      32.4,
+      32.4,
+      27.4,
+      27.4,
+      27.5
+    ],
+    "aurora://location/loce01ddbd8c8e5": [
+      null,
+      27.4,
+      27.4,
+      27.4,
+      32.8,
+      32.8,
+      30.4
+    ],
+    "aurora://location/loce057c225ca6d": [
+      null,
+      35.2,
+      35.2,
+      35.2,
+      32.8,
+      32.8,
+      32.7
+    ],
+    "aurora://location/loce0a1c151a854": [
+      null,
+      null,
+      29.3,
+      29.3,
+      29.9,
+      28,
+      28
+    ],
+    "aurora://location/loce100a7c13d76": [
+      null,
+      33,
+      33,
+      33,
+      31.6,
+      32.3,
+      32.6
+    ],
+    "aurora://location/loce186b4a91992": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loce25dfc481765": [
+      null,
+      18.8,
+      null,
+      18.8,
+      27.7,
+      27.7,
+      28.5
+    ],
+    "aurora://location/loce2738e868c79": [
+      null,
+      null,
+      36.5,
+      35.9,
+      31,
+      33.5,
+      33.4
+    ],
+    "aurora://location/loce2de28c12fd1": [
+      null,
+      34.8,
+      null,
+      34.8,
+      34,
+      34,
+      34
+    ],
+    "aurora://location/loce3452174425b": [
+      null,
+      26.2,
+      26.2,
+      26.2,
+      34.3,
+      34.3,
+      32.3
+    ],
+    "aurora://location/loce3a6822fa87f": [
+      null,
+      null,
+      33.4,
+      33.9,
+      28.3,
+      29.9,
+      30.2
+    ],
+    "aurora://location/loce4501052ef07": [
+      null,
+      null,
+      29.7,
+      29.7,
+      26,
+      26,
+      26
+    ],
+    "aurora://location/loce49ca94d500f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loce4caf673cdf6": [
+      null,
+      31.7,
+      null,
+      31.7,
+      33.4,
+      33.4,
+      34.2
+    ],
+    "aurora://location/loce4e504a7fb1e": [
+      null,
+      29.5,
+      29.5,
+      29.5,
+      34.7,
+      34.7,
+      34.7
+    ],
+    "aurora://location/loce4f0aafe4852": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loce5730e0237b5": [
+      null,
+      26,
+      null,
+      26,
+      24.1,
+      24.1,
+      25.2
+    ],
+    "aurora://location/loce6098ac5df0c": [
+      29,
+      29,
+      null,
+      29,
+      30.2,
+      30.2,
+      31.8
+    ],
+    "aurora://location/loce665a74ea044": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loce6fc74242c04": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loce774316154a6": [
+      28.7,
+      28.7,
+      null,
+      28.7,
+      29.4,
+      29.4,
+      28.6
+    ],
+    "aurora://location/loce83c4018482e": [
+      null,
+      38.4,
+      38.4,
+      38.4,
+      38.5,
+      38.5,
+      39.3
+    ],
+    "aurora://location/loce92a75dd635d": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loce98c13f115b9": [
+      null,
+      null,
+      27.5,
+      27.2,
+      29.4,
+      29.2,
+      28.5
+    ],
+    "aurora://location/loce9e0ce4da8c1": [
+      null,
+      null,
+      32.1,
+      32.1,
+      36,
+      36,
+      37.3
+    ],
+    "aurora://location/loce9f35122301e": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locea00d91f3267": [
+      null,
+      33.6,
+      33.6,
+      33.6,
+      34.1,
+      34.1,
+      34.2
+    ],
+    "aurora://location/locea4e2d4e6c1b": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/loceb6d61149114": [
+      null,
+      null,
+      33.5,
+      33.5,
+      34.4,
+      34.4,
+      32.9
+    ],
+    "aurora://location/locec09bba5a430": [
+      null,
+      null,
+      29.2,
+      29.2,
+      29.2,
+      29.2,
+      29.2
+    ],
+    "aurora://location/locecac9bfc699f": [
+      null,
+      31,
+      31,
+      31,
+      32.3,
+      32.3,
+      32.5
+    ],
+    "aurora://location/locedacea740a10": [
+      null,
+      31.2,
+      null,
+      31.2,
+      33.9,
+      33.9,
+      34.7
+    ],
+    "aurora://location/locef26c09e76cf": [
+      null,
+      null,
+      18.5,
+      18.5,
+      36.7,
+      36.7,
+      37.8
+    ],
+    "aurora://location/locef5d497ceda2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locef88223b00f2": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locefdacd147f2f": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locf02541cca43c": [
+      null,
+      33.9,
+      null,
+      33.9,
+      37.1,
+      37.1,
+      36.2
+    ],
+    "aurora://location/locf0cfeeb0e258": [
+      30.8,
+      30.8,
+      null,
+      30.8,
+      31.2,
+      31.2,
+      29.7
+    ],
+    "aurora://location/locf0e5932a6144": [
+      null,
+      null,
+      39.5,
+      39,
+      39.4,
+      39.4,
+      39.6
+    ],
+    "aurora://location/locf11c4f3e9ae0": [
+      21.4,
+      21.4,
+      null,
+      21.4,
+      24,
+      24,
+      23.2
+    ],
+    "aurora://location/locf1281f140e97": [
+      null,
+      29,
+      29,
+      29,
+      35.2,
+      35.2,
+      34.4
+    ],
+    "aurora://location/locf1d82c6fa27d": [
+      null,
+      null,
+      33,
+      34.8,
+      34.7,
+      34.5,
+      34.5
+    ],
+    "aurora://location/locf1f9e2fc7be5": [
+      null,
+      null,
+      33.8,
+      35.2,
+      33.5,
+      33.8,
+      34.6
+    ],
+    "aurora://location/locf2e7f01a6edc": [
+      null,
+      null,
+      21.5,
+      21.5,
+      19.7,
+      19.7,
+      18.6
+    ],
+    "aurora://location/locf3154a9e1452": [
+      null,
+      27.5,
+      27.5,
+      27.5,
+      29.4,
+      29.4,
+      29.2
+    ],
+    "aurora://location/locf40e2bdef24a": [
+      null,
+      null,
+      33.4,
+      33.4,
+      35,
+      35,
+      35
+    ],
+    "aurora://location/locf4456408b6b6": [
+      null,
+      34.1,
+      34.1,
+      34.1,
+      32.4,
+      32.4,
+      33.8
+    ],
+    "aurora://location/locf45e5bc0d77d": [
+      null,
+      30.5,
+      30.5,
+      30.5,
+      30.4,
+      30.4,
+      30.3
+    ],
+    "aurora://location/locf477ba2a6e46": [
+      null,
+      null,
+      18.8,
+      18.8,
+      21.1,
+      21.1,
+      21.4
+    ],
+    "aurora://location/locf4bc94c1a7bd": [
+      null,
+      34.8,
+      34.8,
+      34.8,
+      29.3,
+      29.3,
+      30.8
+    ],
+    "aurora://location/locf4e983d807e1": [
+      null,
+      31.5,
+      31.5,
+      31.5,
+      30.8,
+      30.8,
+      31.1
+    ],
+    "aurora://location/locf5b5670c1f64": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locf5f7b6b0844c": [
+      null,
+      32.6,
+      null,
+      32.6,
+      33.2,
+      33.2,
+      34.3
+    ],
+    "aurora://location/locf618d0dfa3aa": [
+      null,
+      null,
+      30.2,
+      30.2,
+      22.5,
+      22.5,
+      22.5
+    ],
+    "aurora://location/locf780e156d998": [
+      null,
+      null,
+      29.2,
+      30.4,
+      30.5,
+      30.5,
+      30.1
+    ],
+    "aurora://location/locf801a4131a7e": [
+      null,
+      26.5,
+      26.5,
+      26.5,
+      34.9,
+      34.9,
+      34.5
+    ],
+    "aurora://location/locf8ca4da25ede": [
+      null,
+      37.7,
+      37.7,
+      37.7,
+      33.6,
+      33.6,
+      34.8
+    ],
+    "aurora://location/locfa3a3309275c": [
+      null,
+      34.2,
+      34.2,
+      34.2,
+      34.3,
+      35.7,
+      35
+    ],
+    "aurora://location/locfa44b170c6ef": [
+      null,
+      null,
+      18.6,
+      18.6,
+      16.6,
+      16.6,
+      16.1
+    ],
+    "aurora://location/locfaacc2267f71": [
+      null,
+      32.2,
+      null,
+      32.2,
+      41.6,
+      41.6,
+      41.7
+    ],
+    "aurora://location/locfae006098840": [
+      null,
+      null,
+      42,
+      42,
+      42.2,
+      42.2,
+      42.7
+    ],
+    "aurora://location/locfb004f7998a6": [
+      null,
+      34.8,
+      34.8,
+      35.3,
+      34.8,
+      33.9,
+      33.1
+    ],
+    "aurora://location/locfb099dd064d4": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "aurora://location/locfb64fb83e7bc": [
+      null,
+      null,
+      39.7,
+      39.7,
+      39.5,
+      40.6,
+      40.7
+    ],
+    "aurora://location/locfbc5ac46b957": [
+      null,
+      32.6,
+      32.6,
+      32.6,
+      33.2,
+      34.3,
+      33.9
+    ],
+    "aurora://location/locfd35c52121b5": [
+      null,
+      null,
+      38.1,
+      38.1,
+      39.3,
+      39.3,
+      40.4
+    ],
+    "aurora://location/locfe8a70072c86": [
+      null,
+      31.9,
+      31.9,
+      31.9,
+      35.5,
+      35.5,
+      36.2
+    ],
+    "aurora://location/locff698c2dc855": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}
