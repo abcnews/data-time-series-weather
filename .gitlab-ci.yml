@@ -1,6 +1,9 @@
 scheduled_job:
   stage: build
   image: 626635436144.dkr.ecr.ap-southeast-2.amazonaws.com/public.ecr.aws/docker/library/node:22
+  rules:
+    # This job only runs when the pipeline source is a schedule
+    - if: $CI_PIPELINE_SOURCE == "schedule"
   cache:
     key: service-time-series-weather-data
     paths:
@@ -16,6 +19,4 @@ scheduled_job:
   before_script:
     - npm ci --include=dev
   script:
-    - date >> data/test.txt
-    - echo "test written"
-    - cat data/test.txt
+    - npm run go
