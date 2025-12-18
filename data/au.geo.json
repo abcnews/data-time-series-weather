@@ -1,0 +1,8453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.20732, -33.86785]
+      },
+      "properties": {
+        "geonameid": "2147714",
+        "name": "Sydney",
+        "auroraId": "loc46e6625bb24d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.96332, -37.814]
+      },
+      "properties": {
+        "geonameid": "2158177",
+        "name": "Melbourne",
+        "auroraId": "loc9901d119afda_3004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.02809, -27.46794]
+      },
+      "properties": {
+        "geonameid": "2174003",
+        "name": "Brisbane",
+        "auroraId": "loc1d0687f2c06b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.8614, -31.95224]
+      },
+      "properties": {
+        "geonameid": "2063523",
+        "name": "Perth",
+        "auroraId": "locc358bce007c6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.59863, -34.92866]
+      },
+      "properties": {
+        "geonameid": "2078025",
+        "name": "Adelaide",
+        "auroraId": "loc88df4c1f6c87"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.43088, -28.00029]
+      },
+      "properties": {
+        "geonameid": "2165087",
+        "name": "Gold Coast",
+        "auroraId": "loc711d8ac56fc7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.7801, -32.92953]
+      },
+      "properties": {
+        "geonameid": "2155472",
+        "name": "Newcastle",
+        "auroraId": "loc411089f52416"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.12807, -35.28346]
+      },
+      "properties": {
+        "geonameid": "2172517",
+        "name": "Canberra",
+        "auroraId": "locad3be5bd3883"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.07955, -26.65682]
+      },
+      "properties": {
+        "geonameid": "10630449",
+        "name": "Sunshine Coast",
+        "auroraId": "loc179783eae7c5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.36069, -38.14711]
+      },
+      "properties": {
+        "geonameid": "2165798",
+        "name": "Geelong",
+        "auroraId": "loc8494a97d1462"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.89345, -34.424]
+      },
+      "properties": {
+        "geonameid": "2171507",
+        "name": "Wollongong",
+        "auroraId": "loca39fe0127b3c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.32941, -42.87936]
+      },
+      "properties": {
+        "geonameid": "2163355",
+        "name": "Hobart",
+        "auroraId": "loccbffb11990f2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.80569, -19.26639]
+      },
+      "properties": {
+        "geonameid": "2146142",
+        "name": "Townsville",
+        "auroraId": "loc155a5868e14f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.76613, -16.92366]
+      },
+      "properties": {
+        "geonameid": "2172797",
+        "name": "Cairns",
+        "auroraId": "locf0cfeeb0e258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.95386, -27.56056]
+      },
+      "properties": {
+        "geonameid": "2146268",
+        "name": "Toowoomba",
+        "auroraId": "loc35ae937ff1b4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.84185, -12.46113]
+      },
+      "properties": {
+        "geonameid": "2073124",
+        "name": "Darwin",
+        "auroraId": "loc0072f7062952"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.16554, -21.15345]
+      },
+      "properties": {
+        "geonameid": "2159220",
+        "name": "Mackay",
+        "auroraId": "loc8b6645f0e502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.84957, -37.56622]
+      },
+      "properties": {
+        "geonameid": "2177091",
+        "name": "Ballarat",
+        "auroraId": "loc76166a14c514"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.28024, -36.75818]
+      },
+      "properties": {
+        "geonameid": "2176187",
+        "name": "Bendigo",
+        "auroraId": "loce6098ac5df0c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.13467, -41.43876]
+      },
+      "properties": {
+        "geonameid": "2160517",
+        "name": "Launceston",
+        "auroraId": "locf11c4f3e9ae0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.7217, -32.5269]
+      },
+      "properties": {
+        "geonameid": "2067119",
+        "name": "Mandurah",
+        "auroraId": "locc5428720300d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.50595, -23.38032]
+      },
+      "properties": {
+        "geonameid": "2151437",
+        "name": "Rockhampton",
+        "auroraId": "loc2d3ddabf5d73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.11351, -30.29626]
+      },
+      "properties": {
+        "geonameid": "2171085",
+        "name": "Coffs Harbour",
+        "auroraId": "loc59269f818774"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.64137, -33.32711]
+      },
+      "properties": {
+        "geonameid": "2075432",
+        "name": "Bunbury",
+        "auroraId": "loc8ae9f86b2fc2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.3479, -24.86621]
+      },
+      "properties": {
+        "geonameid": "2173323",
+        "name": "Bundaberg",
+        "auroraId": "loce774316154a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.47411, -38.07018]
+      },
+      "properties": {
+        "geonameid": "2153953",
+        "name": "Pakenham",
+        "auroraId": "loc82baa1179308"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.76936, -25.28762]
+      },
+      "properties": {
+        "geonameid": "6354957",
+        "name": "Hervey Bay",
+        "auroraId": "loc60118d160784"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.90894, -31.43084]
+      },
+      "properties": {
+        "geonameid": "2152659",
+        "name": "Port Macquarie",
+        "auroraId": "loc57ade01a1760"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.25775, -23.84852]
+      },
+      "properties": {
+        "geonameid": "2165478",
+        "name": "Gladstone",
+        "auroraId": "loc103d22d150ab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.92905, -31.09048]
+      },
+      "properties": {
+        "geonameid": "2147497",
+        "name": "Tamworth",
+        "auroraId": "locd941fb799556"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.60484, -32.24295]
+      },
+      "properties": {
+        "geonameid": "2168305",
+        "name": "Dubbo",
+        "auroraId": "loc0aee89e74496"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.10018, -33.28397]
+      },
+      "properties": {
+        "geonameid": "2154219",
+        "name": "Orange",
+        "auroraId": "loc2bfa569bfd8e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.88809, -36.12179]
+      },
+      "properties": {
+        "geonameid": "2143285",
+        "name": "Wodonga",
+        "auroraId": "locdf0288b649a4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.61459, -28.77897]
+      },
+      "properties": {
+        "geonameid": "2070998",
+        "name": "Geraldton",
+        "auroraId": "loc2d13554b8dbb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.88369, -35.02692]
+      },
+      "properties": {
+        "geonameid": "2077963",
+        "name": "Albany",
+        "auroraId": "loc3b86449e539e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.16251, -34.18551]
+      },
+      "properties": {
+        "geonameid": "2157698",
+        "name": "Mildura",
+        "auroraId": "locb71d10cf3b7c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.48799, -38.38176]
+      },
+      "properties": {
+        "geonameid": "2144528",
+        "name": "Warrnambool",
+        "auroraId": "loc1f73672977ce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.39867, -36.38047]
+      },
+      "properties": {
+        "geonameid": "2149645",
+        "name": "Shepparton",
+        "auroraId": "loc1b289d3ff2fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.32056, -36.35846]
+      },
+      "properties": {
+        "geonameid": "2144764",
+        "name": "Wangaratta",
+        "auroraId": "loc5c7c3d320a8a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4742, -30.74614]
+      },
+      "properties": {
+        "geonameid": "2068823",
+        "name": "Kalgoorlie",
+        "auroraId": "locbd8a59e54c0a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.5415, -38.19528]
+      },
+      "properties": {
+        "geonameid": "2146108",
+        "name": "Traralgon",
+        "auroraId": "loc8e5a2b16aaaa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.35152, -41.17695]
+      },
+      "properties": {
+        "geonameid": "2168943",
+        "name": "Devonport",
+        "auroraId": "loc3ec5fd5ac40a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.77919, -37.8318]
+      },
+      "properties": {
+        "geonameid": "2156643",
+        "name": "Mount Gambier",
+        "auroraId": "loc984ac34d6c93"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.88362, -23.69748]
+      },
+      "properties": {
+        "geonameid": "2077895",
+        "name": "Alice Springs",
+        "auroraId": "loc415590444c10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.72086, -34.75155]
+      },
+      "properties": {
+        "geonameid": "2164837",
+        "name": "Goulburn",
+        "auroraId": "loc96348326cde2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.6693, -33.79068]
+      },
+      "properties": {
+        "geonameid": "7302642",
+        "name": "Glenmore Park",
+        "auroraId": "loc107055d668bf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.66499, -26.18979]
+      },
+      "properties": {
+        "geonameid": "2164129",
+        "name": "Gympie",
+        "auroraId": "locb76b0bc297f2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.66553, -30.50123]
+      },
+      "properties": {
+        "geonameid": "2177671",
+        "name": "Armidale",
+        "auroraId": "loc7315de3f2e4f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.05093, -34.28853]
+      },
+      "properties": {
+        "geonameid": "2164422",
+        "name": "Griffith",
+        "auroraId": "loc8121a01cd9e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.93394, -29.68104]
+      },
+      "properties": {
+        "geonameid": "2164771",
+        "name": "Grafton",
+        "auroraId": "loc4514ef69060f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.49727, -20.72523]
+      },
+      "properties": {
+        "geonameid": "2065594",
+        "name": "Mount Isa",
+        "auroraId": "locd101f030be53"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.61041, -37.82289]
+      },
+      "properties": {
+        "geonameid": "2177233",
+        "name": "Bairnsdale",
+        "auroraId": "loc232da9d11723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.17541, -35.70658]
+      },
+      "properties": {
+        "geonameid": "2176639",
+        "name": "Batemans Bay",
+        "auroraId": "locc7db8f18469c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.4512, -31.9652]
+      },
+      "properties": {
+        "geonameid": "2173911",
+        "name": "Broken Hill",
+        "auroraId": "locf02541cca43c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.19981, -36.71131]
+      },
+      "properties": {
+        "geonameid": "2163055",
+        "name": "Horsham",
+        "auroraId": "loc1aad23bceb79"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.45387, -31.91099]
+      },
+      "properties": {
+        "geonameid": "2147381",
+        "name": "Taree",
+        "auroraId": "loc88786309a2fd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.89009, -32.26118]
+      },
+      "properties": {
+        "geonameid": "2156034",
+        "name": "Muswellbrook",
+        "auroraId": "loce5730e0237b5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.03438, -28.21901]
+      },
+      "properties": {
+        "geonameid": "2144502",
+        "name": "Warwick",
+        "auroraId": "loc2ef85abd8483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.61059, -20.31215]
+      },
+      "properties": {
+        "geonameid": "2063042",
+        "name": "Port Hedland",
+        "auroraId": "loc737573d8f877"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.75185, -36.14057]
+      },
+      "properties": {
+        "geonameid": "2167817",
+        "name": "Echuca",
+        "auroraId": "loc835e1e181656"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.15784, -23.52296]
+      },
+      "properties": {
+        "geonameid": "2167426",
+        "name": "Emerald",
+        "auroraId": "loc05cd64439d58"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.23922, -17.95538]
+      },
+      "properties": {
+        "geonameid": "2075720",
+        "name": "Broome",
+        "auroraId": "locc07f6ef95a39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.27345, -35.11986]
+      },
+      "properties": {
+        "geonameid": "2065176",
+        "name": "Murray Bridge",
+        "auroraId": "locd205ee4eba9d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.9068, -38.35542]
+      },
+      "properties": {
+        "geonameid": "2151120",
+        "name": "Rosebud",
+        "auroraId": "locc81a6ec90a1b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.01746, -33.19176]
+      },
+      "properties": {
+        "geonameid": "2063030",
+        "name": "Port Pirie",
+        "auroraId": "locc47a93a1bb8d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.89164, -33.85919]
+      },
+      "properties": {
+        "geonameid": "2071860",
+        "name": "Esperance",
+        "auroraId": "locd12b51a6f5b6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.87442, -34.72625]
+      },
+      "properties": {
+        "geonameid": "2063036",
+        "name": "Port Lincoln",
+        "auroraId": "loc64c24ff06baa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.31667, -28.81667]
+      },
+      "properties": {
+        "geonameid": "2164966",
+        "name": "Goonellabah",
+        "auroraId": "loc06b39c473667"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.77281, -32.49597]
+      },
+      "properties": {
+        "geonameid": "2063056",
+        "name": "Port Augusta",
+        "auroraId": "locfaacc2267f71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.26205, -27.18169]
+      },
+      "properties": {
+        "geonameid": "2169535",
+        "name": "Dalby",
+        "auroraId": "loc85ef635f171a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.89199, -28.45635]
+      },
+      "properties": {
+        "geonameid": "12008915",
+        "name": "Figtree",
+        "auroraId": "loc20127ef37c08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.73553, -23.35644]
+      },
+      "properties": {
+        "geonameid": "2064768",
+        "name": "Newman",
+        "auroraId": "loc9f98215b5f40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.04661, -22.00163]
+      },
+      "properties": {
+        "geonameid": "6533368",
+        "name": "Moranbah",
+        "auroraId": "locf5f7b6b0844c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.11166, -29.77403]
+      },
+      "properties": {
+        "geonameid": "2162662",
+        "name": "Inverell",
+        "auroraId": "loc9e0c7b3ad507"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.46671, -33.38334]
+      },
+      "properties": {
+        "geonameid": "8310668",
+        "name": "Bateau Bay",
+        "auroraId": "loc6e42ae6a4e3d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.84629, -20.73765]
+      },
+      "properties": {
+        "geonameid": "6620339",
+        "name": "Karratha",
+        "auroraId": "loca8fe3e059ae3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.5544, -35.33781]
+      },
+      "properties": {
+        "geonameid": "2147756",
+        "name": "Swan Hill",
+        "auroraId": "locedacea740a10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.5871, -32.59426]
+      },
+      "properties": {
+        "geonameid": "2156404",
+        "name": "Mudgee",
+        "auroraId": "loc8bee412a99e7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.24754, -20.01367]
+      },
+      "properties": {
+        "geonameid": "2174444",
+        "name": "Bowen",
+        "auroraId": "locd8f6b9436d94"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.58489, -38.339]
+      },
+      "properties": {
+        "geonameid": "2171069",
+        "name": "Colac",
+        "auroraId": "loc1ca21c8effff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.02202, -37.74425]
+      },
+      "properties": {
+        "geonameid": "2164025",
+        "name": "Hamilton",
+        "auroraId": "loc4423238fcdd8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.8373, -26.53994]
+      },
+      "properties": {
+        "geonameid": "2161376",
+        "name": "Kingaroy",
+        "auroraId": "loca765625635f0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.30107, -34.3135]
+      },
+      "properties": {
+        "geonameid": "2142245",
+        "name": "Young",
+        "auroraId": "locb4ab39e29062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.69663, -33.83554]
+      },
+      "properties": {
+        "geonameid": "2170139",
+        "name": "Cowra",
+        "auroraId": "locdddb1e9f2d4a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.1759, -33.1372]
+      },
+      "properties": {
+        "geonameid": "2153778",
+        "name": "Parkes",
+        "auroraId": "loc505caada930b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.84157, -29.46278]
+      },
+      "properties": {
+        "geonameid": "2156927",
+        "name": "Moree",
+        "auroraId": "loc7f54fb3ab7f6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.25838, -30.98065]
+      },
+      "properties": {
+        "geonameid": "2164206",
+        "name": "Gunnedah",
+        "auroraId": "loc546c1c65ba2c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.60036, -34.88422]
+      },
+      "properties": {
+        "geonameid": "2154787",
+        "name": "Nowra",
+        "auroraId": "loc1d45a8c5bc6b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.60257, -38.3462]
+      },
+      "properties": {
+        "geonameid": "2152667",
+        "name": "Portland",
+        "auroraId": "locd665688d0e4d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.40666, -19.57393]
+      },
+      "properties": {
+        "geonameid": "2177413",
+        "name": "Ayr",
+        "auroraId": "locc5e4df598b5d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.63171, -31.54678]
+      },
+      "properties": {
+        "geonameid": "2057575",
+        "name": "Yanchep",
+        "auroraId": "loc1b43c7b4f1f0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.92728, -37.28542]
+      },
+      "properties": {
+        "geonameid": "2177756",
+        "name": "Ararat",
+        "auroraId": "locefdacd147f2f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.26353, -20.07671]
+      },
+      "properties": {
+        "geonameid": "2171722",
+        "name": "Charters Towers",
+        "auroraId": "loce2de28c12fd1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.48179, -36.26436]
+      },
+      "properties": {
+        "geonameid": "8347851",
+        "name": "Kosciuszko National Park",
+        "auroraId": "loc55298aaac40e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.78266, -30.32488]
+      },
+      "properties": {
+        "geonameid": "2155742",
+        "name": "Narrabri",
+        "auroraId": "locccbec10a846c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.95252, -37.29577]
+      },
+      "properties": {
+        "geonameid": "2161415",
+        "name": "Kilmore",
+        "auroraId": "loce25dfc481765"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.73923, -37.04562]
+      },
+      "properties": {
+        "geonameid": "2158561",
+        "name": "Maryborough",
+        "auroraId": "loc320247db6936"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.95364, -35.53245]
+      },
+      "properties": {
+        "geonameid": "2169068",
+        "name": "Deniliquin",
+        "auroraId": "loce4caf673cdf6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.35375, -35.12577]
+      },
+      "properties": {
+        "geonameid": "2145110",
+        "name": "Wagga Wagga",
+        "auroraId": "locd51b69ccf236"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.07599, -33.95504]
+      },
+      "properties": {
+        "geonameid": "2066981",
+        "name": "Margaret River",
+        "auroraId": "loc9fa1fdaa0739"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.65713, -24.88258]
+      },
+      "properties": {
+        "geonameid": "2074865",
+        "name": "Carnarvon",
+        "auroraId": "loc72abaa4befcd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.6297, -26.73787]
+      },
+      "properties": {
+        "geonameid": "2171596",
+        "name": "Chinchilla",
+        "auroraId": "locd0d1f35aba34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.78751, -26.56741]
+      },
+      "properties": {
+        "geonameid": "2151187",
+        "name": "Roma",
+        "auroraId": "loc057be79960f4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.30546, -28.54709]
+      },
+      "properties": {
+        "geonameid": "2164972",
+        "name": "Goondiwindi",
+        "auroraId": "loc31a549ad0023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.12408, -36.23517]
+      },
+      "properties": {
+        "geonameid": "2170577",
+        "name": "Cooma",
+        "auroraId": "loc2ea88964023a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.67423, -31.64932]
+      },
+      "properties": {
+        "geonameid": "2064550",
+        "name": "Northam",
+        "auroraId": "loc8b2ce002e875"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.90987, -34.84036]
+      },
+      "properties": {
+        "geonameid": "2142412",
+        "name": "Yass",
+        "auroraId": "loc877e132707eb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.99767, -34.46825]
+      },
+      "properties": {
+        "geonameid": "2064340",
+        "name": "Nuriootpa",
+        "auroraId": "loc3309e461981d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.21818, -35.30642]
+      },
+      "properties": {
+        "geonameid": "2145875",
+        "name": "Tumut",
+        "auroraId": "locde2380bf48b2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.64066, -35.92069]
+      },
+      "properties": {
+        "geonameid": "2171173",
+        "name": "Cobram",
+        "auroraId": "locecac9bfc699f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.51504, -24.39589]
+      },
+      "properties": {
+        "geonameid": "2175819",
+        "name": "Biloela",
+        "auroraId": "loc285fd94d452d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.69759, -20.27681]
+      },
+      "properties": {
+        "geonameid": "2172477",
+        "name": "Cannonvale",
+        "auroraId": "locb38176770610"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.7385, -29.73485]
+      },
+      "properties": {
+        "geonameid": "2165291",
+        "name": "Glen Innes",
+        "auroraId": "loca47ee7164993"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.87912, -23.58351]
+      },
+      "properties": {
+        "geonameid": "2175403",
+        "name": "Blackwater",
+        "auroraId": "loc1e6d7495ba54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.26347, -14.46517]
+      },
+      "properties": {
+        "geonameid": "2068655",
+        "name": "Katherine",
+        "auroraId": "loc12ca6fd5f9fa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.7383, -36.95785]
+      },
+      "properties": {
+        "geonameid": "2155796",
+        "name": "Naracoorte",
+        "auroraId": "loc062098462b8d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.72617, -40.9897]
+      },
+      "properties": {
+        "geonameid": "2142747",
+        "name": "Wynyard",
+        "auroraId": "loc36bc6dda27c9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.94685, -38.47607]
+      },
+      "properties": {
+        "geonameid": "2160339",
+        "name": "Leongatha",
+        "auroraId": "loc5900b8cc74c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.14903, -33.4845]
+      },
+      "properties": {
+        "geonameid": "2160053",
+        "name": "Lithgow",
+        "auroraId": "locff698c2dc855"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.04126, -30.88553]
+      },
+      "properties": {
+        "geonameid": "8310779",
+        "name": "South West Rocks",
+        "auroraId": "loc4cbff6096dc5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.08846, -37.052]
+      },
+      "properties": {
+        "geonameid": "2158839",
+        "name": "Mansfield",
+        "auroraId": "loc515028b0f98a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.84178, -36.67392]
+      },
+      "properties": {
+        "geonameid": "2176401",
+        "name": "Bega",
+        "auroraId": "loca3f677b3203f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.74697, -34.17702]
+      },
+      "properties": {
+        "geonameid": "2151737",
+        "name": "Renmark",
+        "auroraId": "loc90fb84638015"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.60055, -35.57419]
+      },
+      "properties": {
+        "geonameid": "2071961",
+        "name": "Encounter Bay",
+        "auroraId": "loce9f35122301e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.53558, -34.44834]
+      },
+      "properties": {
+        "geonameid": "2147150",
+        "name": "Temora",
+        "auroraId": "loc980db1b391ba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.89546, -30.56305]
+      },
+      "properties": {
+        "geonameid": "2062151",
+        "name": "Roxby Downs",
+        "auroraId": "locd632054a0315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.16248, -18.64552]
+      },
+      "properties": {
+        "geonameid": "2162737",
+        "name": "Ingham",
+        "auroraId": "loc0c200faf2f2b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.74208, -15.77825]
+      },
+      "properties": {
+        "geonameid": "2068110",
+        "name": "Kununurra",
+        "auroraId": "loc00dfefe6aadb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.55096, -34.74752]
+      },
+      "properties": {
+        "geonameid": "2155731",
+        "name": "Narrandera",
+        "auroraId": "loc0c9542430b96"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.14564, -34.24122]
+      },
+      "properties": {
+        "geonameid": "2067086",
+        "name": "Manjimup",
+        "auroraId": "loc214db52e63ad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.17763, -32.93282]
+      },
+      "properties": {
+        "geonameid": "2064915",
+        "name": "Narrogin",
+        "auroraId": "loc929d68b9a513"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.83439, -31.49666]
+      },
+      "properties": {
+        "geonameid": "2171216",
+        "name": "Cobar",
+        "auroraId": "loc81cf1a3b5b3f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.62864, -17.30295]
+      },
+      "properties": {
+        "geonameid": "2072924",
+        "name": "Derby",
+        "auroraId": "loc5a1ffdf7a8ae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.01952, -29.04946]
+      },
+      "properties": {
+        "geonameid": "2147085",
+        "name": "Tenterfield",
+        "auroraId": "loc1ba8526b9d11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.34924, -22.58825]
+      },
+      "properties": {
+        "geonameid": "8310699",
+        "name": "Dysart",
+        "auroraId": "locfbc5ac46b957"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.92027, -35.73489]
+      },
+      "properties": {
+        "geonameid": "2161587",
+        "name": "Kerang",
+        "auroraId": "loccdfc709471ce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.12498, -40.84587]
+      },
+      "properties": {
+        "geonameid": "2149254",
+        "name": "Smithton",
+        "auroraId": "loc6e99df82a211"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.12091, -21.93063]
+      },
+      "properties": {
+        "geonameid": "2079492",
+        "name": "Exmouth",
+        "auroraId": "loc89a639617f57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.24921, -23.44212]
+      },
+      "properties": {
+        "geonameid": "2159630",
+        "name": "Longreach",
+        "auroraId": "locb8bc91c4b9c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.5584, -33.68787]
+      },
+      "properties": {
+        "geonameid": "2068661",
+        "name": "Katanning",
+        "auroraId": "locdf7fea60a488"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.46725, -16.48383]
+      },
+      "properties": {
+        "geonameid": "2152681",
+        "name": "Port Douglas",
+        "auroraId": "loc9b2c36221ba8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.63365, -33.93881]
+      },
+      "properties": {
+        "geonameid": "2059263",
+        "name": "Wallaroo",
+        "auroraId": "loc7edee3af895b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.24274, -26.40542]
+      },
+      "properties": {
+        "geonameid": "2171764",
+        "name": "Charleville",
+        "auroraId": "loc5e451c6e2efc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.15139, -33.08877]
+      },
+      "properties": {
+        "geonameid": "2170841",
+        "name": "Condobolin",
+        "auroraId": "loce057c225ca6d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.63635, -22.82407]
+      },
+      "properties": {
+        "geonameid": "2171365",
+        "name": "Clermont",
+        "auroraId": "locfa3a3309275c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.67902, -31.50763]
+      },
+      "properties": {
+        "geonameid": "2152240",
+        "name": "Quirindi",
+        "auroraId": "locae233db5b779"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.77841, -12.18165]
+      },
+      "properties": {
+        "geonameid": "2064735",
+        "name": "Nhulunbuy",
+        "auroraId": "loc66cf48ccb5f8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.27904, -31.27734]
+      },
+      "properties": {
+        "geonameid": "2170540",
+        "name": "Coonabarabran",
+        "auroraId": "loc500334df224a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.7931, -22.6939]
+      },
+      "properties": {
+        "geonameid": "6354929",
+        "name": "Tom Price",
+        "auroraId": "loc9686fa07b50b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.27782, -36.86535]
+      },
+      "properties": {
+        "geonameid": "8578656",
+        "name": "Falls Creek",
+        "auroraId": "locd6190ebbe554"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.20473, -33.92373]
+      },
+      "properties": {
+        "geonameid": "2143930",
+        "name": "West Wyalong",
+        "auroraId": "loc6a9b492e1384"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.61064, -33.83325]
+      },
+      "properties": {
+        "geonameid": "2074329",
+        "name": "Clare",
+        "auroraId": "locf801a4131a7e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.24984, -15.4657]
+      },
+      "properties": {
+        "geonameid": "2170658",
+        "name": "Cooktown",
+        "auroraId": "loc36a0208bc4d2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.51303, -20.70718]
+      },
+      "properties": {
+        "geonameid": "2171306",
+        "name": "Cloncurry",
+        "auroraId": "loce83c4018482e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.60986, -27.94763]
+      },
+      "properties": {
+        "geonameid": "8347972",
+        "name": "St George",
+        "auroraId": "loc53b3d8d99287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.77228, -34.58356]
+      },
+      "properties": {
+        "geonameid": "8310771",
+        "name": "Robinvale",
+        "auroraId": "loc5836de01c0a7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.66252, -31.71173]
+      },
+      "properties": {
+        "geonameid": "2165596",
+        "name": "Gilgandra",
+        "auroraId": "loc40fdc9035f11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.19147, -19.6497]
+      },
+      "properties": {
+        "geonameid": "2060436",
+        "name": "Tennant Creek",
+        "auroraId": "loc55ebdd5b3116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.77167, -36.30768]
+      },
+      "properties": {
+        "geonameid": "2174615",
+        "name": "Bordertown",
+        "auroraId": "locf1281f140e97"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.27448, -31.48094]
+      },
+      "properties": {
+        "geonameid": "2066472",
+        "name": "Merredin",
+        "auroraId": "loc7938ad2fda42"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.87883, -12.62346]
+      },
+      "properties": {
+        "geonameid": "2144209",
+        "name": "Weipa",
+        "auroraId": "loc391f9624ba6f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.21949, -10.58257]
+      },
+      "properties": {
+        "geonameid": "8310780",
+        "name": "Thursday Island",
+        "auroraId": "locf3154a9e1452"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.38881, -30.95389]
+      },
+      "properties": {
+        "geonameid": "2170534",
+        "name": "Coonamble",
+        "auroraId": "locf4bc94c1a7bd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.98552, -34.18178]
+      },
+      "properties": {
+        "geonameid": "2059362",
+        "name": "Waikerie",
+        "auroraId": "loc87f67715aaea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.97865, -29.42743]
+      },
+      "properties": {
+        "geonameid": "2160232",
+        "name": "Lightning Ridge",
+        "auroraId": "locbf2fb90b3640"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.13247, -36.21783]
+      },
+      "properties": {
+        "geonameid": "2155750",
+        "name": "Narooma",
+        "auroraId": "loc91ad2d4b4161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.16505, -27.7105]
+      },
+      "properties": {
+        "geonameid": "2068835",
+        "name": "Kalbarri",
+        "auroraId": "loccd6690afbf95"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.1114, -21.88972]
+      },
+      "properties": {
+        "geonameid": "2064403",
+        "name": "Nullagine",
+        "auroraId": "loc8e9ff6ae9d64"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.59335, -30.98493]
+      },
+      "properties": {
+        "geonameid": "2145059",
+        "name": "Walcha",
+        "auroraId": "loc1efbd971952f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.68108, -27.99724]
+      },
+      "properties": {
+        "geonameid": "2174755",
+        "name": "Boonah",
+        "auroraId": "locaec0f54990f9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.9035, -24.2119]
+      },
+      "properties": {
+        "geonameid": "6621373",
+        "name": "Agnes Water",
+        "auroraId": "locc6dee303d0b5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.92277, -17.93264]
+      },
+      "properties": {
+        "geonameid": "2145903",
+        "name": "Tully",
+        "auroraId": "locc7d535671df7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.39281, -36.25326]
+      },
+      "properties": {
+        "geonameid": "2144617",
+        "name": "Warracknabeal",
+        "auroraId": "loca6ef5b7f5516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.84306, -34.50903]
+      },
+      "properties": {
+        "geonameid": "2163774",
+        "name": "Hay",
+        "auroraId": "loc746a56930f22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.22941, -12.0483]
+      },
+      "properties": {
+        "geonameid": "2067089",
+        "name": "Maningrida",
+        "auroraId": "loc80b1088ee1a8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.45676, -27.27613]
+      },
+      "properties": {
+        "geonameid": "2147421",
+        "name": "Tara",
+        "auroraId": "loc19dd4f1f7bae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.9889, -25.2406]
+      },
+      "properties": {
+        "geonameid": "6355222",
+        "name": "Yulara",
+        "auroraId": "loc43add4c26fd1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.96729, -24.5722]
+      },
+      "properties": {
+        "geonameid": "2156480",
+        "name": "Moura",
+        "auroraId": "loce100a7c13d76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.19373, -31.56375]
+      },
+      "properties": {
+        "geonameid": "2154672",
+        "name": "Nyngan",
+        "auroraId": "loc3ce9545be8bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.56486, -12.02811]
+      },
+      "properties": {
+        "geonameid": "8219764",
+        "name": "Galiwinku",
+        "auroraId": "loc84b3661b905b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.457, -37.69644]
+      },
+      "properties": {
+        "geonameid": "2154208",
+        "name": "Orbost",
+        "auroraId": "loc17fd4ae7853a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.65006, -36.33333]
+      },
+      "properties": {
+        "geonameid": "2155370",
+        "name": "Nhill",
+        "auroraId": "loce4e504a7fb1e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.3994, -28.62531]
+      },
+      "properties": {
+        "geonameid": "2067890",
+        "name": "Laverton",
+        "auroraId": "loc1f00f121f8d7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.11566, -30.02461]
+      },
+      "properties": {
+        "geonameid": "2145049",
+        "name": "Walgett",
+        "auroraId": "loc793532e01092"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.75495, -29.01415]
+      },
+      "properties": {
+        "geonameid": "2073985",
+        "name": "Coober Pedy",
+        "auroraId": "loc9874417177f8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.67271, -32.1266]
+      },
+      "properties": {
+        "geonameid": "2074685",
+        "name": "Ceduna",
+        "auroraId": "loc609cf4397af7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.23889, -41.32028]
+      },
+      "properties": {
+        "geonameid": "2150679",
+        "name": "St Helens",
+        "auroraId": "loc94954cdc227f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.61144, -25.62522]
+      },
+      "properties": {
+        "geonameid": "2165818",
+        "name": "Gayndah",
+        "auroraId": "locf4e983d807e1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.93646, -30.09011]
+      },
+      "properties": {
+        "geonameid": "2174467",
+        "name": "Bourke",
+        "auroraId": "loc6495f72fb46d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.59528, -17.35228]
+      },
+      "properties": {
+        "geonameid": "2159006",
+        "name": "Malanda",
+        "auroraId": "loc14f80864277a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.75192, -32.40431]
+      },
+      "properties": {
+        "geonameid": "2168112",
+        "name": "Dungog",
+        "auroraId": "loc09187a0f22ed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.35112, -29.40147]
+      },
+      "properties": {
+        "geonameid": "2162762",
+        "name": "Iluka",
+        "auroraId": "loc20d8d973aee4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.52177, -14.23834]
+      },
+      "properties": {
+        "geonameid": "9409192",
+        "name": "Wadeye",
+        "auroraId": "loc32f08f43ca50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.6393, -35.6559]
+      },
+      "properties": {
+        "geonameid": "2068429",
+        "name": "Kingscote",
+        "auroraId": "loce3452174425b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.56545, -26.943]
+      },
+      "properties": {
+        "geonameid": "2161470",
+        "name": "Kilcoy",
+        "auroraId": "loc9ebd8279f3f5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.15375, -36.78515]
+      },
+      "properties": {
+        "geonameid": "2155878",
+        "name": "Nagambie",
+        "auroraId": "loce01ddbd8c8e5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.51269, -33.02205]
+      },
+      "properties": {
+        "geonameid": "8520232",
+        "name": "Whyalla Jenkins",
+        "auroraId": "locd124976ffef7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.00365, -30.64003]
+      },
+      "properties": {
+        "geonameid": "2065836",
+        "name": "Moora",
+        "auroraId": "locf4456408b6b6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.55646, -42.0805]
+      },
+      "properties": {
+        "geonameid": "2152272",
+        "name": "Queenstown",
+        "auroraId": "loc483a3ab098b2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.01172, -35.77806]
+      },
+      "properties": {
+        "geonameid": "2145893",
+        "name": "Tumbarumba",
+        "auroraId": "loc02a0328ba570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.56663, -18.19714]
+      },
+      "properties": {
+        "geonameid": "2071536",
+        "name": "Fitzroy Crossing",
+        "auroraId": "locae86bbf6dd32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.03825, -30.30591]
+      },
+      "properties": {
+        "geonameid": "2079020",
+        "name": "Jurien Bay",
+        "auroraId": "loc51b2e300cc6b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.35562, -32.13922]
+      },
+      "properties": {
+        "geonameid": "2158004",
+        "name": "Merriwa",
+        "auroraId": "loc9ea046456f4f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.6306, -31.20169]
+      },
+      "properties": {
+        "geonameid": "8539246",
+        "name": "Kambalda West",
+        "auroraId": "loc39f58b228284"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.66973, -23.20417]
+      },
+      "properties": {
+        "geonameid": "8310764",
+        "name": "Paraburdoo",
+        "auroraId": "loc8368d32786cc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.66647, -18.22485]
+      },
+      "properties": {
+        "geonameid": "2070176",
+        "name": "Halls Creek",
+        "auroraId": "loc62728834f3b4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.47205, -27.53278]
+      },
+      "properties": {
+        "geonameid": "8348530",
+        "name": "Kensington Grove",
+        "auroraId": "loca792223c41e1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.31605, -35.721]
+      },
+      "properties": {
+        "geonameid": "2163314",
+        "name": "Holbrook",
+        "auroraId": "locab5dc4f25985"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.34463, -23.03829]
+      },
+      "properties": {
+        "geonameid": "6930555",
+        "name": "Tieri",
+        "auroraId": "loc233f7c87e3e8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.28542, -23.55353]
+      },
+      "properties": {
+        "geonameid": "2176895",
+        "name": "Barcaldine",
+        "auroraId": "locf5b5670c1f64"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.60503, -33.20531]
+      },
+      "properties": {
+        "geonameid": "2069194",
+        "name": "Jamestown",
+        "auroraId": "loc66261d6a4be4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.40297, -37.58489]
+      },
+      "properties": {
+        "geonameid": "2172132",
+        "name": "Casterton",
+        "auroraId": "loc92006d7c0d05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.57542, -29.54354]
+      },
+      "properties": {
+        "geonameid": "2144662",
+        "name": "Warialda",
+        "auroraId": "loc31cb8a416f37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.62555, -11.76082]
+      },
+      "properties": {
+        "geonameid": "8347917",
+        "name": "Wurrumiyanga",
+        "auroraId": "loca4f4cff9c39c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.09174, -25.90432]
+      },
+      "properties": {
+        "geonameid": "6955345",
+        "name": "Rainbow Beach",
+        "auroraId": "loca993f7eb4e9b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.07721, -17.67183]
+      },
+      "properties": {
+        "geonameid": "2155085",
+        "name": "Normanton",
+        "auroraId": "loc07a89165c12d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.27058, -27.87913]
+      },
+      "properties": {
+        "geonameid": "2157641",
+        "name": "Millmerran",
+        "auroraId": "loce49ca94d500f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.83604, -12.67049]
+      },
+      "properties": {
+        "geonameid": "7290714",
+        "name": "Jabiru",
+        "auroraId": "loc605825a97fdd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.92068, -29.27367]
+      },
+      "properties": {
+        "geonameid": "2072950",
+        "name": "Port Denison",
+        "auroraId": "loc6f0c08e0f00b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.98106, -36.36864]
+      },
+      "properties": {
+        "geonameid": "2168620",
+        "name": "Donald",
+        "auroraId": "locd1f06da0adb3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.82719, -17.9435]
+      },
+      "properties": {
+        "geonameid": "8310698",
+        "name": "Doomadgee",
+        "auroraId": "loc5743b15b6d35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.86559, -16.93241]
+      },
+      "properties": {
+        "geonameid": "8348272",
+        "name": "Dampier Peninsula",
+        "auroraId": "loca93d20d3942e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.20928, -32.79554]
+      },
+      "properties": {
+        "geonameid": "2060937",
+        "name": "Streaky Bay",
+        "auroraId": "loc37cb85502a9b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.53525, -33.48266]
+      },
+      "properties": {
+        "geonameid": "2163398",
+        "name": "Hillston",
+        "auroraId": "loc811b21f4cd8e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.56143, -34.63649]
+      },
+      "properties": {
+        "geonameid": "2177030",
+        "name": "Balranald",
+        "auroraId": "loc1e24228ac15b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.37296, -33.29884]
+      },
+      "properties": {
+        "geonameid": "2160769",
+        "name": "Lake Cargelligo",
+        "auroraId": "loc1f97fb783207"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.39175, -41.00046]
+      },
+      "properties": {
+        "geonameid": "2174066",
+        "name": "Bridport",
+        "auroraId": "loc7a294dcd77ec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.23669, -36.91212]
+      },
+      "properties": {
+        "geonameid": "2174973",
+        "name": "Bombala",
+        "auroraId": "loc9e279591e3e6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.46303, -24.42327]
+      },
+      "properties": {
+        "geonameid": "2175650",
+        "name": "Blackall",
+        "auroraId": "locdb8620eee890"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.60901, -30.38547]
+      },
+      "properties": {
+        "geonameid": "2176771",
+        "name": "Barraba",
+        "auroraId": "loc4c857c5cac7a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.84399, -20.55223]
+      },
+      "properties": {
+        "geonameid": "2170977",
+        "name": "Collinsville",
+        "auroraId": "loc308484e1f9fb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.83392, -31.70224]
+      },
+      "properties": {
+        "geonameid": "2144555",
+        "name": "Warren",
+        "auroraId": "loc6955ed6a1cf2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6967, -27.92028]
+      },
+      "properties": {
+        "geonameid": "8310729",
+        "name": "Leinster",
+        "auroraId": "loc12d8cb3714d1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8522, -36.83073]
+      },
+      "properties": {
+        "geonameid": "2068414",
+        "name": "Kingston South East",
+        "auroraId": "loc84884b2d0de3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.72707, -13.35582]
+      },
+      "properties": {
+        "geonameid": "2177484",
+        "name": "Aurukun",
+        "auroraId": "loc4303438218e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.91901, -12.10188]
+      },
+      "properties": {
+        "geonameid": "8310742",
+        "name": "Milingimbi",
+        "auroraId": "loc2999a06bb961"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.88036, -34.80388]
+      },
+      "properties": {
+        "geonameid": "8310666",
+        "name": "Coleambally",
+        "auroraId": "locbbb61158aea8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.33074, -28.88509]
+      },
+      "properties": {
+        "geonameid": "2067792",
+        "name": "Leonora",
+        "auroraId": "loc8c73153ed39b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.20035, -20.84399]
+      },
+      "properties": {
+        "geonameid": "2162976",
+        "name": "Hughenden",
+        "auroraId": "loc07bac9c4ec77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.92117, -33.68227]
+      },
+      "properties": {
+        "geonameid": "2073548",
+        "name": "Cowell",
+        "auroraId": "loc4c798cd31bee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.3871, -32.01634]
+      },
+      "properties": {
+        "geonameid": "2168128",
+        "name": "Dunedoo",
+        "auroraId": "locdb12d236a23c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.0424, -22.38185]
+      },
+      "properties": {
+        "geonameid": "2143350",
+        "name": "Winton",
+        "auroraId": "loc4529e7b8cffb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.00873, -18.98204]
+      },
+      "properties": {
+        "geonameid": "8349102",
+        "name": "St George Ranges",
+        "auroraId": "loc205b8238fe1b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.68439, -28.06766]
+      },
+      "properties": {
+        "geonameid": "2169728",
+        "name": "Cunnamulla",
+        "auroraId": "loc8b9bf8a37688"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.12199, -24.86477]
+      },
+      "properties": {
+        "geonameid": "2157166",
+        "name": "Monto",
+        "auroraId": "loc3b1409295d07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.50337, -32.38043]
+      },
+      "properties": {
+        "geonameid": "7290054",
+        "name": "Smiths Lake",
+        "auroraId": "loc5f76c7e750c9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.42129, -13.85413]
+      },
+      "properties": {
+        "geonameid": "2079582",
+        "name": "Alyangula",
+        "auroraId": "loc5673ff820dbe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.32034, -35.07087]
+      },
+      "properties": {
+        "geonameid": "2154088",
+        "name": "Ouyen",
+        "auroraId": "locfe8a70072c86"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.9742, -26.4849]
+      },
+      "properties": {
+        "geonameid": "2157409",
+        "name": "Mitchell",
+        "auroraId": "locef88223b00f2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.11221, -21.63764]
+      },
+      "properties": {
+        "geonameid": "2064155",
+        "name": "Onslow",
+        "auroraId": "loc0230d351bb60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.73102, -14.73081]
+      },
+      "properties": {
+        "geonameid": "8310749",
+        "name": "Ngukurr",
+        "auroraId": "loc24d9ff7f55fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.47522, -32.80071]
+      },
+      "properties": {
+        "geonameid": "2076246",
+        "name": "Boddington",
+        "auroraId": "loc7e84408f2236"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.85986, -29.96067]
+      },
+      "properties": {
+        "geonameid": "2174123",
+        "name": "Brewarrina",
+        "auroraId": "loce186b4a91992"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.91907, -34.42217]
+      },
+      "properties": {
+        "geonameid": "2077599",
+        "name": "Ardrossan",
+        "auroraId": "loc6d197c0fc5d8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.4014, -16.63184]
+      },
+      "properties": {
+        "geonameid": "8347753",
+        "name": "Wellesley Islands",
+        "auroraId": "loc162ba431d5ad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.08849, -24.11478]
+      },
+      "properties": {
+        "geonameid": "2148602",
+        "name": "Springsure",
+        "auroraId": "loc97f05fe92592"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.96028, -26.12285]
+      },
+      "properties": {
+        "geonameid": "2144790",
+        "name": "Wandoan",
+        "auroraId": "loc09d18a2c8ca1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.68333, -21.68333]
+      },
+      "properties": {
+        "geonameid": "2155628",
+        "name": "Nebo",
+        "auroraId": "loc42e8c113ddd4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.34007, -35.68637]
+      },
+      "properties": {
+        "geonameid": "2066511",
+        "name": "Meningie",
+        "auroraId": "locd42ffd8b2301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.75407, -37.55896]
+      },
+      "properties": {
+        "geonameid": "2158977",
+        "name": "Mallacoota",
+        "auroraId": "locbd605b309fd5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.10969, -17.14752]
+      },
+      "properties": {
+        "geonameid": "2168819",
+        "name": "Dimbulah",
+        "auroraId": "loc315f84c2d273"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.71816, -35.22333]
+      },
+      "properties": {
+        "geonameid": "2159774",
+        "name": "Lockhart",
+        "auroraId": "locdb279048ee6d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.72962, -35.35757]
+      },
+      "properties": {
+        "geonameid": "2162351",
+        "name": "Jerilderie",
+        "auroraId": "loc893d6f44bdaf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.7763, -23.14083]
+      },
+      "properties": {
+        "geonameid": "7115182",
+        "name": "Coral Bay",
+        "auroraId": "loc89874d6e3506"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [153.53664, -27.42726]
+      },
+      "properties": {
+        "geonameid": "2207309",
+        "name": "Point Lookout",
+        "auroraId": "loc779194d5bec6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.4939, -41.92561]
+      },
+      "properties": {
+        "geonameid": "2172584",
+        "name": "Campbell Town",
+        "auroraId": "loc862def0b5d8e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.45657, -24.13065]
+      },
+      "properties": {
+        "geonameid": "2142940",
+        "name": "Woorabinda",
+        "auroraId": "locfb004f7998a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.74567, -15.47362]
+      },
+      "properties": {
+        "geonameid": "2161022",
+        "name": "Kowanyama",
+        "auroraId": "locb56d085c497f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.71983, -31.63182]
+      },
+      "properties": {
+        "geonameid": "2068612",
+        "name": "Kellerberrin",
+        "auroraId": "loc3b1886c0bad4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.48738, -37.60514]
+      },
+      "properties": {
+        "geonameid": "8348796",
+        "name": "Chum Creek",
+        "auroraId": "locc2eca36bc712"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.30797, -16.06969]
+      },
+      "properties": {
+        "geonameid": "2076017",
+        "name": "Borroloola",
+        "auroraId": "locd1b4aca76d9c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.61386, -36.419]
+      },
+      "properties": {
+        "geonameid": "2144270",
+        "name": "Wedderburn",
+        "auroraId": "loc4d0105f273bd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.32223, -21.63918]
+      },
+      "properties": {
+        "geonameid": "8310763",
+        "name": "Pannawonica",
+        "auroraId": "loc5989e5f03d74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.62533, -34.48213]
+      },
+      "properties": {
+        "geonameid": "2068589",
+        "name": "Kendenup",
+        "auroraId": "loc16e0564957a1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.726, -34.26396]
+      },
+      "properties": {
+        "geonameid": "2073361",
+        "name": "Cummins",
+        "auroraId": "locd1d7426e4967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.08066, -28.41592]
+      },
+      "properties": {
+        "geonameid": "2162724",
+        "name": "Inglewood",
+        "auroraId": "loc2872982f7868"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.12428, -15.4869]
+      },
+      "properties": {
+        "geonameid": "2057705",
+        "name": "Wyndham",
+        "auroraId": "locf8ca4da25ede"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.60486, -35.01845]
+      },
+      "properties": {
+        "geonameid": "2057273",
+        "name": "Yorketown",
+        "auroraId": "loc6e1b13589c03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.11494, -21.35443]
+      },
+      "properties": {
+        "geonameid": "8219766",
+        "name": "Glenden",
+        "auroraId": "loc92b436e14fab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.74441, -21.17067]
+      },
+      "properties": {
+        "geonameid": "2067029",
+        "name": "Marble Bar",
+        "auroraId": "loc8c246cc0ccee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.56125, -24.29413]
+      },
+      "properties": {
+        "geonameid": "11748514",
+        "name": "Hugh",
+        "auroraId": "loc8fc83938d45b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.81052, -12.5031]
+      },
+      "properties": {
+        "geonameid": "8310706",
+        "name": "Gapuwiyak",
+        "auroraId": "loca7426c97156f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.28961, -35.01439]
+      },
+      "properties": {
+        "geonameid": "11704371",
+        "name": "Ocean Beach",
+        "auroraId": "loc6e97670af52a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29657, -37.03655]
+      },
+      "properties": {
+        "geonameid": "2167794",
+        "name": "Edenhope",
+        "auroraId": "loc528888eb2e92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.30238, -41.87429]
+      },
+      "properties": {
+        "geonameid": "2175958",
+        "name": "Bicheno",
+        "auroraId": "loce665a74ea044"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.71925, -30.89294]
+      },
+      "properties": {
+        "geonameid": "2058005",
+        "name": "Wongan Hills",
+        "auroraId": "loc855f34b1147c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.065, -14.92127]
+      },
+      "properties": {
+        "geonameid": "2066808",
+        "name": "Mataranka",
+        "auroraId": "loc2e7e0523f2e1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.7998, -25.63925]
+      },
+      "properties": {
+        "geonameid": "2147347",
+        "name": "Taroom",
+        "auroraId": "locafeb1be5c176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.38776, -33.83425]
+      },
+      "properties": {
+        "geonameid": "2075895",
+        "name": "Boyup Brook",
+        "auroraId": "loca384883a1099"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.92736, -32.10839]
+      },
+      "properties": {
+        "geonameid": "2076699",
+        "name": "Beverley",
+        "auroraId": "loc6e9ed7278db1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.01488, -43.31423]
+      },
+      "properties": {
+        "geonameid": "2168448",
+        "name": "Dover",
+        "auroraId": "loc83e422126662"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.91134, -42.50805]
+      },
+      "properties": {
+        "geonameid": "2146049",
+        "name": "Triabunna",
+        "auroraId": "loc7797e2dfe35c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.51669, -35.32899]
+      },
+      "properties": {
+        "geonameid": "2160678",
+        "name": "Lameroo",
+        "auroraId": "loc4977a21323f2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.66015, -30.28045]
+      },
+      "properties": {
+        "geonameid": "2073216",
+        "name": "Dalwallinu",
+        "auroraId": "loc8ca4c35dce72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.25, -21.61667]
+      },
+      "properties": {
+        "geonameid": "2161026",
+        "name": "Koumala",
+        "auroraId": "loc77c3b720243d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.12635, -33.95057]
+      },
+      "properties": {
+        "geonameid": "2069647",
+        "name": "Hopetoun",
+        "auroraId": "loc9db2c809d7d1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.87181, -32.33383]
+      },
+      "properties": {
+        "geonameid": "2073633",
+        "name": "Corrigin",
+        "auroraId": "locb75513741f4a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.59547, -33.46714]
+      },
+      "properties": {
+        "geonameid": "11704410",
+        "name": "Gormans Hill",
+        "auroraId": "loc7f9aacb81337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.62118, -14.89884]
+      },
+      "properties": {
+        "geonameid": "8310768",
+        "name": "Pormpuraaw",
+        "auroraId": "loc8cbd812f33f3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.37686, -31.55879]
+      },
+      "properties": {
+        "geonameid": "2143679",
+        "name": "Wilcannia",
+        "auroraId": "loca11edcab2012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.48064, -17.10992]
+      },
+      "properties": {
+        "geonameid": "8348603",
+        "name": "King Leopold Ranges",
+        "auroraId": "loc7ac46c7da92f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.58266, -25.72606]
+      },
+      "properties": {
+        "geonameid": "2146669",
+        "name": "Tiaro",
+        "auroraId": "locdbd1c87a1f0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.34354, -12.78723]
+      },
+      "properties": {
+        "geonameid": "8310734",
+        "name": "Lockhart River",
+        "auroraId": "locf45e5bc0d77d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.14355, -20.73243]
+      },
+      "properties": {
+        "geonameid": "2151651",
+        "name": "Richmond",
+        "auroraId": "loc6f281614c050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.85385, -39.92976]
+      },
+      "properties": {
+        "geonameid": "2169638",
+        "name": "Currie",
+        "auroraId": "loc5e335a6c8725"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.46381, -33.05013]
+      },
+      "properties": {
+        "geonameid": "2057756",
+        "name": "Wudinna",
+        "auroraId": "loc07b67fabed0a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.18997, -17.9949]
+      },
+      "properties": {
+        "geonameid": "11776258",
+        "name": "Camballin",
+        "auroraId": "locdee0cf153b5f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.53327, -25.92679]
+      },
+      "properties": {
+        "geonameid": "2061676",
+        "name": "Denham",
+        "auroraId": "locc67d88b073c3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.3663, -35.72702]
+      },
+      "properties": {
+        "geonameid": "2163168",
+        "name": "Hopetoun",
+        "auroraId": "loc1a120a92975c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.78465, -18.68211]
+      },
+      "properties": {
+        "geonameid": "11748695",
+        "name": "Lagrange",
+        "auroraId": "locc4ab76e771ec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.79286, -22.25585]
+      },
+      "properties": {
+        "geonameid": "2057215",
+        "name": "Yuendumu",
+        "auroraId": "loc3dee41d87ab6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.32376, -31.22677]
+      },
+      "properties": {
+        "geonameid": "2061298",
+        "name": "Southern Cross",
+        "auroraId": "locd78ca9bd8673"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.33651, -31.02251]
+      },
+      "properties": {
+        "geonameid": "2078703",
+        "name": "Lancelin",
+        "auroraId": "loc53b9665bcecd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.33903, -34.48765]
+      },
+      "properties": {
+        "geonameid": "2176061",
+        "name": "Berrima",
+        "auroraId": "locadfae48a0fff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.49393, -26.59524]
+      },
+      "properties": {
+        "geonameid": "2066591",
+        "name": "Meekatharra",
+        "auroraId": "loc136a1721d960"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.68253, -28.34356]
+      },
+      "properties": {
+        "geonameid": "2057633",
+        "name": "Yalgoo",
+        "auroraId": "loc529a7cbe00bf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.57587, -29.54379]
+      },
+      "properties": {
+        "geonameid": "2171022",
+        "name": "Collarenebri",
+        "auroraId": "locb5326cdda3ea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.74129, -20.65577]
+      },
+      "properties": {
+        "geonameid": "2162098",
+        "name": "Julia Creek",
+        "auroraId": "loc02cd9dda073a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.41875, -33.14164]
+      },
+      "properties": {
+        "geonameid": "2068483",
+        "name": "Kimba",
+        "auroraId": "loc422cbe07d20f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.03072, -13.05046]
+      },
+      "properties": {
+        "geonameid": "2077026",
+        "name": "Batchelor",
+        "auroraId": "locea00d91f3267"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.84904, -28.06479]
+      },
+      "properties": {
+        "geonameid": "2065578",
+        "name": "Mount Magnet",
+        "auroraId": "loc107ecd4d2a87"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.07981, -15.22545]
+      },
+      "properties": {
+        "geonameid": "8349148",
+        "name": "Miniyeri",
+        "auroraId": "loc058b48d23db6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.26175, -21.21169]
+      },
+      "properties": {
+        "geonameid": "8348331",
+        "name": "Telfer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.5128, -21.95965]
+      },
+      "properties": {
+        "geonameid": "8347862",
+        "name": "Sandover",
+        "auroraId": "loc8358d9b3abdd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.22551, -28.58541]
+      },
+      "properties": {
+        "geonameid": "2168726",
+        "name": "Dirranbandi",
+        "auroraId": "locb928e0c02161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.26949, -26.61348]
+      },
+      "properties": {
+        "geonameid": "2152257",
+        "name": "Quilpie",
+        "auroraId": "loc33b1f46c28bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.09308, -29.32191]
+      },
+      "properties": {
+        "geonameid": "2177564",
+        "name": "Ashford",
+        "auroraId": "loc2a382417888d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.77873, -32.19769]
+      },
+      "properties": {
+        "geonameid": "2064553",
+        "name": "Norseman",
+        "auroraId": "loc80ac8ac63a61"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.3, -21.26667]
+      },
+      "properties": {
+        "geonameid": "2158310",
+        "name": "McKinlay",
+        "auroraId": "loc639e4a635b21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.61392, -32.73438]
+      },
+      "properties": {
+        "geonameid": "2064063",
+        "name": "Orroroo",
+        "auroraId": "loce4f0aafe4852"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.84982, -35.50386]
+      },
+      "properties": {
+        "geonameid": "2149964",
+        "name": "Sea Lake",
+        "auroraId": "loc91ab470f6b62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.77913, -23.95078]
+      },
+      "properties": {
+        "geonameid": "8310697",
+        "name": "Hermannsburg",
+        "auroraId": "locf8de0e88b5cd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.57681, -26.1346]
+      },
+      "properties": {
+        "geonameid": "2059100",
+        "name": "Warburton",
+        "auroraId": "loc93bc16f42416"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.63834, -18.33583]
+      },
+      "properties": {
+        "geonameid": "8310726",
+        "name": "Lajamanu",
+        "auroraId": "loc93a1abde8231"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.41823, -32.39286]
+      },
+      "properties": {
+        "geonameid": "2158119",
+        "name": "Menindee",
+        "auroraId": "loc956eb929dcf3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.61333, -19.24066]
+      },
+      "properties": {
+        "geonameid": "10629648",
+        "name": "Eighty Mile Beach",
+        "auroraId": "loc7e42ffbee935"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.00791, -29.21343]
+      },
+      "properties": {
+        "geonameid": "2065779",
+        "name": "Morawa",
+        "auroraId": "locba1434ee15df"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.00904, -33.93698]
+      },
+      "properties": {
+        "geonameid": "2070753",
+        "name": "Gnowangerup",
+        "auroraId": "locd64f1d435ab1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.32031, -34.58052]
+      },
+      "properties": {
+        "geonameid": "7602208",
+        "name": "Coffin Bay",
+        "auroraId": "loc53be93fc501d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.98808, -28.97668]
+      },
+      "properties": {
+        "geonameid": "2156215",
+        "name": "Mungindi",
+        "auroraId": "loc30630d0b45b8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.26118, -11.05626]
+      },
+      "properties": {
+        "geonameid": "8348871",
+        "name": "Injinoo",
+        "auroraId": "locc2313a4a9faa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.01256, -37.48051]
+      },
+      "properties": {
+        "geonameid": "2176552",
+        "name": "Beachport",
+        "auroraId": "loc303959fa0905"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.3733, -24.1307]
+      },
+      "properties": {
+        "geonameid": "8219824",
+        "name": "Santa Teresa",
+        "auroraId": "loc92eca3999dae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.48056, -12.75053]
+      },
+      "properties": {
+        "geonameid": "11002162",
+        "name": "Marrakai",
+        "auroraId": "locd38527b236f3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.12145, -25.37168]
+      },
+      "properties": {
+        "geonameid": "2167693",
+        "name": "Eidsvold",
+        "auroraId": "locb15f9ad2128e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.10448, -32.75119]
+      },
+      "properties": {
+        "geonameid": "2173926",
+        "name": "Broke",
+        "auroraId": "loca12563189fa9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.99583, -38.61919]
+      },
+      "properties": {
+        "geonameid": "2152683",
+        "name": "Port Campbell",
+        "auroraId": "loc4eb3fb54fa57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.46463, -33.10317]
+      },
+      "properties": {
+        "geonameid": "2068013",
+        "name": "Lake Grace",
+        "auroraId": "loc4d9450978a29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.12013, -19.92154]
+      },
+      "properties": {
+        "geonameid": "2075074",
+        "name": "Camooweal",
+        "auroraId": "loc9a514311121a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.35159, -13.79984]
+      },
+      "properties": {
+        "geonameid": "11746865",
+        "name": "Douglas-Daly",
+        "auroraId": "locaefad5c507de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.41522, -22.25034]
+      },
+      "properties": {
+        "geonameid": "11746241",
+        "name": "Anmatjere",
+        "auroraId": "loc1c026961b8ee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.51836, -24.28984]
+      },
+      "properties": {
+        "geonameid": "11748862",
+        "name": "Petermann",
+        "auroraId": "locc894eedf57c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.19865, -15.52167]
+      },
+      "properties": {
+        "geonameid": "2160514",
+        "name": "Laura",
+        "auroraId": "loca6d6fcc27095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.71667, -19.98333]
+      },
+      "properties": {
+        "geonameid": "2060626",
+        "name": "Tanami",
+        "auroraId": "loc6447f199d870"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.51173, -28.53952]
+      },
+      "properties": {
+        "geonameid": "2065390",
+        "name": "Mullewa",
+        "auroraId": "loc2401b33a0811"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.13343, -26.27825]
+      },
+      "properties": {
+        "geonameid": "11745988",
+        "name": "Pukatja",
+        "auroraId": "loc2f959d3c3e1a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.6288, -21.14039]
+      },
+      "properties": {
+        "geonameid": "2166693",
+        "name": "Finch Hatton",
+        "auroraId": "locd6fe6259bb4d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.90184, -34.35686]
+      },
+      "properties": {
+        "geonameid": "2177715",
+        "name": "Ardlethan",
+        "auroraId": "loca80ce6325972"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.89342, -35.09446]
+      },
+      "properties": {
+        "geonameid": "2068688",
+        "name": "Karoonda",
+        "auroraId": "loc92e8da31beea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.05646, -35.8871]
+      },
+      "properties": {
+        "geonameid": "2146523",
+        "name": "Tintinara",
+        "auroraId": "loce9e0ce4da8c1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.38333, -19.05]
+      },
+      "properties": {
+        "geonameid": "2151197",
+        "name": "Rollingstone",
+        "auroraId": "locba0f15910532"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.32485, -21.01987]
+      },
+      "properties": {
+        "geonameid": "8348669",
+        "name": "Ali Curung",
+        "auroraId": "loc2f49d8945a0d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.00832, -42.38477]
+      },
+      "properties": {
+        "geonameid": "2174559",
+        "name": "Bothwell",
+        "auroraId": "loc6a49f012018c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.07597, -17.49675]
+      },
+      "properties": {
+        "geonameid": "8310704",
+        "name": "Flying Fish Point",
+        "auroraId": "loc0c3ed32f4998"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.03629, -35.09065]
+      },
+      "properties": {
+        "geonameid": "2156768",
+        "name": "Moulamein",
+        "auroraId": "loc19635326d925"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.85617, -18.39835]
+      },
+      "properties": {
+        "geonameid": "8348312",
+        "name": "Mueller Ranges",
+        "auroraId": "locc387719c9a84"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.56786, -25.84281]
+      },
+      "properties": {
+        "geonameid": "2162715",
+        "name": "Injune",
+        "auroraId": "locc90a2804a379"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.56862, -28.89264]
+      },
+      "properties": {
+        "geonameid": "2147637",
+        "name": "Tabulam",
+        "auroraId": "loc94682508ae6d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [124.87404, -17.95832]
+      },
+      "properties": {
+        "geonameid": "11776462",
+        "name": "Mount Hardman",
+        "auroraId": "loc8d393e0cefdc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.98403, -20.14286]
+      },
+      "properties": {
+        "geonameid": "2077298",
+        "name": "Balgo Hill",
+        "auroraId": "loc0cc47a2b39b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.58452, -25.79625]
+      },
+      "properties": {
+        "geonameid": "2177499",
+        "name": "Augathella",
+        "auroraId": "locd139e36e8bee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.88333, -29.28333]
+      },
+      "properties": {
+        "geonameid": "2062197",
+        "name": "Rothsay",
+        "auroraId": "loc4b55e79a87d3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [159.0683, -31.53103]
+      },
+      "properties": {
+        "geonameid": "6930427",
+        "name": "Lord Howe Island",
+        "auroraId": "locb2683140c1e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.83295, -13.82077]
+      },
+      "properties": {
+        "geonameid": "2063339",
+        "name": "Pine Creek",
+        "auroraId": "locb17eadb1c8c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.54584, -18.29199]
+      },
+      "properties": {
+        "geonameid": "2165719",
+        "name": "Georgetown",
+        "auroraId": "loc3f6c237e3fc5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.64241, -14.29527]
+      },
+      "properties": {
+        "geonameid": "8310722",
+        "name": "Kalumburu",
+        "auroraId": "locc3c65a9075db"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.51633, -21.69585]
+      },
+      "properties": {
+        "geonameid": "2073252",
+        "name": "Dajarra",
+        "auroraId": "locfeff82f86eb4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.19896, -13.94558]
+      },
+      "properties": {
+        "geonameid": "2171097",
+        "name": "Coen",
+        "auroraId": "loc9e9fbf70b23d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.39571, -32.06366]
+      },
+      "properties": {
+        "geonameid": "2064952",
+        "name": "Narembeen",
+        "auroraId": "loc3505722e00c0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.1143, -17.67661]
+      },
+      "properties": {
+        "geonameid": "2156641",
+        "name": "Mount Garnet",
+        "auroraId": "loc52aa675fb7ca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.35589, -32.24399]
+      },
+      "properties": {
+        "geonameid": "2146193",
+        "name": "Tottenham",
+        "auroraId": "loc004e26acc9fa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.75487, -32.93062]
+      },
+      "properties": {
+        "geonameid": "2169742",
+        "name": "Cumnock",
+        "auroraId": "locb4bb58e9b5b0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.05145, -9.91639]
+      },
+      "properties": {
+        "geonameid": "11204332",
+        "name": "Mer Island",
+        "auroraId": "loc8c88f4c92a77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.73021, -34.97604]
+      },
+      "properties": {
+        "geonameid": "2059233",
+        "name": "Walpole",
+        "auroraId": "loc9019f0fd0448"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.81667, -25.01667]
+      },
+      "properties": {
+        "geonameid": "2157117",
+        "name": "Moolboolaman",
+        "auroraId": "loca9861d8db0b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.29698, -19.09582]
+      },
+      "properties": {
+        "geonameid": "8348330",
+        "name": "Sturt Creek",
+        "auroraId": "loc1b1325c8746b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.14832, -26.1581]
+      },
+      "properties": {
+        "geonameid": "2077816",
+        "name": "Amata",
+        "auroraId": "locde92a0ea5e03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.84914, -20.98552]
+      },
+      "properties": {
+        "geonameid": "8310676",
+        "name": "Alpurrurulam",
+        "auroraId": "locd36637c79b57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.37819, -11.65766]
+      },
+      "properties": {
+        "geonameid": "8310787",
+        "name": "Warruwi",
+        "auroraId": "loc7dc114b77e2f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.88333, -20.1]
+      },
+      "properties": {
+        "geonameid": "2152046",
+        "name": "Ravenswood",
+        "auroraId": "loc765729a06569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.88333, -32.45]
+      },
+      "properties": {
+        "geonameid": "2069465",
+        "name": "Hyden",
+        "auroraId": "locab18a34c33b8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.38945, -23.27541]
+      },
+      "properties": {
+        "geonameid": "8219791",
+        "name": "Kintore",
+        "auroraId": "loc21230ebdb183"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.06807, -27.15293]
+      },
+      "properties": {
+        "geonameid": "2147854",
+        "name": "Surat",
+        "auroraId": "loc9e371788c776"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.3836, -31.18063]
+      },
+      "properties": {
+        "geonameid": "2057730",
+        "name": "Wyalkatchem",
+        "auroraId": "locdbdf572d47dd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.74435, -33.33565]
+      },
+      "properties": {
+        "geonameid": "2073153",
+        "name": "Darkan",
+        "auroraId": "loc798d16577de7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.88595, -29.6887]
+      },
+      "properties": {
+        "geonameid": "2074866",
+        "name": "Carnamah",
+        "auroraId": "locaf740d6d9d5e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.42503, -31.88813]
+      },
+      "properties": {
+        "geonameid": "2069974",
+        "name": "Hawker",
+        "auroraId": "loc2f41fdac3b65"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.88893, -33.64795]
+      },
+      "properties": {
+        "geonameid": "2072053",
+        "name": "Elliston",
+        "auroraId": "loc8d8657609bd3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.25752, -24.88187]
+      },
+      "properties": {
+        "geonameid": "2147518",
+        "name": "Tambo",
+        "auroraId": "loc4cbcc6945304"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.22029, -37.94792]
+      },
+      "properties": {
+        "geonameid": "2169015",
+        "name": "Derrinallum",
+        "auroraId": "loc90ffd6e9687e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.44156, -29.19085]
+      },
+      "properties": {
+        "geonameid": "2066183",
+        "name": "Mingenew",
+        "auroraId": "loc62b96cb88d77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.3015, -32.90038]
+      },
+      "properties": {
+        "geonameid": "2162548",
+        "name": "Ivanhoe",
+        "auroraId": "loc6faabb766a17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.69555, -13.7425]
+      },
+      "properties": {
+        "geonameid": "8348112",
+        "name": "Nauiyu",
+        "auroraId": "loc0c2c818d5b76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.7244, -25.6375]
+      },
+      "properties": {
+        "geonameid": "2063710",
+        "name": "Peak Hill",
+        "auroraId": "loc5f66a258ad9a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.91216, -23.20451]
+      },
+      "properties": {
+        "geonameid": "7732923",
+        "name": "Papunya",
+        "auroraId": "loc14cf6e1d086c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.54774, -17.74105]
+      },
+      "properties": {
+        "geonameid": "2075336",
+        "name": "Burketown",
+        "auroraId": "loc341def567cc3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.80357, -15.9707]
+      },
+      "properties": {
+        "geonameid": "8348535",
+        "name": "Lakeland",
+        "auroraId": "locb401bb70ad98"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.90935, -22.91139]
+      },
+      "properties": {
+        "geonameid": "2075982",
+        "name": "Boulia",
+        "auroraId": "loc0f0f7cdc4547"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.56989, -33.38529]
+      },
+      "properties": {
+        "geonameid": "2152721",
+        "name": "Pooncarie",
+        "auroraId": "locef26c09e76cf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.62263, -24.46452]
+      },
+      "properties": {
+        "geonameid": "2151201",
+        "name": "Rolleston",
+        "auroraId": "loc9732f5db02b8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.37976, -34.39253]
+      },
+      "properties": {
+        "geonameid": "7290157",
+        "name": "Bremer Bay",
+        "auroraId": "loc5c66856e055f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.21069, -17.02939]
+      },
+      "properties": {
+        "geonameid": "2059811",
+        "name": "Warmun",
+        "auroraId": "loc34a0acd53c51"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.91732, -33.94216]
+      },
+      "properties": {
+        "geonameid": "8358872",
+        "name": "Jerramungup",
+        "auroraId": "locdae32538a4b2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.9031, -31.97257]
+      },
+      "properties": {
+        "geonameid": "2176719",
+        "name": "Barrington",
+        "auroraId": "locbcd4f85f5bfa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.20785, -30.91414]
+      },
+      "properties": {
+        "geonameid": "2065453",
+        "name": "Mukinbudin",
+        "auroraId": "loced1e3f640bb6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.54066, -17.55065]
+      },
+      "properties": {
+        "geonameid": "2072064",
+        "name": "Elliott",
+        "auroraId": "locec09bba5a430"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.90057, -12.01896]
+      },
+      "properties": {
+        "geonameid": "8605988",
+        "name": "Mapoon",
+        "auroraId": "loc0fff39c4ba3c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.319, -18.14658]
+      },
+      "properties": {
+        "geonameid": "10177323",
+        "name": "Mount Surprise",
+        "auroraId": "loc6497cf02f9de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.11745, -16.30007]
+      },
+      "properties": {
+        "geonameid": "12123159",
+        "name": "Lumina",
+        "auroraId": "loc93aac43b6885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.83444, -17.4476]
+      },
+      "properties": {
+        "geonameid": "8219784",
+        "name": "Kalkarindji",
+        "auroraId": "loc0dad6fb8ddf5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.08255, -24.87436]
+      },
+      "properties": {
+        "geonameid": "8219785",
+        "name": "Kaltukatjara",
+        "auroraId": "loc04f488809737"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.63985, -23.64915]
+      },
+      "properties": {
+        "geonameid": "2178011",
+        "name": "Alpha",
+        "auroraId": "loc7a211879023a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.39693, -20.52363]
+      },
+      "properties": {
+        "geonameid": "2153459",
+        "name": "Pentland",
+        "auroraId": "loc13104c56055a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.67013, -23.71576]
+      },
+      "properties": {
+        "geonameid": "2168306",
+        "name": "Duaringa",
+        "auroraId": "loc4a0fae7351ea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.4804, -15.6625]
+      },
+      "properties": {
+        "geonameid": "8310781",
+        "name": "Timber Creek",
+        "auroraId": "locbbefb82220a4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.15125, -16.23571]
+      },
+      "properties": {
+        "geonameid": "2076530",
+        "name": "Birdum",
+        "auroraId": "loc889bddaa6f71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.01798, -40.09127]
+      },
+      "properties": {
+        "geonameid": "2143813",
+        "name": "Whitemark",
+        "auroraId": "locf477ba2a6e46"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.0107, -31.93027]
+      },
+      "properties": {
+        "geonameid": "2063588",
+        "name": "Penong",
+        "auroraId": "loc84efb431061b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.43932, -24.25973]
+      },
+      "properties": {
+        "geonameid": "2162577",
+        "name": "Isisford",
+        "auroraId": "loc585f5c8ef22a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.82391, -27.99498]
+      },
+      "properties": {
+        "geonameid": "2146971",
+        "name": "Thargomindah",
+        "auroraId": "loc187876e52b47"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.24458, -18.2043]
+      },
+      "properties": {
+        "geonameid": "2169869",
+        "name": "Croydon",
+        "auroraId": "loca8b4cc567ae6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.24497, -22.96828]
+      },
+      "properties": {
+        "geonameid": "2177762",
+        "name": "Aramac",
+        "auroraId": "loc33f8ee3bf8da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.23333, -32.56667]
+      },
+      "properties": {
+        "geonameid": "2146426",
+        "name": "Tomingley",
+        "auroraId": "loc428c5e94ea08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.19063, -38.37606]
+      },
+      "properties": {
+        "geonameid": "2149952",
+        "name": "Seaspray",
+        "auroraId": "loc3b3d9365e89e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.89739, -27.42395]
+      },
+      "properties": {
+        "geonameid": "2073404",
+        "name": "Cue",
+        "auroraId": "loc22c85f74420e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.6502, -22.84762]
+      },
+      "properties": {
+        "geonameid": "2172913",
+        "name": "Byfield",
+        "auroraId": "loca52a19ef7d4c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.9679, -30.0985]
+      },
+      "properties": {
+        "geonameid": "2173049",
+        "name": "Burren Junction",
+        "auroraId": "locc7311d651111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.52266, -17.15391]
+      },
+      "properties": {
+        "geonameid": "2171623",
+        "name": "Chillagoe",
+        "auroraId": "loce0a1c151a854"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.52589, -33.75642]
+      },
+      "properties": {
+        "geonameid": "8616650",
+        "name": "Condingup",
+        "auroraId": "loc82507c8287ad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.40299, -35.47167]
+      },
+      "properties": {
+        "geonameid": "2145067",
+        "name": "Wakool",
+        "auroraId": "loc1b141c17bec9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.49958, -15.9828]
+      },
+      "properties": {
+        "geonameid": "8347687",
+        "name": "Baines",
+        "auroraId": "loc53126d97b04e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.84191, -16.45257]
+      },
+      "properties": {
+        "geonameid": "8348386",
+        "name": "Yarralin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.57743, -22.49222]
+      },
+      "properties": {
+        "geonameid": "8349058",
+        "name": "Gibson Desert North"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.9432, -41.64162]
+      },
+      "properties": {
+        "geonameid": "8556188",
+        "name": "Cradle Mountain",
+        "auroraId": "loc362f1186bb21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.75651, -33.568]
+      },
+      "properties": {
+        "geonameid": "2067557",
+        "name": "Lock",
+        "auroraId": "loc0fd70b6791c3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.36667, -21.71667]
+      },
+      "properties": {
+        "geonameid": "2170324",
+        "name": "Corfield",
+        "auroraId": "loc37ec11afe97f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.61911, -21.2632]
+      },
+      "properties": {
+        "geonameid": "8348656",
+        "name": "Willowra",
+        "auroraId": "loc109cd578090a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.18346, -35.26245]
+      },
+      "properties": {
+        "geonameid": "2156087",
+        "name": "Murrayville",
+        "auroraId": "loc61830aa53526"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.3185, -15.94557]
+      },
+      "properties": {
+        "geonameid": "2207363",
+        "name": "Wujal Wujal",
+        "auroraId": "loc7a63f0d76472"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.51022, -30.8199]
+      },
+      "properties": {
+        "geonameid": "2176324",
+        "name": "Bellbrook",
+        "auroraId": "loc97151a21e267"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.36667, -34.33333]
+      },
+      "properties": {
+        "geonameid": "2175783",
+        "name": "Binda",
+        "auroraId": "loc40cef1070821"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.33333, -37.23333]
+      },
+      "properties": {
+        "geonameid": "2168358",
+        "name": "Drummond",
+        "auroraId": "loc3395a1caa799"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.98333, -37.88333]
+      },
+      "properties": {
+        "geonameid": "2175014",
+        "name": "Boisdale",
+        "auroraId": "loca861f6ca2ab3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.68847, -38.66544]
+      },
+      "properties": {
+        "geonameid": "2152690",
+        "name": "Port Albert",
+        "auroraId": "loc8b9f0793f5ab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.88253, -27.3228]
+      },
+      "properties": {
+        "geonameid": "2158235",
+        "name": "Meandarra",
+        "auroraId": "loc7a42a6a6682f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.71667, -37.25]
+      },
+      "properties": {
+        "geonameid": "2147724",
+        "name": "Swifts Creek",
+        "auroraId": "loc78d50d88ce2d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.45032, -23.36723]
+      },
+      "properties": {
+        "geonameid": "8348641",
+        "name": "Burt Plain",
+        "auroraId": "loc4b38c2d9d987"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.38919, -19.75156]
+      },
+      "properties": {
+        "geonameid": "8348098",
+        "name": "Basalt",
+        "auroraId": "loc78c7f00cb3f1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.40792, -9.74956]
+      },
+      "properties": {
+        "geonameid": "8348169",
+        "name": "Masig Island",
+        "auroraId": "loc9a2ad39e3d7e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.5975, -34.56663]
+      },
+      "properties": {
+        "geonameid": "2060774",
+        "name": "Swan Reach",
+        "auroraId": "loc91a393700d50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.40027, -30.59308]
+      },
+      "properties": {
+        "geonameid": "2067820",
+        "name": "Leigh Creek",
+        "auroraId": "locc6d86292226b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.45253, -29.11313]
+      },
+      "properties": {
+        "geonameid": "2165023",
+        "name": "Goodooga",
+        "auroraId": "loc013b7af36a79"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.85, -37.25]
+      },
+      "properties": {
+        "geonameid": "2177043",
+        "name": "Balmoral",
+        "auroraId": "loccd9082fe4b16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.56386, -22.64924]
+      },
+      "properties": {
+        "geonameid": "8347794",
+        "name": "Nyirripi",
+        "auroraId": "loc89dc8b523dd9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.70759, -27.00549]
+      },
+      "properties": {
+        "geonameid": "11746380",
+        "name": "Mimili",
+        "auroraId": "locd2bb8d4e6f2a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.83258, -31.19981]
+      },
+      "properties": {
+        "geonameid": "2057826",
+        "name": "Woomera",
+        "auroraId": "locd07a4f73f008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.43578, -34.40751]
+      },
+      "properties": {
+        "geonameid": "2172225",
+        "name": "Carrathool",
+        "auroraId": "loc26cb59d091a8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.82212, -14.80185]
+      },
+      "properties": {
+        "geonameid": "11353090",
+        "name": "Mitchell Plateau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.34926, -34.11905]
+      },
+      "properties": {
+        "geonameid": "2063032",
+        "name": "Port Neill",
+        "auroraId": "locaf9fbcd9d50a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.31221, -17.77228]
+      },
+      "properties": {
+        "geonameid": "2064077",
+        "name": "Ord River",
+        "auroraId": "locae719be38833"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.84366, -43.1458]
+      },
+      "properties": {
+        "geonameid": "2152685",
+        "name": "Port Arthur",
+        "auroraId": "locbb32e1449ca9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.7752, -36.18742]
+      },
+      "properties": {
+        "geonameid": "2169816",
+        "name": "Cudgewa",
+        "auroraId": "loc8e2916c92321"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.48333, -28.03333]
+      },
+      "properties": {
+        "geonameid": "2174995",
+        "name": "Bollon",
+        "auroraId": "locc0be79de0be9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.53471, -22.1175]
+      },
+      "properties": {
+        "geonameid": "2171500",
+        "name": "Clairview",
+        "auroraId": "loc98bd7da9256a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.80029, -11.75444]
+      },
+      "properties": {
+        "geonameid": "11776181",
+        "name": "Shelburne",
+        "auroraId": "loc8b75c9de8653"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.31094, -26.96251]
+      },
+      "properties": {
+        "geonameid": "11776281",
+        "name": "Iwantja",
+        "auroraId": "locbddbce2028ba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.62196, -33.8764]
+      },
+      "properties": {
+        "geonameid": "2144222",
+        "name": "Weethalle",
+        "auroraId": "loca05149647fb1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.22402, -26.5921]
+      },
+      "properties": {
+        "geonameid": "2058225",
+        "name": "Wiluna",
+        "auroraId": "locd785f9ba7293"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.79333, -25.09804]
+      },
+      "properties": {
+        "geonameid": "11184497",
+        "name": "Arcadia Valley",
+        "auroraId": "loc3b8e1e97fc22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.57507, -25.5862]
+      },
+      "properties": {
+        "geonameid": "2071595",
+        "name": "Finke",
+        "auroraId": "loc58c72742e91e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.48069, -23.65754]
+      },
+      "properties": {
+        "geonameid": "8598900",
+        "name": "Willows",
+        "auroraId": "loc0f6834982039"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.69356, -25.18879]
+      },
+      "properties": {
+        "geonameid": "11749197",
+        "name": "Ghan",
+        "auroraId": "loc101a8c7b9b9e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.76236, -22.54344]
+      },
+      "properties": {
+        "geonameid": "8348362",
+        "name": "Laramba",
+        "auroraId": "loc30e0eeb0e622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.84242, -31.48023]
+      },
+      "properties": {
+        "geonameid": "7506740",
+        "name": "Yalata",
+        "auroraId": "loc94c4d7a0dcfc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.578, -11.149]
+      },
+      "properties": {
+        "geonameid": "8310723",
+        "name": "Minjilang",
+        "auroraId": "locd2d698b6a0f4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.38209, -26.61148]
+      },
+      "properties": {
+        "geonameid": "2142223",
+        "name": "Yuleba",
+        "auroraId": "loccff4bde474bf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.11393, -26.41768]
+      },
+      "properties": {
+        "geonameid": "2156831",
+        "name": "Morven",
+        "auroraId": "locf1f9e2fc7be5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.07511, -24.68023]
+      },
+      "properties": {
+        "geonameid": "8347720",
+        "name": "Titjikala",
+        "auroraId": "locb89bdebe896e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.61751, -20.59702]
+      },
+      "properties": {
+        "geonameid": "8348212",
+        "name": "Seventy Mile",
+        "auroraId": "loca028f441b43c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.57945, -28.72325]
+      },
+      "properties": {
+        "geonameid": "2174764",
+        "name": "Boomi",
+        "auroraId": "locfb099dd064d4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.1875, -9.95655]
+      },
+      "properties": {
+        "geonameid": "11746782",
+        "name": "Mabuiag Island",
+        "auroraId": "loce98c13f115b9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.25, -26.33333]
+      },
+      "properties": {
+        "geonameid": "2168021",
+        "name": "Durong",
+        "auroraId": "loc49cd705b550c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.33333, -34.83333]
+      },
+      "properties": {
+        "geonameid": "2162107",
+        "name": "Jugiong",
+        "auroraId": "loc418868c02148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.13333, -23.6]
+      },
+      "properties": {
+        "geonameid": "2162355",
+        "name": "Jericho",
+        "auroraId": "loc8139ce942ef2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.151, -37.56582]
+      },
+      "properties": {
+        "geonameid": "2172474",
+        "name": "Cann River",
+        "auroraId": "loc218ece9c35a1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.98277, -16.75853]
+      },
+      "properties": {
+        "geonameid": "8348368",
+        "name": "Robinson River",
+        "auroraId": "loc93aac43b6885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.49933, -16.37944]
+      },
+      "properties": {
+        "geonameid": "10281085",
+        "name": "Gibb",
+        "auroraId": "loc8400d27f90e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.18333, -23.91667]
+      },
+      "properties": {
+        "geonameid": "2142877",
+        "name": "Wowan",
+        "auroraId": "locf780e156d998"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.82378, -18.30564]
+      },
+      "properties": {
+        "geonameid": "11776538",
+        "name": "Pamayu",
+        "auroraId": "loc458634711fb8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.62564, -42.7548]
+      },
+      "properties": {
+        "geonameid": "8219802",
+        "name": "Maydena",
+        "auroraId": "loc903748aad8c8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.77693, -28.90431]
+      },
+      "properties": {
+        "geonameid": "2142293",
+        "name": "Yetman",
+        "auroraId": "loc46ffa0c908a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.01016, -29.43391]
+      },
+      "properties": {
+        "geonameid": "2146661",
+        "name": "Tibooburra",
+        "auroraId": "loc9de1bae43caf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.30904, -25.29892]
+      },
+      "properties": {
+        "geonameid": "2170102",
+        "name": "Cracow",
+        "auroraId": "loc9fb848dc7ad2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.17205, -26.16106]
+      },
+      "properties": {
+        "geonameid": "11746732",
+        "name": "Pipalyatjara",
+        "auroraId": "locad418561d91e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.08862, -30.8521]
+      },
+      "properties": {
+        "geonameid": "2143839",
+        "name": "White Cliffs",
+        "auroraId": "loc5577c48cb8b4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.7876, -34.0124]
+      },
+      "properties": {
+        "geonameid": "2152314",
+        "name": "Quandialla",
+        "auroraId": "loc5173a19f9111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.28957, -19.62383]
+      },
+      "properties": {
+        "geonameid": "11745899",
+        "name": "Dotswood",
+        "auroraId": "loc839119753983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.95964, -32.92784]
+      },
+      "properties": {
+        "geonameid": "2171494",
+        "name": "Clandulla",
+        "auroraId": "loc82dcf6c6d63d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.08153, -14.1555]
+      },
+      "properties": {
+        "geonameid": "8310765",
+        "name": "Peppimenarti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.27262, -24.08506]
+      },
+      "properties": {
+        "geonameid": "8348390",
+        "name": "Areyonga",
+        "auroraId": "locf40e2bdef24a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.21475, -41.5159]
+      },
+      "properties": {
+        "geonameid": "11746327",
+        "name": "Savage River",
+        "auroraId": "loc943e1f39604f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.63333, -32.98333]
+      },
+      "properties": {
+        "geonameid": "2062008",
+        "name": "Salmon Gums",
+        "auroraId": "loc560f052e64cf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.2659, -29.81958]
+      },
+      "properties": {
+        "geonameid": "8310701",
+        "name": "Eneabba",
+        "auroraId": "loc2dd377e94ef1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.83, -31.3495]
+      },
+      "properties": {
+        "geonameid": "2147521",
+        "name": "Tambar Springs",
+        "auroraId": "loc4e0f1850dd66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.88333, -22.81667]
+      },
+      "properties": {
+        "geonameid": "2158692",
+        "name": "Marlborough",
+        "auroraId": "loc614540415a0a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.06858, -10.05082]
+      },
+      "properties": {
+        "geonameid": "8348199",
+        "name": "Poruma Island",
+        "auroraId": "loc8be306b435a7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.58651, -20.64027]
+      },
+      "properties": {
+        "geonameid": "8348624",
+        "name": "Canteen Creek",
+        "auroraId": "loc079946df3599"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.88834, -31.67694]
+      },
+      "properties": {
+        "geonameid": "2071828",
+        "name": "Eucla",
+        "auroraId": "loc4a95e73f4db7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.43495, -31.98649]
+      },
+      "properties": {
+        "geonameid": "2071287",
+        "name": "Fowlers Bay",
+        "auroraId": "loc8c4d02cf2dfb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.33565, -30.31155]
+      },
+      "properties": {
+        "geonameid": "8630807",
+        "name": "Arkaroola Village",
+        "auroraId": "loce6fc74242c04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.86299, -30.44854]
+      },
+      "properties": {
+        "geonameid": "2076986",
+        "name": "Beacon",
+        "auroraId": "loce1f20054cde7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.96928, -37.84518]
+      },
+      "properties": {
+        "geonameid": "2155164",
+        "name": "Noojee",
+        "auroraId": "loc4b6f885b33aa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.27318, -23.26642]
+      },
+      "properties": {
+        "geonameid": "11747104",
+        "name": "Mount Liebig",
+        "auroraId": "loc98780cdc40bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.73673, -32.13552]
+      },
+      "properties": {
+        "geonameid": "2157558",
+        "name": "Mingary",
+        "auroraId": "locba3f7f2c7ac2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.68333, -30.46667]
+      },
+      "properties": {
+        "geonameid": "2172312",
+        "name": "Carinda",
+        "auroraId": "loc963a35d9e907"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.45641, -22.80309]
+      },
+      "properties": {
+        "geonameid": "8348638",
+        "name": "Engawala",
+        "auroraId": "locfb64fb83e7bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.6566, -25.42224]
+      },
+      "properties": {
+        "geonameid": "2143412",
+        "name": "Windorah",
+        "auroraId": "locfd35c52121b5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.5512, -30.3485]
+      },
+      "properties": {
+        "geonameid": "2169144",
+        "name": "Deer Vale",
+        "auroraId": "loc3f70d42d0be6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.0339, -33.09389]
+      },
+      "properties": {
+        "geonameid": "2064783",
+        "name": "Newdegate",
+        "auroraId": "loc1b7fd8eb5577"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.63017, -27.95582]
+      },
+      "properties": {
+        "geonameid": "2077977",
+        "name": "Ajana",
+        "auroraId": "loc9e7f6e8294a1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.9675, -30.61011]
+      },
+      "properties": {
+        "geonameid": "2164145",
+        "name": "Gwabegar",
+        "auroraId": "locac77ca6c5ec7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.7, -33.35]
+      },
+      "properties": {
+        "geonameid": "2176458",
+        "name": "Bedgerebong",
+        "auroraId": "loc8211b0fe7983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.3161, -32.06389]
+      },
+      "properties": {
+        "geonameid": "2154677",
+        "name": "Nymagee",
+        "auroraId": "loc5edfd394d3e1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.71667, -31.75]
+      },
+      "properties": {
+        "geonameid": "2069815",
+        "name": "Higginsville",
+        "auroraId": "locb5889fd87f6e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.84713, -29.32227]
+      },
+      "properties": {
+        "geonameid": "2167300",
+        "name": "Enngonia",
+        "auroraId": "loc9f6e29ba3f26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.14509, -29.70296]
+      },
+      "properties": {
+        "geonameid": "2144817",
+        "name": "Wanaaring",
+        "auroraId": "locf955b55096df"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.96215, -35.16647]
+      },
+      "properties": {
+        "geonameid": "8614532",
+        "name": "Oallen",
+        "auroraId": "loc21e5abe47ad0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.07098, -29.65121]
+      },
+      "properties": {
+        "geonameid": "2066901",
+        "name": "Marree",
+        "auroraId": "loc77bc8792791f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.46528, -24.3637]
+      },
+      "properties": {
+        "geonameid": "2076914",
+        "name": "Bedourie",
+        "auroraId": "loc122afff6324a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.73933, -27.7434]
+      },
+      "properties": {
+        "geonameid": "2162701",
+        "name": "Innamincka",
+        "auroraId": "locfae006098840"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.42444, -30.72593]
+      },
+      "properties": {
+        "geonameid": "8648473",
+        "name": "Cundeelee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.46396, -14.6641]
+      },
+      "properties": {
+        "geonameid": "10627033",
+        "name": "Lizard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.71477, -31.51748]
+      },
+      "properties": {
+        "geonameid": "2154793",
+        "name": "Nowendoc",
+        "auroraId": "locef5d497ceda2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.86369, -33.7102]
+      },
+      "properties": {
+        "geonameid": "11745914",
+        "name": "Munglinup",
+        "auroraId": "loc026581c7d572"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.0514, -26.04674]
+      },
+      "properties": {
+        "geonameid": "8635585",
+        "name": "Tansey",
+        "auroraId": "loc67e4180ea3e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.975, -35.241]
+      },
+      "properties": {
+        "geonameid": "2066949",
+        "name": "Marion Bay",
+        "auroraId": "locbe880eeb23d0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.31667, -31.81667]
+      },
+      "properties": {
+        "geonameid": "2167508",
+        "name": "Ellerston",
+        "auroraId": "locbdb5ded1b100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.8972, -35.92837]
+      },
+      "properties": {
+        "geonameid": "8556197",
+        "name": "Karatta",
+        "auroraId": "loc725320e7ab1a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.06158, -24.8331]
+      },
+      "properties": {
+        "geonameid": "2162054",
+        "name": "Jundah",
+        "auroraId": "loc0adb998e4ff6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.62664, -34.02414]
+      },
+      "properties": {
+        "geonameid": "11745845",
+        "name": "Jalbarragup",
+        "auroraId": "locd9513c703858"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.68934, -29.25924]
+      },
+      "properties": {
+        "geonameid": "2063735",
+        "name": "Paynes Find",
+        "auroraId": "loc8aa1eda9924b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.81612, -27.40305]
+      },
+      "properties": {
+        "geonameid": "11746663",
+        "name": "Durham",
+        "auroraId": "locc25aa292eddf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.97624, -26.64313]
+      },
+      "properties": {
+        "geonameid": "2168392",
+        "name": "Drillham",
+        "auroraId": "loca1daa13892d0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.98049, -27.24778]
+      },
+      "properties": {
+        "geonameid": "2142804",
+        "name": "Wyandra",
+        "auroraId": "locae8a6b7ef728"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.59927, -34.38874]
+      },
+      "properties": {
+        "geonameid": "8611963",
+        "name": "Werrimull",
+        "auroraId": "loc0d610362fa92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.05573, -22.14337]
+      },
+      "properties": {
+        "geonameid": "11776216",
+        "name": "Stanage",
+        "auroraId": "loc6a55b0f322be"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.98333, -33.83333]
+      },
+      "properties": {
+        "geonameid": "2065262",
+        "name": "Muradup",
+        "auroraId": "loca09c3e723a15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.95749, -26.89493]
+      },
+      "properties": {
+        "geonameid": "8651799",
+        "name": "Murchison",
+        "auroraId": "locab67768125b5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.05596, -31.15971]
+      },
+      "properties": {
+        "geonameid": "2059130",
+        "name": "Wannamal",
+        "auroraId": "loc49ca4157f3f7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.20907, -25.04995]
+      },
+      "properties": {
+        "geonameid": "2071067",
+        "name": "Gascoyne Junction",
+        "auroraId": "loc96cfa2f47428"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.35173, -25.898]
+      },
+      "properties": {
+        "geonameid": "2076533",
+        "name": "Birdsville",
+        "auroraId": "loc0c7c57b906ad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.29732, -27.98682]
+      },
+      "properties": {
+        "geonameid": "2061927",
+        "name": "Sandstone",
+        "auroraId": "loc9b0d86e54eeb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.30143, -29.13308]
+      },
+      "properties": {
+        "geonameid": "2169924",
+        "name": "Croppa Creek",
+        "auroraId": "loc82b470ac72bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.32559, -29.66255]
+      },
+      "properties": {
+        "geonameid": "11747686",
+        "name": "Mallowa",
+        "auroraId": "loc02634b305072"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.45, -34.3]
+      },
+      "properties": {
+        "geonameid": "2063316",
+        "name": "Pinery",
+        "auroraId": "locb7ad7b0760ee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.02853, -29.69393]
+      },
+      "properties": {
+        "geonameid": "2066505",
+        "name": "Menzies",
+        "auroraId": "loc55dba97f453b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.35, -35.76667]
+      },
+      "properties": {
+        "geonameid": "2170344",
+        "name": "Coreen",
+        "auroraId": "loc65a70f5b44fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.44905, -27.55143]
+      },
+      "properties": {
+        "geonameid": "2064144",
+        "name": "Oodnadatta",
+        "auroraId": "loc9f9ef5bea7b2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.21437, -16.78724]
+      },
+      "properties": {
+        "geonameid": "8348616",
+        "name": "Pigeon Hole",
+        "auroraId": "loce62e9f394b41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4925, -29.33167]
+      },
+      "properties": {
+        "geonameid": "2068287",
+        "name": "Kookynie",
+        "auroraId": "loca2fd1d536845"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.55, -32.58333]
+      },
+      "properties": {
+        "geonameid": "2057192",
+        "name": "Yunta",
+        "auroraId": "loc57301df15fcc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.04708, -28.15991]
+      },
+      "properties": {
+        "geonameid": "2167148",
+        "name": "Eulo",
+        "auroraId": "loc11ef949dddae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.26641, -26.67063]
+      },
+      "properties": {
+        "geonameid": "2167246",
+        "name": "Eromanga",
+        "auroraId": "locd4ea0016d6fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.76667, -23.25]
+      },
+      "properties": {
+        "geonameid": "2154234",
+        "name": "Opalton",
+        "auroraId": "loc03defa946bed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.01058, -34.51054]
+      },
+      "properties": {
+        "geonameid": "8625913",
+        "name": "Rocky Gully",
+        "auroraId": "locbedde106f78f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.07131, -27.76827]
+      },
+      "properties": {
+        "geonameid": "2148879",
+        "name": "Southwood",
+        "auroraId": "loc40b23642c6a5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.8314, -20.83861]
+      },
+      "properties": {
+        "geonameid": "2058549",
+        "name": "Whim Creek",
+        "auroraId": "loceb6d61149114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.70344, -41.98964]
+      },
+      "properties": {
+        "geonameid": "2157717",
+        "name": "Miena",
+        "auroraId": "locfa44b170c6ef"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.99919, -21.48331]
+      },
+      "properties": {
+        "geonameid": "8347833",
+        "name": "Tara",
+        "auroraId": "loccd490cb6d217"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.51667, -32.4]
+      },
+      "properties": {
+        "geonameid": "2058106",
+        "name": "Wirrulla",
+        "auroraId": "loc127d603df611"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.46799, -33.72991]
+      },
+      "properties": {
+        "geonameid": "11776399",
+        "name": "West River",
+        "auroraId": "loca8bfc7a7c326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.67552, -33.08593]
+      },
+      "properties": {
+        "geonameid": "2068009",
+        "name": "Lake King",
+        "auroraId": "loc606c484562a9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.63067, -28.19116]
+      },
+      "properties": {
+        "geonameid": "11776419",
+        "name": "Wyaga",
+        "auroraId": "loce3a6822fa87f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5, -21.53333]
+      },
+      "properties": {
+        "geonameid": "2149900",
+        "name": "Selwyn",
+        "auroraId": "loceebea0801484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.11394, -30.50403]
+      },
+      "properties": {
+        "geonameid": "2161307",
+        "name": "Kingstown",
+        "auroraId": "loc97297ea17110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.49912, -12.76175]
+      },
+      "properties": {
+        "geonameid": "11745896",
+        "name": "Dundee Downs",
+        "auroraId": "loca11bdfc7ddeb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.2963, -24.64171]
+      },
+      "properties": {
+        "geonameid": "11776410",
+        "name": "Mungabunda",
+        "auroraId": "locd92342d322b7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.09095, -32.03704]
+      },
+      "properties": {
+        "geonameid": "11001920",
+        "name": "Cocklebiddy",
+        "auroraId": "loc992164394f0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.4724, -34.71438]
+      },
+      "properties": {
+        "geonameid": "11776421",
+        "name": "Green Range",
+        "auroraId": "loc951a8a6ab33c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.55, -22.6]
+      },
+      "properties": {
+        "geonameid": "2156024",
+        "name": "Muttaburra",
+        "auroraId": "loc6b745fb4c112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.07091, -22.31737]
+      },
+      "properties": {
+        "geonameid": "11747051",
+        "name": "Lotus Creek",
+        "auroraId": "loc2189f3f2c252"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.7, -33.16667]
+      },
+      "properties": {
+        "geonameid": "2063038",
+        "name": "Port Kenny",
+        "auroraId": "locd308173d1f7e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.9053, -32.87624]
+      },
+      "properties": {
+        "geonameid": "2072500",
+        "name": "Dudinin",
+        "auroraId": "loc8dc7175c8b2b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.71489, -31.02945]
+      },
+      "properties": {
+        "geonameid": "2170654",
+        "name": "Coolabah",
+        "auroraId": "loc55458305128c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.60083, -25.90732]
+      },
+      "properties": {
+        "geonameid": "2178285",
+        "name": "Adavale",
+        "auroraId": "loc790fa55d1c0a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.31977, -31.41892]
+      },
+      "properties": {
+        "geonameid": "2142459",
+        "name": "Yarras",
+        "auroraId": "locd15d2b03c332"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.92193, -29.24275]
+      },
+      "properties": {
+        "geonameid": "2144213",
+        "name": "Weilmoringle",
+        "auroraId": "locf618d0dfa3aa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.28727, -24.35463]
+      },
+      "properties": {
+        "geonameid": "2148267",
+        "name": "Stonehenge",
+        "auroraId": "locfa605c1c3176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.33333, -21.38333]
+      },
+      "properties": {
+        "geonameid": "2156688",
+        "name": "Mount Coolon",
+        "auroraId": "locb89b2a1925bb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.27948, -35.75236]
+      },
+      "properties": {
+        "geonameid": "11746932",
+        "name": "Tinderry",
+        "auroraId": "loc6992e605ac71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.91417, -25.08501]
+      },
+      "properties": {
+        "geonameid": "12060234",
+        "name": "Gibson Desert South",
+        "auroraId": "loc6c62c8091639"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.98888, -26.99723]
+      },
+      "properties": {
+        "geonameid": "11747132",
+        "name": "Mount Binga",
+        "auroraId": "loc907ad15f970c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.68956, -31.11745]
+      },
+      "properties": {
+        "geonameid": "2076346",
+        "name": "Blinman",
+        "auroraId": "loc5db46885585c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.8953, -27.99618]
+      },
+      "properties": {
+        "geonameid": "2073613",
+        "name": "Cosmo Newbery",
+        "auroraId": "loc314c0d485b26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.29075, -21.46233]
+      },
+      "properties": {
+        "geonameid": "11776358",
+        "name": "Piturie",
+        "auroraId": "loc5820c072e621"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.38389, -19.71031]
+      },
+      "properties": {
+        "geonameid": "8556017",
+        "name": "Gunpowder",
+        "auroraId": "loc2951b5ba47b8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.85761, -31.21732]
+      },
+      "properties": {
+        "geonameid": "11776414",
+        "name": "Marthaguy",
+        "auroraId": "loc92dd4ad0dc9a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.81667, -21.26667]
+      },
+      "properties": {
+        "geonameid": "2148540",
+        "name": "Stamford",
+        "auroraId": "loc3f4fde39dc0c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.81667, -34]
+      },
+      "properties": {
+        "geonameid": "2152677",
+        "name": "Porters Retreat",
+        "auroraId": "locc3579bfcfc70"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.11605, -30.53876]
+      },
+      "properties": {
+        "geonameid": "2159502",
+        "name": "Louth",
+        "auroraId": "loc03ed0c1c5f09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44567, -29.75869]
+      },
+      "properties": {
+        "geonameid": "2067914",
+        "name": "Latham",
+        "auroraId": "loc6666b8ae7bcf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.1619, -19.82554]
+      },
+      "properties": {
+        "geonameid": "11776215",
+        "name": "Three Rivers",
+        "auroraId": "loc9a4d0f770ec9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.31116, -33.50361]
+      },
+      "properties": {
+        "geonameid": "11749210",
+        "name": "Arumpo",
+        "auroraId": "locd4c3841dcc21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.4273, -29.7515]
+      },
+      "properties": {
+        "geonameid": "2166359",
+        "name": "Fords Bridge",
+        "auroraId": "loc2bef51870c10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.56192, -22.67853]
+      },
+      "properties": {
+        "geonameid": "8597535",
+        "name": "Chorregon",
+        "auroraId": "locb8bc91c4b9c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.31499, -30.85876]
+      },
+      "properties": {
+        "geonameid": "11746871",
+        "name": "The Marra",
+        "auroraId": "locb29f979bbe74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [133.21519, -15.57699]
+      },
+      "properties": {
+        "geonameid": "11748790",
+        "name": "Larrimah",
+        "auroraId": "loc0a49871cb62b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.7271, -26.0395]
+      },
+      "properties": {
+        "geonameid": "12534816",
+        "name": "Langlo",
+        "auroraId": "loc5de3ca6719b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.41653, -30.93558]
+      },
+      "properties": {
+        "geonameid": "2146616",
+        "name": "Tilpa",
+        "auroraId": "loc9b486320ba45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.23333, -21.75]
+      },
+      "properties": {
+        "geonameid": "2147469",
+        "name": "Tangorin",
+        "auroraId": "loc165387b02683"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.32547, -27.49466]
+      },
+      "properties": {
+        "geonameid": "11747633",
+        "name": "Begonia",
+        "auroraId": "loc950a21b73c24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.9, -21.58333]
+      },
+      "properties": {
+        "geonameid": "2160882",
+        "name": "Kynuna",
+        "auroraId": "loc1efb23136c03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.40119, -30.66057]
+      },
+      "properties": {
+        "geonameid": "2172885",
+        "name": "Byrock",
+        "auroraId": "locb33038501da1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.18333, -33.4]
+      },
+      "properties": {
+        "geonameid": "2074112",
+        "name": "Collie Burn",
+        "auroraId": "loc0cfd0b7c7056"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.49393, -32.27343]
+      },
+      "properties": {
+        "geonameid": "8616759",
+        "name": "Caiguna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.26667, -30.03333]
+      },
+      "properties": {
+        "geonameid": "2151382",
+        "name": "Rocky Creek",
+        "auroraId": "loc91dca446d2f9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.28474, -30.06648]
+      },
+      "properties": {
+        "geonameid": "2071679",
+        "name": "Farina",
+        "auroraId": "loc36e38fd681a4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.33546, -22.2404]
+      },
+      "properties": {
+        "geonameid": "8288527",
+        "name": "Wittenoom",
+        "auroraId": "loc6407f14c9185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.88548, -25.99799]
+      },
+      "properties": {
+        "geonameid": "11747663",
+        "name": "Forestvale",
+        "auroraId": "loc7e8c1c32b88c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.73333, -34.71667]
+      },
+      "properties": {
+        "geonameid": "2153727",
+        "name": "Paruna",
+        "auroraId": "loc0d1e28dcfb8e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [148.64798, -37.16704]
+      },
+      "properties": {
+        "geonameid": "2174954",
+        "name": "Bonang",
+        "auroraId": "loc5899edefdaff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.36866, -27.52388]
+      },
+      "properties": {
+        "geonameid": "11747225",
+        "name": "Teelba",
+        "auroraId": "locdc84c0b14133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.35123, -34.12406]
+      },
+      "properties": {
+        "geonameid": "2075946",
+        "name": "Bower",
+        "auroraId": "loc55aacbd47fe0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.39733, -29.97694]
+      },
+      "properties": {
+        "geonameid": "11776536",
+        "name": "Goodlands",
+        "auroraId": "locc82b22aecac6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.8, -36.8]
+      },
+      "properties": {
+        "geonameid": "2172738",
+        "name": "Callawadda",
+        "auroraId": "locabef68aaba40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.11419, -22.24656]
+      },
+      "properties": {
+        "geonameid": "11776446",
+        "name": "Frankfield",
+        "auroraId": "locd6ae4065a07f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.63333, -28.65]
+      },
+      "properties": {
+        "geonameid": "2153192",
+        "name": "Pikedale",
+        "auroraId": "locaa8caad9c8ae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.65115, -37.85798]
+      },
+      "properties": {
+        "geonameid": "8577641",
+        "name": "Chatsworth",
+        "auroraId": "loc973da3f2ca29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.72741, -33.75007]
+      },
+      "properties": {
+        "geonameid": "11748366",
+        "name": "Anabranch South",
+        "auroraId": "loc8fb4f5d64c10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.40597, -32.67216]
+      },
+      "properties": {
+        "geonameid": "2069696",
+        "name": "Holt Rock",
+        "auroraId": "loca0a4c010a0ae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.23175, -31.77546]
+      },
+      "properties": {
+        "geonameid": "11776203",
+        "name": "Little Topar",
+        "auroraId": "loc66cf000d3819"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.86667, -18.15]
+      },
+      "properties": {
+        "geonameid": "2165605",
+        "name": "Gilbert River",
+        "auroraId": "loc4b996ebfa425"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.69873, -23.50249]
+      },
+      "properties": {
+        "geonameid": "11749086",
+        "name": "Maneroo",
+        "auroraId": "locb8bc91c4b9c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.02557, -24.51776]
+      },
+      "properties": {
+        "geonameid": "11749250",
+        "name": "Mantuan Downs",
+        "auroraId": "loc03c2ec5dcf24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.15727, -23.10583]
+      },
+      "properties": {
+        "geonameid": "11776560",
+        "name": "Peak Vale",
+        "auroraId": "locfa3a3309275c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.10245, -34.1936]
+      },
+      "properties": {
+        "geonameid": "2154049",
+        "name": "Oxley",
+        "auroraId": "loc7e16c4f91337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.52144, -28.18227]
+      },
+      "properties": {
+        "geonameid": "11747691",
+        "name": "North Bungunya",
+        "auroraId": "loccead3f35f54d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.38856, -31.12015]
+      },
+      "properties": {
+        "geonameid": "11776173",
+        "name": "Mutawintji",
+        "auroraId": "loc4fc200708e5d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.15164, -36.3573]
+      },
+      "properties": {
+        "geonameid": "11776551",
+        "name": "Petherick",
+        "auroraId": "loc4ab7c55055fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.33021, -31.01147]
+      },
+      "properties": {
+        "geonameid": "2062657",
+        "name": "Rawlinna",
+        "auroraId": "loc242aa15a1e7c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.40704, -28.99628]
+      },
+      "properties": {
+        "geonameid": "2162928",
+        "name": "Hungerford",
+        "auroraId": "locedc183637a51"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.52402, -38.85254]
+      },
+      "properties": {
+        "geonameid": "2172414",
+        "name": "Cape Otway",
+        "auroraId": "loc79b769d86937"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.43618, -27.2354]
+      },
+      "properties": {
+        "geonameid": "11748940",
+        "name": "Bargunyah",
+        "auroraId": "locc96690d1ca1b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.63, -27.78897]
+      },
+      "properties": {
+        "geonameid": "11776590",
+        "name": "Nockatunga",
+        "auroraId": "loca0311c114248"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.11958, -26.16407]
+      },
+      "properties": {
+        "geonameid": "11748539",
+        "name": "Kanpi",
+        "auroraId": "loc08a5941afd7b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.35155, -28.90444]
+      },
+      "properties": {
+        "geonameid": "8630363",
+        "name": "William Creek",
+        "auroraId": "loc77561c69e713"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.0012, -29.3457]
+      },
+      "properties": {
+        "geonameid": "2142563",
+        "name": "Yantabulla",
+        "auroraId": "loc662c670fbeab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.17908, -36.1437]
+      },
+      "properties": {
+        "geonameid": "2157273",
+        "name": "Mologa",
+        "auroraId": "loc35493747f875"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.45633, -29.50042]
+      },
+      "properties": {
+        "geonameid": "2172505",
+        "name": "Cangai",
+        "auroraId": "loc9965de0bb08f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.88055, -32.83899]
+      },
+      "properties": {
+        "geonameid": "8613787",
+        "name": "Mount Hope",
+        "auroraId": "locf1d82c6fa27d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.98333, -27.91667]
+      },
+      "properties": {
+        "geonameid": "2068842",
+        "name": "Kalamurina",
+        "auroraId": "loc7175407c9b77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [147.44867, -26.76496]
+      },
+      "properties": {
+        "geonameid": "11748808",
+        "name": "Mungallala South",
+        "auroraId": "loc23214d3c2bd0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.85, -21.36667]
+      },
+      "properties": {
+        "geonameid": "2072521",
+        "name": "Duchess",
+        "auroraId": "loc86c2274ba061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.17694, -30.52464]
+      },
+      "properties": {
+        "geonameid": "2075361",
+        "name": "Burakin",
+        "auroraId": "loc2f1689667a65"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.93032, -33.39995]
+      },
+      "properties": {
+        "geonameid": "2171479",
+        "name": "Clare",
+        "auroraId": "loc291ab9be67bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.39363, -26.15313]
+      },
+      "properties": {
+        "geonameid": "11748945",
+        "name": "Clifford",
+        "auroraId": "loce92a75dd635d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.27212, -28.38566]
+      },
+      "properties": {
+        "geonameid": "11747960",
+        "name": "Dynevor",
+        "auroraId": "loc187876e52b47"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.39986, -32.62738]
+      },
+      "properties": {
+        "geonameid": "11776438",
+        "name": "Eremerang",
+        "auroraId": "loc178b60c7f4b4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.30864, -31.20764]
+      },
+      "properties": {
+        "geonameid": "2076075",
+        "name": "Boorabbin",
+        "auroraId": "locea4e2d4e6c1b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [152.0096, -30.1318]
+      },
+      "properties": {
+        "geonameid": "2144678",
+        "name": "Wards Mistake",
+        "auroraId": "loc04f4a3a04f73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.62163, -22.62154]
+      },
+      "properties": {
+        "geonameid": "11776207",
+        "name": "Upland",
+        "auroraId": "loc33f8ee3bf8da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.1055, -33.68928]
+      },
+      "properties": {
+        "geonameid": "11776545",
+        "name": "Boyatup",
+        "auroraId": "loc2c9d731728d4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.96667, -32.76667]
+      },
+      "properties": {
+        "geonameid": "2068715",
+        "name": "Karcultaby",
+        "auroraId": "loc595ab72d52ed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.03333, -34.83333]
+      },
+      "properties": {
+        "geonameid": "2078286",
+        "name": "Windy Harbour",
+        "auroraId": "loc79e36a104129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.2245, -35.93601]
+      },
+      "properties": {
+        "geonameid": "2168176",
+        "name": "Dumosa",
+        "auroraId": "loc1300d397268b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.46444, -26.64264]
+      },
+      "properties": {
+        "geonameid": "2170647",
+        "name": "Cooladdi",
+        "auroraId": "locc88b25a3da3e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.22931, -28.70301]
+      },
+      "properties": {
+        "geonameid": "11748129",
+        "name": "Noorama",
+        "auroraId": "loce4501052ef07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.29161, -31.78064]
+      },
+      "properties": {
+        "geonameid": "11748853",
+        "name": "South Yilgarn",
+        "auroraId": "loc0b761cb6a0eb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.18973, -23.55577]
+      },
+      "properties": {
+        "geonameid": "11749020",
+        "name": "Vergemont",
+        "auroraId": "locb8bc91c4b9c7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.72115, -30.6087]
+      },
+      "properties": {
+        "geonameid": "11749290",
+        "name": "Gunderbooka",
+        "auroraId": "locd9e657a13bfd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.78572, -26.12015]
+      },
+      "properties": {
+        "geonameid": "11748133",
+        "name": "Kragra",
+        "auroraId": "loca8186f46af3b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.2535, -30.88764]
+      },
+      "properties": {
+        "geonameid": "11749220",
+        "name": "Broughams Gate",
+        "auroraId": "loc9ad915ef028d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.05726, -28.25308]
+      },
+      "properties": {
+        "geonameid": "2057201",
+        "name": "Yuna",
+        "auroraId": "loc8c5e89999ca4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.31567, -30.91719]
+      },
+      "properties": {
+        "geonameid": "2068444",
+        "name": "Kingoonya",
+        "auroraId": "loc7ae1941f89eb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.31355, -15.11393]
+      },
+      "properties": {
+        "geonameid": "8606331",
+        "name": "Dixie",
+        "auroraId": "loc2b00169260bd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [149.1549, -23.1316]
+      },
+      "properties": {
+        "geonameid": "11748873",
+        "name": "Bingegang",
+        "auroraId": "locb15fdfe8a83e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [143.28333, -19.8]
+      },
+      "properties": {
+        "geonameid": "2143007",
+        "name": "Woolgar",
+        "auroraId": "locf0e5932a6144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135.70403, -13.92927]
+      },
+      "properties": {
+        "geonameid": "8348369",
+        "name": "Numburindi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.72642, -30.99508]
+      },
+      "properties": {
+        "geonameid": "11748287",
+        "name": "Warrachuppin",
+        "auroraId": "loca2016d077bd0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.24716, -33.63542]
+      },
+      "properties": {
+        "geonameid": "11776432",
+        "name": "Burra Eastern Districts",
+        "auroraId": "loc1a7c57a88c87"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.87104, -31.01347]
+      },
+      "properties": {
+        "geonameid": "2075523",
+        "name": "Bulla Bulling",
+        "auroraId": "locd6e73cd1a7cb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.06187, -30.37699]
+      },
+      "properties": {
+        "geonameid": "2064092",
+        "name": "Ora Banda",
+        "auroraId": "loc81af781183a2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.5517, -22.35135]
+      },
+      "properties": {
+        "geonameid": "2157749",
+        "name": "Middleton",
+        "auroraId": "loc3f9aaff4d548"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.3944, -28.709]
+      },
+      "properties": {
+        "geonameid": "11748931",
+        "name": "Cuttaburra",
+        "auroraId": "loc304c42aee58f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.27822, -31.00881]
+      },
+      "properties": {
+        "geonameid": "11749103",
+        "name": "Kerrigundi",
+        "auroraId": "loccf0e64395d17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150.93254, -33.21377]
+      },
+      "properties": {
+        "geonameid": "11776586",
+        "name": "Higher Macdonald",
+        "auroraId": "locc10656da6de4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.69684, -28.46237]
+      },
+      "properties": {
+        "geonameid": "8348290",
+        "name": "Houtman Abrolhos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.04402, -33.70327]
+      },
+      "properties": {
+        "geonameid": "2158179",
+        "name": "Melbergen",
+        "auroraId": "locbd433de58ed0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.23059, -30.53671]
+      },
+      "properties": {
+        "geonameid": "2068101",
+        "name": "Kurnalpi",
+        "auroraId": "locac94ac1f2430"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [144.69609, -41.22853]
+      },
+      "properties": {
+        "geonameid": "2147151",
+        "name": "Temma",
+        "auroraId": "locf2e7f01a6edc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [146.66667, -36.8]
+      },
+      "properties": {
+        "geonameid": "2169453",
+        "name": "Dandongadale",
+        "auroraId": "loc0fabb2d42502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.9224, -25.01157]
+      },
+      "properties": {
+        "geonameid": "8349367",
+        "name": "Simpson"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.79772, -16.54382]
+      },
+      "properties": {
+        "geonameid": "8606735",
+        "name": "Town of Top Springs",
+        "auroraId": "locc85511b148b6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.38725, -26.19765]
+      },
+      "properties": {
+        "geonameid": "11072321",
+        "name": "Carbla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.74234, -17.86015]
+      },
+      "properties": {
+        "geonameid": "11746631",
+        "name": "Blackbull",
+        "auroraId": "loce2738e868c79"
+      }
+    }
+  ]
+}

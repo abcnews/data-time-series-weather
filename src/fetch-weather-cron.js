@@ -88,10 +88,6 @@ async function fetchWeatherForLocation(location) {
     fetchTime: new Date().toISOString(),
     ...data,
   });
-  await fs.writeFile(
-    path.resolve(__dirname, "../data/taketheweather.json"),
-    JSON.stringify(res, null, 2)
-  );
   return res;
 }
 

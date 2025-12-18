@@ -53,11 +53,11 @@ export function getTimeSeriesForColumn({ column = "tempC" }) {
 
     return {
       timestamps: uniqueBuckets,
-      [column]: series,
+      series,
     };
   } catch (e) {
     console.error(`❌ Error generating time-boxed series: ${e.message}`);
-    return { timestamps: [], [column]: {} };
+    return { timestamps: [], series: {} };
   }
 }
 

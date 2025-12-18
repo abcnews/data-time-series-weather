@@ -4,12 +4,18 @@
     "fetch:geonames": "rm data/AU.txt data/AU.zip;cd data&&wget https://download.geonames.org/export/dump/AU.zip && unzip AU.zip",
     "process:geonames-to-geojson": "node src/geonames-to-geojson.js",
     "fetch:aurora-ids": "node src/fetch-aurora-ids.js",
-    "fetch:weather-cron": "node src/fetch-weather-cron.js"
+    "fetch:weather-cron": "node src/fetch-weather-cron.js",
+    "prepare:tempC": "node src/generate-dataset.js -c tempC -o tempc.json",
+    "upload": "node src/upload-s3.mjs -e \"$S3_END_POINT\" -a \"$S3_ACCESS_KEY\" -k \"$S3_SECRET_KEY\" -b \"$S3_BUCKET\" -d \"$S3_DEST\" -s data",
+    "go": "npm run fetch:weather-cron && npm run prepare:tempC && npm run upload"
   },
   "dependencies": {
     "@turf/turf": "^7.3.1",
+    "@types/geojson": "^7946.0.16",
     "async": "^3.2.6",
     "commander": "^14.0.2",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "mime": "^4.1.0",
+    "minio": "^8.0.6"
   }
 }
