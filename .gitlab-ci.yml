@@ -1,14 +1,19 @@
 scheduled_job:
-  script:
-    - echo "Running fetch"
-    - date +%T
-    - npm run go
-  rules:
+  stage: build
+  image: 626635436144.dkr.ecr.ap-southeast-2.amazonaws.com/public.ecr.aws/docker/library/node:22
+  artifacts:
+    expire_in: 10 days
+    paths:
+      - deeptime
   variables:
     S3_END_POINT: "sgp1.digitaloceanspaces.com"
     S3_ACCESS_KEY: ""
     S3_SECRET_KEY: ""
     S3_BUCKET: "abcnewsdata"
     S3_DEST: "data-time-series-weather/"
-    AURORA_ENDPOINT: https://aurora.abc.net`.au/
+    AURORA_ENDPOINT: https://aurora.abc.net.au/
     AURORA_API_KEY: ""
+  before_script:
+    - npm ci --include=dev
+  script:
+    - npm run go
