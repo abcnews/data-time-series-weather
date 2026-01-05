@@ -29,7 +29,6 @@ CREATE TABLE IF NOT EXISTS ${TABLE_NAME} (
     `SELECT COUNT(*) as count FROM ${TABLE_NAME}`
   );
   const result = countQuery.get();
-  countQuery.finalize();
 
   if (!result.count) {
     await populateAuroraMap(dbInstance);
@@ -56,5 +55,4 @@ VALUES (?, ?)
 
   const ids = await getAuroraIds();
   ids.forEach(([auroraId, name]) => insertStmt.run(String(auroraId), name));
-  insertStmt.finalize();
 }
