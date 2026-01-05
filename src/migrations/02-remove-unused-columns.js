@@ -103,7 +103,5 @@ export function removeUnusedColumns(db) {
   // Run VACUUM to optimize database after schema changes
   db.exec("VACUUM");
 
-  // Close database connection
-  db.close();
   console.log(`✅ Migration completed successfully`);
 }
