@@ -1,47 +1,14 @@
 import { DatabaseSync } from "node:sqlite";
 import * as path from "node:path";
+import { createAuroraMap } from "./migrations/00-create-aurora_map.js";
+import {
+  createWeatherData,
+  TABLE_NAME,
+} from "./migrations/01-create-weather_data.js";
+import { removeUnusedColumns } from "./migrations/02-remove-unused-columns.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const DATABASE_FILE = path.resolve(__dirname, "../data/weather.sqlite");
-export const TABLE_NAME = "weather_data";
-
-// Define the schema mapping your field names to SQLite data types
-const SCHEMA_MAPPING = {
-  auroraId: "TEXT NOT NULL",
-  fetchTime: "TEXT NOT NULL", // Stored as ISO 8601 string
-  averageWindSpdKnots: "REAL",
-  averageWindSpeedKm: "REAL",
-  cloud: "TEXT",
-  cloudOktas: "TEXT",
-  dayName: "TEXT",
-  dewPointC: "REAL",
-  endTime: "TEXT",
-  feelsLikeTempC: "REAL",
-  generationTime: "TEXT",
-  gustKmh: "REAL",
-  maximumGustDir: "TEXT",
-  maximumGustKmh: "REAL",
-  maximumGustSpdKnots: "REAL",
-  maximumTempC: "REAL",
-  maximumTempLocalTime: "TEXT",
-  minimumTempC: "REAL",
-  minimumTempLocalTime: "TEXT",
-  precipitationSince9amMM: "REAL",
-  pressure: "REAL",
-  pressureMSLP: "REAL",
-  qnhPressure: "REAL",
-  rainHour: "REAL",
-  rainTen: "REAL",
-  rainfall24hr: "REAL",
-  relativeHumidityPct: "REAL",
-  startTime: "TEXT",
-  tempC: "REAL",
-  visibilityKm: "REAL",
-  wetBulbTemp: "REAL",
-  windDir: "TEXT",
-  windDirDeg: "REAL",
-  windGustSpdKnots: "REAL",
-};
 
 // --- Single Global Database Connection ---
 /**
@@ -66,28 +33,11 @@ export function initializeDatabase() {
     // Connect/create the database file
     dbInstance = new DatabaseSync(DATABASE_FILE);
 
-    // 1. Generate the SQL for the table columns
-    const columnsSql = Object.entries(SCHEMA_MAPPING)
-      .map(([columnName, dataType]) => `${columnName} ${dataType}`)
-      .join(", \n  ");
+    createAuroraMap(dbInstance);
+    createWeatherData(dbInstance);
+    removeUnusedColumns(dbInstance);
 
-    // 2. Construct and execute the CREATE TABLE statement
-    const createTableSql = `
-CREATE TABLE IF NOT EXISTS ${TABLE_NAME} (
-  ${columnsSql},
-  UNIQUE (auroraId, fetchTime)
-) STRICT;`;
-
-    dbInstance.exec(createTableSql);
-
-    // 3. Add a non-unique index for fast querying by location and time
-    dbInstance.exec(`
-CREATE INDEX IF NOT EXISTS idx_timeseries ON ${TABLE_NAME} (auroraId, fetchTime);
-`);
-
-    console.log(
-      `✅ Database '${DATABASE_FILE}' initialized and table '${TABLE_NAME}' ready with time-series index.`
-    );
+    console.log(`✅ Database '${DATABASE_FILE}' loaded.`);
     return dbInstance;
   } catch (e) {
     console.error(

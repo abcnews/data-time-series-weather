@@ -1,6 +1,8 @@
+import { program } from "commander";
+import { TABLE_NAME } from "./migrations/01-create-weather_data.js";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { initializeDatabase, TABLE_NAME } from "./sqlite.js";
+import { initializeDatabase } from "./sqlite.js";
 
 const db = initializeDatabase();
 /**
@@ -61,7 +63,6 @@ export function getTimeSeriesForColumn({ column = "tempC" }) {
   }
 }
 
-import { program } from "commander";
 program
   .option("-c, --column <columnName>", "Which column to return", "tempC")
   .option("-o, --output <filename>", "Where to write this json");
