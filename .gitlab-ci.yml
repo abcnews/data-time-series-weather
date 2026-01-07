@@ -4,10 +4,10 @@ scheduled_job:
   rules:
     # This job only runs when the pipeline source is a schedule
     - if: $CI_PIPELINE_SOURCE == "schedule"
-  cache:
-    key: service-time-series-weather-data
-    paths:
-      - data/
+  # cache:
+  #   key: service-time-series-weather-data
+  #   paths:
+  #     - data/
   variables:
     S3_END_POINT: "sgp1.digitaloceanspaces.com"
     S3_ACCESS_KEY: ""
