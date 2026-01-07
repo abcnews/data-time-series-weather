@@ -23,11 +23,12 @@ export function getTimeSeriesForColumn({ column = "tempC" }) {
     // We take the first 15 characters of the ISO string (e.g., "2023-10-01T12:3")
     // and append "0:00Z" to bucket everything into 10-minute intervals.
     const querySql = `
-      SELECT 
+      SELECT
         substr(fetchTime, 1, 15) || '0:00Z' as timeBucket,
         auroraId,
         ${column} as value
       FROM ${TABLE_NAME}
+      WHERE fetchTime >= datetime('now', '-7 days')
       ORDER BY timeBucket ASC
     `;
 

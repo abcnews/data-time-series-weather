@@ -3,6 +3,19 @@ import fs from "fs/promises";
 import process from "process";
 import path from "path";
 import mime from "mime";
+import zlib from "zlib";
+
+const GZIP_EXTENSIONS = ["json", "xml"];
+
+/**
+ * Check if a file should be gzipped based on its extension
+ * @param {string} filename - The filename to check
+ * @returns {boolean} True if the file should be gzipped
+ */
+function shouldGzip(filename) {
+  const ext = path.extname(filename).slice(1); // Remove leading dot
+  return GZIP_EXTENSIONS.includes(ext);
+}
 
 import { program } from "commander";
 program
@@ -58,7 +71,6 @@ async function syncDir({ src, dest }) {
 }
 
 async function go() {
-  // Sanity check giv en options
   const opts = program.opts();
   const errors = [];
   [
@@ -91,14 +103,36 @@ async function go() {
   // Transfer each file with given options
   for (const action of actions) {
     const { local, remote, contentType } = action;
+    const useGzip = shouldGzip(remote);
+
     const metadata = {
       "Content-Type": contentType,
       "x-amz-acl": "public-read",
       "cache-control": "max-age=60",
     };
-    console.log("fPutObject", remote, contentType);
+
+    if (useGzip) {
+      metadata["Content-Encoding"] = "gzip";
+    }
+
+    console.log(
+      useGzip ? "putObject (gzipped)" : "fPutObject",
+      remote,
+      contentType
+    );
+
     try {
-      await minioClient.fPutObject(bucket, remote, local, metadata);
+      if (useGzip) {
+        // For gzipped files, use putObject with a gzip stream
+        const readStream = (await import("fs")).createReadStream(local);
+        const gzipStream = zlib.createGzip();
+        const compressedStream = readStream.pipe(gzipStream);
+
+        await minioClient.putObject(bucket, remote, compressedStream, metadata);
+      } else {
+        // For non-gzipped files, use the simpler fPutObject
+        await minioClient.fPutObject(bucket, remote, local, metadata);
+      }
     } catch (e) {
       console.error(e);
       process.exit(1);
