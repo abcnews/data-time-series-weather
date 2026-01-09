@@ -5,3 +5,6 @@ data/weather.sqlite
 data/weather.sqlite.gz
 data/tempC.json
 data/averageWindSpeedKm.json
+data/AU.txt
+data/AU.zip
+data/readme.txt

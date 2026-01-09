@@ -7,6 +7,7 @@ Use the ABC's Aurora GraphQL database to fetch and collate weather data.
 To set up this repo, you must create a geojson object with the locations you wish to track.
 
 1. `npm run fetch:geonames` # Download the Australian GeoNames dump
+1. Add any overrides you want included in the geojson in `data/overrides.txt`
 1. `npm run process:geonames-to-geojson` # Filter and convert to GeoJSON
 1. `npm run fetch:aurora-ids` # Rectify locations with Aurora IDs
 

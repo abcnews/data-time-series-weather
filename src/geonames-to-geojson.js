@@ -10,6 +10,7 @@ import * as turf from "@turf/turf";
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const input = path.resolve(__dirname, "../data/AU.txt");
 const output = path.resolve(__dirname, "../data/au.geo.json");
+const overridesFile = path.resolve(__dirname, "../data/overrides.txt");
 const DISTANCE_THRESHOLD_KM = 50;
 
 // 1. Parse the schema to find fields
@@ -50,22 +51,22 @@ const lines = rawData.split("\n").filter((l) => l.trim().length > 0);
 
 console.log(`Parsing ${lines.length} locations...`);
 
-const locations = lines
-  .map((line) => {
-    const columns = line.split("\t");
-    const props = {};
+const unfilteredLocations = lines.map((line) => {
+  const columns = line.split("\t");
+  const props = {};
 
-    fields.forEach((field, index) => {
-      props[field] = columns[index];
-    });
+  fields.forEach((field, index) => {
+    props[field] = columns[index];
+  });
 
-    // Convert critical fields to numbers for sorting/calculating
-    props.population = parseInt(props.population || "0", 10);
-    props.latitude = parseFloat(props.latitude);
-    props.longitude = parseFloat(props.longitude);
+  // Convert critical fields to numbers for sorting/calculating
+  props.population = parseInt(props.population || "0", 10);
+  props.latitude = parseFloat(props.latitude);
+  props.longitude = parseFloat(props.longitude);
 
-    return props;
-  })
+  return props;
+});
+const locations = unfilteredLocations
   .filter(
     (location) =>
       location.population > 0 && location["feature code"].includes("PPL")
@@ -110,6 +111,49 @@ console.log(
   }).`
 );
 
+// 4.5. Load override locations and ensure they are included
+console.log("Loading override locations...");
+const overrideNames = fs
+  .readFileSync(overridesFile, "utf-8")
+  .split("\n")
+  .map((name) => name.trim())
+  .filter((name) => name.length > 0);
+
+console.log(
+  `Found ${overrideNames.length} override locations: ${overrideNames.join(
+    ", "
+  )}`
+);
+
+// Find override locations in the original dataset that weren't accepted
+const overrideLocationsToAdd = [];
+for (const overrideName of overrideNames) {
+  const matchingLocation = unfilteredLocations.find(
+    (loc) => loc.name === overrideName
+  );
+  if (matchingLocation) {
+    const alreadyExists = acceptedLocations.some(
+      (acc) => acc.geonameid === matchingLocation.geonameid
+    );
+    if (!alreadyExists) {
+      overrideLocationsToAdd.push(matchingLocation);
+      console.log(
+        `Adding override location: ${overrideName} (ID: ${matchingLocation.geonameid})`
+      );
+    }
+  } else {
+    console.warn(`Override location not found in dataset: ${overrideName}`);
+  }
+}
+
+// Append override locations to accepted locations
+if (overrideLocationsToAdd.length > 0) {
+  acceptedLocations.push(...overrideLocationsToAdd);
+  console.log(
+    `Added ${overrideLocationsToAdd.length} override locations to the final dataset`
+  );
+}
+
 console.log(
   locations.reduce((obj, location) => {
     obj[location["feature code"]] = obj[location["feature code"]]
@@ -120,7 +164,7 @@ console.log(
 );
 
 // 5. Convert to GeoJSON FeatureCollection
-const geojson = {
+let geojson = {
   type: "FeatureCollection",
   features: acceptedLocations.map((loc) => {
     // Extract lat/long to keep properties clean (optional, but standard practice)
@@ -142,6 +186,42 @@ const geojson = {
   }),
 };
 
-// 6. Write to disk
+// 6. If existing GeoJSON file exists, copy additional properties to matching locations
+try {
+  if (fs.existsSync(output)) {
+    console.log(
+      "Existing GeoJSON file found, checking for additional properties to preserve..."
+    );
+    const existingGeoJSON = JSON.parse(fs.readFileSync(output, "utf-8"));
+
+    if (existingGeoJSON?.features) {
+      geojson.features = geojson.features.map((newFeature) => {
+        const existingFeature = existingGeoJSON.features.find(
+          (oldFeature) =>
+            oldFeature.properties?.geonameid ===
+            newFeature.properties?.geonameid
+        );
+
+        if (existingFeature?.properties) {
+          // Copy all properties from existing feature that aren't in fieldsToKeep
+          Object.keys(existingFeature.properties).forEach((key) => {
+            if (!fieldsToKeep.includes(key) && !newFeature.properties[key]) {
+              newFeature.properties[key] = existingFeature.properties[key];
+            }
+          });
+        }
+
+        return newFeature;
+      });
+    }
+  }
+} catch (error) {
+  console.warn(
+    "Could not load existing GeoJSON for property preservation:",
+    error.message
+  );
+}
+
+// 7. Write to disk
 fs.writeFileSync(output, JSON.stringify(geojson, null, 2));
 console.log(`Written to ${output}`);
