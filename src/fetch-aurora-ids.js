@@ -49,6 +49,10 @@ async function rectifyLocation(location) {
       "aurora://location/",
       ""
     );
+    const auroraName = locations[0].suburb;
+    if (location.properties.name !== auroraName) {
+      location.properties.auroraName = auroraName;
+    }
   }
   await fs.writeFile(GEOJSON_FILE, JSON.stringify(geojson, null, 2));
 }
