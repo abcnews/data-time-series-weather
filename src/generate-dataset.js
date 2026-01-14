@@ -1,131 +1,99 @@
 import { program } from "commander";
-import { TABLE_NAME } from "./migrations/01-create-weather_data.js";
+import {
+  SCHEMA_MAPPING,
+  TABLE_NAME,
+} from "./migrations/01-create-weather_data.js";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { initializeDatabase } from "./sqlite.js";
 import { startOfDay, endOfDay, addDays, parseISO } from "date-fns";
-import { toZonedTime, fromZonedTime } from "date-fns-tz";
+import { toZonedTime, fromZonedTime, formatInTimeZone } from "date-fns-tz";
 
-const TIMEZONE_HOURS = +10;
+const TZ = "Australia/Brisbane";
 
-const toAEST = (dateStr) => {
-  const d = new Date(dateStr);
-  return new Date(d.getTime() + TIMEZONE_HOURS * 60 * 60 * 1000)
-    .toISOString()
-    .replace("Z", "+10:00");
+const BUCKET_SIZE_MIN = 30;
+
+/**
+ * Calculates day boundaries based on Brisbane time, returned as UTC strings.
+ */
+const getDayBoundaries = (offset = 0) => {
+  const brisbaneNow = toZonedTime(new Date(), TZ);
+  const target = addDays(brisbaneNow, offset);
+
+  return {
+    start: fromZonedTime(startOfDay(target), TZ).toISOString(),
+    end: fromZonedTime(endOfDay(target), TZ).toISOString(),
+  };
 };
 
 /**
- * Calculates the start and end of a day in Brisbane timezone, returned as UTC
- * ISO strings. This should be possible in SQL but I couldn't get it to work.
+ * Rounds a date down to the nearest 10-minute interval.
  */
-const getDayBoundaries = (dayOffset = 0) => {
-  const timezone = "Australia/Brisbane";
-  const now = new Date();
-
-  // Get current date in Brisbane timezone
-  const brisbaneNow = toZonedTime(now, timezone);
-
-  // Add day offset and get start of that day in Brisbane
-  const targetDay = addDays(brisbaneNow, dayOffset);
-  const brisbaneDayStart = startOfDay(targetDay);
-  const brisbaneDayEnd = endOfDay(targetDay);
-
-  // Convert Brisbane times back to UTC for database query
-  const startDate = fromZonedTime(brisbaneDayStart, timezone).toISOString();
-  const endDate = fromZonedTime(brisbaneDayEnd, timezone).toISOString();
-
-  return { startDate, endDate };
-};
-
-/**
- * Buckets a timestamp to 10-minute intervals by rounding down the minutes.
- * @param {string} isoString - ISO 8601 timestamp with timezone
- * @returns {string} ISO 8601 timestamp rounded to 10-minute bucket in UTC
- */
-const bucketTo10Minutes = (isoString) => {
+const bucketDate = (isoString) => {
   const date = parseISO(isoString);
-  const minutes = Math.floor(date.getMinutes() / 30) * 30;
-  date.setMinutes(minutes, 0, 0);
+  date.setMinutes(
+    Math.floor(date.getMinutes() / BUCKET_SIZE_MIN) * BUCKET_SIZE_MIN,
+    0,
+    0
+  );
   return date.toISOString();
 };
 
-/**
- * Fetches time-series data aligned to 10-minute windows.
- * @param {object} options
- * @param {string} options.column - The DB column name to extract.
- * @param {string} options.dayStart - Limit to results for the day relative to today (0, -1, -2)
- * @returns {Object} { timestamps: string[], series: { [location]: (number|null)[] } }
- */
 export async function getTimeSeriesForColumn({
   column = "tempC",
   dayStart = 0,
 }) {
+  if (!Object.keys(SCHEMA_MAPPING).includes(column)) {
+    throw new Error(`Invalid column: ${column}`);
+  }
+
   const db = await initializeDatabase();
+  const { start, end } = getDayBoundaries(dayStart);
 
-  // 1. Fetch all unique locations
-  const locationsList = db
-    .prepare(`SELECT DISTINCT auroraId FROM ${TABLE_NAME}`)
-    .all()
-    .map((r) => r.auroraId);
-
-  // 2. Calculate the start and end of the target day in Brisbane timezone
-  const { startDate, endDate } = getDayBoundaries(dayStart);
-  console.log(`Date range (UTC): ${startDate} to ${endDate}`);
-  console.log(`Date range (AEST): ${toAEST(startDate)} to ${toAEST(endDate)}`);
-
-  // 3. Fetch raw data and bucket timestamps in Node.js
-  const querySql = `
-    SELECT
-      generationTime,
-      auroraId,
-      ${column} as value
+  // The DB returns sorted by generationTime, but those times are in various
+  // timezones, so we must use unixepoch
+  const rows = db
+    .prepare(
+      `
+    SELECT generationTime, auroraId, ${column} as value
     FROM ${TABLE_NAME}
-    WHERE datetime(generationTime) >= datetime('${startDate}')
-      AND datetime(generationTime) < datetime('${endDate}')
-    ORDER BY generationTime ASC
-  `;
+    /* Convert both the column and the parameters to unix timestamps for comparison */
+    WHERE unixepoch(generationTime) BETWEEN unixepoch(?) AND unixepoch(?)
+    ORDER BY unixepoch(generationTime) ASC
+  `
+    )
+    .all(start, end);
 
-  console.log(querySql);
+  const dataMap = new Map();
+  const uniqueBuckets = new Set();
+  const locations = new Set();
 
-  const rows = db.prepare(querySql).all();
-  if (rows.length === 0) return { timestamps: [], series: {} };
+  for (const row of rows) {
+    const bucket = bucketDate(row.generationTime);
+    uniqueBuckets.add(bucket);
+    locations.add(row.auroraId);
 
-  // 4. Bucket timestamps and create data structure
-  const rowsWithBucket = rows.map((row) => ({
-    ...row,
-    timeBucket: bucketTo10Minutes(row.generationTime),
-  }));
+    if (!dataMap.has(bucket)) dataMap.set(bucket, {});
+    dataMap.get(bucket)[row.auroraId] = row.value;
+  }
 
-  // 5. Identify all unique 10-minute buckets across the dataset
-  const uniqueBuckets = [...new Set(rowsWithBucket.map((r) => r.timeBucket))];
+  const sortedBuckets = Array.from(uniqueBuckets).sort();
 
-  // 6. Create a lookup map for quick access: map[bucket][auroraId] = value
-  const dataMap = rowsWithBucket.reduce((acc, row) => {
-    if (!acc[row.timeBucket]) acc[row.timeBucket] = {};
-    acc[row.timeBucket][row.auroraId] = row.value;
-    return acc;
-  }, {});
-
-  // 7. Build the final structure
-  const series = locationsList.reduce((acc, loc) => {
-    const data = uniqueBuckets.map((bucket) => {
-      const val = dataMap[bucket]?.[loc];
-      return val !== undefined ? val : null;
-    });
-
-    // Only include locations with at least some data
-    const hasData = data.some((value) => value !== null);
-    if (hasData) {
-      acc[loc] = data;
-    }
-
-    return acc;
-  }, {});
+  // Pivot the data: { [location]: [values_per_bucket] }
+  const series = Object.fromEntries(
+    Array.from(locations)
+      .map((loc) => [
+        loc,
+        sortedBuckets.map((b) => dataMap.get(b)[loc] ?? null),
+      ])
+      .filter(([_, values]) => values.some((v) => v !== null)) // Remove empty series
+  );
 
   return {
     createdDate: new Date().toISOString(),
-    timestamps: uniqueBuckets.map(toAEST),
+    timestamps: sortedBuckets.map((b) =>
+      formatInTimeZone(new Date(b), TZ, "yyyy-MM-dd'T'HH:mm:ssXXX")
+    ),
     series,
   };
 }
