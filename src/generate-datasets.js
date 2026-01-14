@@ -25,15 +25,9 @@ for (const dataset of datasets) {
       dayStart: dayOffset,
     });
 
-    if (data.timestamps.length === 0) {
-      console.warn(`No data for ${dataset} on day offset ${dayOffset}`);
-      continue;
-    }
-
     // Extract date portion from first timestamp and use substr for filename
     // Example: "2026-01-13T00:00:00+10:00" -> "2026-01-13"
-    const firstTimestamp = data.timestamps[0];
-    const dateSubstr = firstTimestamp.substring(0, 10); // Gets "YYYY-MM-DD"
+    const dateSubstr = data.startDate.substring(0, 10); // Gets "YYYY-MM-DD"
 
     const filename = `${dateSubstr}.json`;
     const outputPath = path.join("data/assets/", dataset, filename);

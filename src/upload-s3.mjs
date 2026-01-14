@@ -1,5 +1,7 @@
 import * as Minio from "minio";
 import fs from "fs/promises";
+import { program } from "commander";
+import { createReadStream as fsCreateReadStream } from "fs";
 import process from "process";
 import path from "path";
 import mime from "mime";
@@ -17,7 +19,6 @@ function shouldCompress(filename) {
   return BROTLI_EXTENSIONS.includes(ext);
 }
 
-import { program } from "commander";
 program
   .requiredOption(
     "-e, --end-point <server>",
@@ -123,9 +124,13 @@ async function go() {
 
     try {
       if (useCompression) {
-        // For brotli files, use putObject with a brotli stream
-        const readStream = (await import("fs")).createReadStream(local);
-        const brotliStream = zlib.createBrotliCompress();
+        const readStream = fsCreateReadStream(local);
+        const brotliStream = zlib.createBrotliCompress({
+          params: {
+            // BROTLI_PARAM_QUALITY: 11 is the maximum compression level
+            [zlib.constants.BROTLI_PARAM_QUALITY]: 11,
+          },
+        });
         const compressedStream = readStream.pipe(brotliStream);
 
         await minioClient.putObject(bucket, remote, compressedStream, metadata);
