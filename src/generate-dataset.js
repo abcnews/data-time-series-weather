@@ -50,7 +50,6 @@ export async function getTimeSeriesForColumn({
       AND value is not null
       ORDER BY unixepoch(generationTime) ASC
     `;
-  console.log(sql);
   const rows = db.prepare(sql).all();
 
   const series = {};
