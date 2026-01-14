@@ -4,12 +4,11 @@ import path from "node:path";
 
 const datasets = process.env.GENERATE_DATASETS.split(",");
 
-const daysToGenerate = [0, -1]; // today and yesterday
+const daysToGenerate = []; // today and yesterday
 // generate the last 14 days actually
-for (let i = -2; i > -14; i--) {
+for (let i = 0; i > 0 - Number(process.env.GENERATE_DAYS || 1); i--) {
   daysToGenerate.push(i);
 }
-console.log(daysToGenerate);
 
 for (const dataset of datasets) {
   for (const dayOffset of daysToGenerate) {

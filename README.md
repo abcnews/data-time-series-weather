@@ -20,6 +20,8 @@ populate weather.sqlite.
 
 ## Usage (collate data)
 
+### Single dataset
+
 Output a JSON file containing a series of the given measurements for every
 Aurora location. You can use this to correlate with the GeoJSON file.
 
@@ -49,3 +51,9 @@ with the timestamps object:
     ],
     …
 ```
+
+### Multiple datasets
+
+Output all your JSON files with `node src/generate-datasets.js`. This uses the
+GENERATE_DATASET and GENERATE_DAYS variables to specify the datasets to
+generate, and the number of days respectively.
