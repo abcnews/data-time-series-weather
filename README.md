@@ -28,20 +28,24 @@ Aurora location. You can use this to correlate with the GeoJSON file.
 This generates a file in this format, with each item in the array corresponding
 with the timestamps object:
 
-```json
+```javascript
 {
-  "timestamps": [
-    "2025-12-12T05:00:00Z",
-    "2025-12-12T06:10:00Z",
-    "2025-12-12T06:40:00Z",
-    "2025-12-12T07:00:00Z"
-  ],
-  "tempC": {
-    "aurora://location/loc004e26acc9fa": [
-      30.4,
-      30.8,
-      null,
-      32.7
+  // When the file was written
+  updatedDate: "2026-01-14T12:26:20+10:00",
+
+  // The start date and time of the time series, in ISO 8601 format.
+  startDate: "2026-01-01T00:00:00+10:00",
+
+  // Each key is an Aurora ID (corresponding to au.geo.json)
+  // For compression, the date is represented as minutes offset from midnight
+  series: {
+    "loc39f58b228284": [
+      // [minutes offset from midnight, observation value]
+      [1, 24.8],    // 1 minute past midnight, value: 24.8
+      [31, 24.3],
+      [61, 23.5],
+      [101, 22.8],
+      [171, 21.8]
     ],
     …
 ```

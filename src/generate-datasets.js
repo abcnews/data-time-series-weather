@@ -2,15 +2,10 @@ import { getTimeSeriesForColumn } from "./generate-dataset.js";
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const datasets = [
-  "tempC",
-  "averageWindSpeedKm",
-  "maximumGustKmh",
-  "relativeHumidityPct",
-  "precipitationSince9amMM",
-];
+const datasets = process.env.GENERATE_DATASETS.split(",");
 
 const daysToGenerate = [0, -1]; // today and yesterday
+// generate the last 14 days actually
 for (let i = -2; i > -14; i--) {
   daysToGenerate.push(i);
 }

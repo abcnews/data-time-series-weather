@@ -5,11 +5,7 @@
     "process:geonames-to-geojson": "node src/geonames-to-geojson.js",
     "fetch:aurora-ids": "node src/fetch-aurora-ids.js",
     "fetch:weather-cron": "node src/fetch-weather-cron.js",
-    "prepare:tempC": "node src/generate-dataset.js -c tempC -o data/tempc.json",
-    "prepare:maximumGustKmh": "node src/generate-dataset.js -c maximumGustKmh -o data/maximumGustKmh.json",
-    "prepare:averageWindSpeedKm": "node src/generate-dataset.js -c averageWindSpeedKm -o data/averageWindSpeedKm.json",
-    "prepare:precipitationSince9amMM": "node src/generate-dataset.js -c precipitationSince9amMM -o data/precipitationSince9amMM.json",
-    "prepare:relativeHumidityPct": "node src/generate-dataset.js -c relativeHumidityPct -o data/relativeHumidityPct.json",
+    "prepare:data": "node src/generate-datasets.js",
     "upload": "node src/upload-s3.mjs -e \"$S3_END_POINT\" -a \"$S3_ACCESS_KEY\" -k \"$S3_SECRET_KEY\" -b \"$S3_BUCKET\" -d \"$S3_DEST\" -s data",
     "get-db": "URL=https://$S3_BUCKET.$S3_END_POINT/${S3_DEST}weather.sqlite.gz;echo $URL;curl $URL|gunzip>data/weather.sqlite",
     "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:tempC && npm run prepare:averageWindSpeedKm && npm run prepare:maximumGustKmh && npm run prepare:relativeHumidityPct && npm run prepare:precipitationSince9amMM && gzip data/weather.sqlite && npm run upload"
