@@ -26,10 +26,10 @@ feature code      : see http://www.geonames.org/export/codes.html, varchar(10)
 country code      : ISO-3166 2-letter country code, 2 characters
 cc2               : alternate country codes, comma separated, ISO-3166 2-letter country code, 200 characters
 admin1 code       : fipscode (subject to change to iso code), see exceptions below, see file admin1Codes.txt for display names of this code; varchar(20)
-admin2 code       : code for the second administrative division, a county in the US, see file admin2Codes.txt; varchar(80) 
+admin2 code       : code for the second administrative division, a county in the US, see file admin2Codes.txt; varchar(80)
 admin3 code       : code for third level administrative division, varchar(20)
 admin4 code       : code for fourth level administrative division, varchar(20)
-population        : bigint (8 byte int) 
+population        : bigint (8 byte int)
 elevation         : in meters, integer
 dem               : digital elevation model, srtm3 or gtopo30, average elevation of 3''x3'' (ca 90mx90m) or 30''x30'' (ca 900mx900m) area in meters, integer. srtm processed by cgiar/ciat.
 timezone          : the iana timezone id (see file timeZone.txt) varchar(40)
@@ -225,3 +225,225 @@ try {
 // 7. Write to disk
 fs.writeFileSync(output, JSON.stringify(geojson, null, 2));
 console.log(`Written to ${output}`);
+
+export default async function geonamesToGeojson() {
+  // 1. Parse the schema to find fields
+  const fieldsSchema = `
+  geonameid         : integer id of record in geonames database
+  name              : name of geographical point (utf8) varchar(200)
+  asciiname         : name of geographical point in plain ascii characters, varchar(200)
+  alternatenames    : alternatenames, comma separated, ascii names automatically transliterated, convenience attribute from alternatename table, varchar(10000)
+  latitude          : latitude in decimal degrees (wgs84)
+  longitude         : longitude in decimal degrees (wgs84)
+  feature class     : see http://www.geonames.org/export/codes.html, char(1)
+  feature code      : see http://www.geonames.org/export/codes.html, varchar(10)
+  country code      : ISO-3166 2-letter country code, 2 characters
+  cc2               : alternate country codes, comma separated, ISO-3166 2-letter country code, 200 characters
+  admin1 code       : fipscode (subject to change to iso code), see exceptions below, see file admin1Codes.txt for display names of this code; varchar(20)
+  admin2 code       : code for the second administrative division, a county in the US, see file admin2Codes.txt; varchar(80)
+  admin3 code       : code for third level administrative division, varchar(20)
+  admin4 code       : code for fourth level administrative division, varchar(20)
+  population        : bigint (8 byte int)
+  elevation         : in meters, integer
+  dem               : digital elevation model, srtm3 or gtopo30, average elevation of 3''x3'' (ca 90mx90m) or 30''x30'' (ca 900mx900m) area in meters, integer. srtm processed by cgiar/ciat.
+  timezone          : the iana timezone id (see file timeZone.txt) varchar(40)
+  modification date : date of last modification in yyyy-MM-dd format
+  `;
+
+  const fieldsToKeep = ["geonameid", "name"];
+
+  const fields = fieldsSchema
+    .trim()
+    .split("\n")
+    .map((line) => line.split(":")[0].trim());
+
+  console.log("Loading file into memory...");
+
+  // 2. Load and Parse Data
+  const rawData = fs.readFileSync(input, "utf-8");
+  const lines = rawData.split("\n").filter((l) => l.trim().length > 0);
+
+  console.log(`Parsing ${lines.length} locations...`);
+
+  const unfilteredLocations = lines.map((line) => {
+    const columns = line.split("\t");
+    const props = {};
+
+    fields.forEach((field, index) => {
+      props[field] = columns[index];
+    });
+
+    // Convert critical fields to numbers for sorting/calculating
+    props.population = parseInt(props.population || "0", 10);
+    props.latitude = parseFloat(props.latitude);
+    props.longitude = parseFloat(props.longitude);
+
+    return props;
+  });
+  const locations = unfilteredLocations
+    .filter(
+      (location) =>
+        location.population > 0 && location["feature code"].includes("PPL")
+    )
+    .toSorted((a, b) => b.population - a.population);
+
+  console.log(`Filtered ${locations.length} locations...`);
+
+  console.log("Filtering nearby points (Greedy Spatial Filter)...");
+
+  // 4. Spatial Filter
+  const acceptedLocations = [];
+
+  for (const candidate of locations) {
+    let isTooClose = false;
+
+    const candidatePoint = turf.point([
+      candidate.longitude,
+      candidate.latitude,
+    ]);
+
+    // Compare candidate against points we have ALREADY accepted
+    // (which we know are larger because of the sort order)
+    for (const existing of acceptedLocations) {
+      const existingPoint = turf.point([existing.longitude, existing.latitude]);
+
+      const distance = turf.distance(candidatePoint, existingPoint, {
+        units: "kilometers",
+      });
+
+      if (distance < DISTANCE_THRESHOLD_KM) {
+        isTooClose = true;
+        break; // Stop checking, this candidate is rejected
+      }
+    }
+
+    if (!isTooClose) {
+      acceptedLocations.push(candidate);
+    }
+  }
+
+  console.log(
+    `Filtered down to ${acceptedLocations.length} locations (removed ${
+      locations.length - acceptedLocations.length
+    }).`
+  );
+
+  // 4.5. Load override locations and ensure they are included
+  console.log("Loading override locations...");
+  const overrideNames = fs
+    .readFileSync(overridesFile, "utf-8")
+    .split("\n")
+    .map((name) => name.trim())
+    .filter((name) => name.length > 0);
+
+  console.log(
+    `Found ${overrideNames.length} override locations: ${overrideNames.join(
+      ", "
+    )}`
+  );
+
+  // Find override locations in the original dataset that weren't accepted
+  const overrideLocationsToAdd = [];
+  for (const overrideName of overrideNames) {
+    const matchingLocation = unfilteredLocations.find(
+      (loc) => loc.name === overrideName
+    );
+    if (matchingLocation) {
+      const alreadyExists = acceptedLocations.some(
+        (acc) => acc.geonameid === matchingLocation.geonameid
+      );
+      if (!alreadyExists) {
+        overrideLocationsToAdd.push(matchingLocation);
+        console.log(
+          `Adding override location: ${overrideName} (ID: ${matchingLocation.geonameid})`
+        );
+      }
+    } else {
+      console.warn(`Override location not found in dataset: ${overrideName}`);
+    }
+  }
+
+  // Append override locations to accepted locations
+  if (overrideLocationsToAdd.length > 0) {
+    acceptedLocations.push(...overrideLocationsToAdd);
+    console.log(
+      `Added ${overrideLocationsToAdd.length} override locations to the final dataset`
+    );
+  }
+
+  console.log(
+    locations.reduce((obj, location) => {
+      obj[location["feature code"]] = obj[location["feature code"]]
+        ? obj[location["feature code"]] + 1
+        : 1;
+      return obj;
+    }, {})
+  );
+
+  // 5. Convert to GeoJSON FeatureCollection
+  let geojson = {
+    type: "FeatureCollection",
+    features: acceptedLocations.map((loc) => {
+      // Extract lat/long to keep properties clean (optional, but standard practice)
+      const { latitude, longitude, ...properties } = loc;
+
+      return {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [longitude, latitude],
+        },
+        properties: Object.entries(properties).reduce((obj, [key, value]) => {
+          if (fieldsToKeep.includes(key)) {
+            obj[key] = value;
+          }
+          return obj;
+        }, {}),
+      };
+    }),
+  };
+
+  // 6. If existing GeoJSON file exists, copy additional properties to matching locations
+  try {
+    if (fs.existsSync(output)) {
+      console.log(
+        "Existing GeoJSON file found, checking for additional properties to preserve..."
+      );
+      const existingGeoJSON = JSON.parse(fs.readFileSync(output, "utf-8"));
+
+      if (existingGeoJSON?.features) {
+        geojson.features = geojson.features.map((newFeature) => {
+          const existingFeature = existingGeoJSON.features.find(
+            (oldFeature) =>
+              oldFeature.properties?.geonameid ===
+              newFeature.properties?.geonameid
+          );
+
+          if (existingFeature?.properties) {
+            // Copy all properties from existing feature that aren't in fieldsToKeep
+            Object.keys(existingFeature.properties).forEach((key) => {
+              if (!fieldsToKeep.includes(key) && !newFeature.properties[key]) {
+                newFeature.properties[key] = existingFeature.properties[key];
+              }
+            });
+          }
+
+          return newFeature;
+        });
+      }
+    }
+  } catch (error) {
+    console.warn(
+      "Could not load existing GeoJSON for property preservation:",
+      error.message
+    );
+  }
+
+  // 7. Write to disk
+  fs.writeFileSync(output, JSON.stringify(geojson, null, 2));
+  console.log(`Written to ${output}`);
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  await geonamesToGeojson();
+}

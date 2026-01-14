@@ -73,7 +73,6 @@ async function fetchWeatherForLocation(location) {
     return;
   }
   const query = everythingQuery("aurora://location/" + auroraId);
-  console.log("QUERYING --- ", query);
   const res = await graphqlQuery(query);
   const data =
     res.data?.locations?.byId?.weather?.detailedHistoricConditions?.[0]
@@ -91,19 +90,25 @@ async function fetchWeatherForLocation(location) {
   return res;
 }
 
-await initializeDatabase();
+export default async function fetchWeatherCron() {
+  await initializeDatabase();
 
-let i = 0;
-await eachLimit(geojson.features, 3, async (feature) => {
-  console.log(
-    "STARTING - ",
-    `${i++}/${geojson.features.length}`,
-    feature.properties.name,
-    feature.properties.auroraId
-  );
-  await fetchWeatherForLocation(feature).catch((e) => {
-    console.log(e);
+  let i = 0;
+  await eachLimit(geojson.features, 3, async (feature) => {
+    console.log(
+      "STARTING - ",
+      `${i++}/${geojson.features.length}`,
+      feature.properties.name,
+      feature.properties.auroraId
+    );
+    await fetchWeatherForLocation(feature).catch((e) => {
+      console.log(e);
+    });
   });
-});
 
-closeDatabase();
+  closeDatabase();
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  await fetchWeatherCron();
+}

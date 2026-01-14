@@ -2,6 +2,8 @@
 
 Use the ABC's Aurora GraphQL database to fetch and collate weather data.
 
+The scripts are wrapped in Commander, so you can run `node . --help` for details.
+
 ## Setup
 
 To set up this repo, you must create a geojson object with the locations you wish to track.
@@ -25,7 +27,7 @@ populate weather.sqlite.
 Output a JSON file containing a series of the given measurements for every
 Aurora location. You can use this to correlate with the GeoJSON file.
 
-1. `node src/generate-dataset.js -c tempC -o tempc.json`
+1. `node . generate-dataset -c tempC -o tempc.json`
 
 This generates a file in this format, with each item in the array corresponding
 with the timestamps object:
@@ -54,6 +56,4 @@ with the timestamps object:
 
 ### Multiple datasets
 
-Output all your JSON files with `node src/generate-datasets.js`. This uses the
-GENERATE_DATASET and GENERATE_DAYS variables to specify the datasets to
-generate, and the number of days respectively.
+Output all your JSON files with `node . generate-datasets --columns tempC,humidity --days 14`. This uses the `--columns` and `--days` options to specify the datasets to generate and the number of days respectively.

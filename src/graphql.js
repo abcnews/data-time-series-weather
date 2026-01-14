@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export async function graphqlQuery(query) {
-  console.log("QUERYING: ", query);
   return fetch(
     `${process.env.AURORA_ENDPOINT}?x-api-key=${process.env.AURORA_API_KEY}`,
     {

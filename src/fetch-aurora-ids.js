@@ -29,17 +29,17 @@ async function rectifyLocation(location) {
   console.log("Rectifying", name);
 
   const auroraLocationsFiveKm = await graphqlQuery(`query ByLatLongWithRadius {
-    locations {
-        byLatLongWithRadius(
-        lat: ${Number(latitude)},
-        long: ${Number(longitude)},
-        radius: FiveKm
-        ) {
-        id,
-        suburb
-        }
-    }
-    }`);
+  locations {
+      byLatLongWithRadius(
+      lat: ${Number(latitude)},
+      long: ${Number(longitude)},
+      radius: FiveKm
+      ) {
+      id,
+      suburb
+      }
+  }
+  }`);
 
   const locations = auroraLocationsFiveKm.data?.locations?.byLatLongWithRadius;
   if (!locations?.length) {
@@ -57,9 +57,15 @@ async function rectifyLocation(location) {
   await fs.writeFile(GEOJSON_FILE, JSON.stringify(geojson, null, 2));
 }
 
-console.log("Fetching", geojson.features.length, "IDs");
-await eachLimit(geojson.features, 3, async (feature) => {
-  await rectifyLocation(feature);
-  console.log("did ", feature.properties.name);
-});
-console.log("done");
+export default async function fetchAuroraIds() {
+  console.log("Fetching", geojson.features.length, "IDs");
+  await eachLimit(geojson.features, 3, async (feature) => {
+    await rectifyLocation(feature);
+    console.log("did ", feature.properties.name);
+  });
+  console.log("done");
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  await fetchAuroraIds();
+}

@@ -86,6 +86,20 @@ export async function getTimeSeriesForColumn({
   };
 }
 
+export default async function generateDataset(options) {
+  const outputFile = path.resolve(process.cwd(), options.output);
+
+  console.log(`Fetching ${options.column} for day: ${options.dayStart}`);
+
+  const datas = await getTimeSeriesForColumn({
+    column: options.column,
+    dayStart: parseInt(options.dayStart),
+  });
+
+  console.log(`Writing to ${outputFile}`);
+  await fs.writeFile(outputFile, JSON.stringify(datas));
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
   program
     .option("-c, --column <columnName>", "Which column to return", "tempC")
@@ -99,15 +113,5 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   program.parse();
 
   const options = program.opts();
-  const outputFile = path.resolve(process.cwd(), options.output);
-
-  console.log(`Fetching ${options.column} for day: ${options.dayStart}`);
-
-  const datas = await getTimeSeriesForColumn({
-    column: options.column,
-    dayStart: parseInt(options.dayStart),
-  });
-
-  console.log(`Writing to ${outputFile}`);
-  await fs.writeFile(outputFile, JSON.stringify(datas));
+  await generateDataset(options);
 }
