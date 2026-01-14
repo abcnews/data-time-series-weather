@@ -20,8 +20,8 @@ const getDayBoundaries = (offset = 0) => {
 
   // Return UTC ISO strings representing 00:00:00 and 23:59:59 in Brisbane
   return {
-    start: fromZonedTime(startOfDay(target), TZ).toISOString(),
-    end: fromZonedTime(endOfDay(target), TZ).toISOString(),
+    start: startOfDay(target),
+    end: endOfDay(target),
   };
 };
 
@@ -38,19 +38,20 @@ export async function getTimeSeriesForColumn({
    * This ensures the 'BETWEEN' filter and the 'ORDER BY' are chronologically accurate
    * even if the input strings are formatted differently.
    */
-  const rows = db
-    .prepare(
-      `
+  const sql = `
       SELECT 
         generationTime, 
         auroraId, 
         ${column} as value
       FROM ${TABLE_NAME}
-      WHERE unixepoch(generationTime) BETWEEN unixepoch(?) AND unixepoch(?)
+      WHERE unixepoch(generationTime) BETWEEN ${Math.round(
+        start / 1000
+      )} AND ${Math.round(end / 1000)}
+      AND value is not null
       ORDER BY unixepoch(generationTime) ASC
-    `
-    )
-    .all(start, end);
+    `;
+  console.log(sql);
+  const rows = db.prepare(sql).all();
 
   const series = {};
   const startMs = new Date(start).getTime();
