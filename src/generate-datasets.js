@@ -1,6 +1,7 @@
 import { getTimeSeriesForColumn } from "./generate-dataset.js";
 import fs from "node:fs/promises";
 import path from "node:path";
+import logger from "./logger.js";
 
 export default async function generateDatasets(options) {
   const datasets = options.columns.split(",");
@@ -12,8 +13,6 @@ export default async function generateDatasets(options) {
 
   for (const dataset of datasets) {
     for (const dayOffset of daysToGenerate) {
-      console.log(`Generating ${dataset} for day offset ${dayOffset}...`);
-
       const data = await getTimeSeriesForColumn({
         column: dataset,
         dayStart: dayOffset,
@@ -26,13 +25,18 @@ export default async function generateDatasets(options) {
       const filename = `${dateSubstr}.json`;
       const outputPath = path.join("data/assets/", dataset, filename);
 
-      console.log(`Writing ${outputPath}...`);
       await fs.mkdir(path.dirname(outputPath), { recursive: true });
       await fs.writeFile(outputPath, JSON.stringify(data));
+      logger.info(
+        "Generated %s for day offset %d -> %s",
+        dataset,
+        dayOffset,
+        outputPath,
+      );
     }
   }
 
-  console.log("✅ All datasets generated successfully");
+  logger.info("All datasets generated successfully");
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -45,8 +49,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   for (const dataset of datasets) {
     for (const dayOffset of daysToGenerate) {
-      console.log(`Generating ${dataset} for day offset ${dayOffset}...`);
-
       const data = await getTimeSeriesForColumn({
         column: dataset,
         dayStart: dayOffset,
@@ -59,11 +61,16 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       const filename = `${dateSubstr}.json`;
       const outputPath = path.join("data/assets/", dataset, filename);
 
-      console.log(`Writing ${outputPath}...`);
       await fs.mkdir(path.dirname(outputPath), { recursive: true });
       await fs.writeFile(outputPath, JSON.stringify(data));
+      logger.info(
+        "Generated %s for day offset %d -> %s",
+        dataset,
+        dayOffset,
+        outputPath,
+      );
     }
   }
 
-  console.log("✅ All datasets generated successfully");
+  logger.info("All datasets generated successfully");
 }

@@ -5,6 +5,7 @@
  * write your own migration if you have any archival requirements.
  */
 import { SCHEMA_MAPPING } from "./01-create-weather_data.js";
+import logger from "../logger.js";
 
 const TABLE_NAME = "weather_data";
 
@@ -24,10 +25,10 @@ function compareSchemas(currentColumns, expectedMapping) {
   const expectedColumns = Object.keys(expectedMapping);
 
   const missingColumns = expectedColumns.filter(
-    (col) => !currentColumnNames.includes(col)
+    (col) => !currentColumnNames.includes(col),
   );
   const extraColumns = currentColumnNames.filter(
-    (col) => !expectedColumns.includes(col)
+    (col) => !expectedColumns.includes(col),
   );
 
   return {
@@ -43,7 +44,7 @@ function compareSchemas(currentColumns, expectedMapping) {
 function migrateTable(db, tableName, expectedMapping) {
   const tempTableName = `${tableName}_temp_${Date.now()}`;
 
-  console.log(`🔄 Starting schema migration for ${tableName}...`);
+  logger.info("Starting schema migration for %s", tableName);
 
   // 1. Create temp table with new schema
   const columnsSql = Object.entries(expectedMapping)
@@ -61,7 +62,7 @@ CREATE TABLE ${tempTableName} (
   // 2. Copy existing data (only columns that exist in both schemas)
   const currentSchema = getCurrentSchema(db, tableName);
   const commonColumns = Object.keys(expectedMapping).filter((col) =>
-    currentSchema.some((currentCol) => currentCol.name === col)
+    currentSchema.some((currentCol) => currentCol.name === col),
   );
 
   if (commonColumns.length > 0) {
@@ -73,7 +74,7 @@ SELECT ${columnsList} FROM ${tableName}`;
 
     const copyStmt = db.prepare(copyDataSql);
     const result = copyStmt.run();
-    console.log(`📊 Copied ${result.changes} rows to temp table`);
+    logger.info("Copied %d rows to temp table", result.changes);
   }
 
   // 3. Drop old table
@@ -87,7 +88,7 @@ SELECT ${columnsList} FROM ${tableName}`;
 CREATE INDEX IF NOT EXISTS idx_timeseries ON ${tableName} (auroraId, fetchTime);
 `);
 
-  console.log(`✅ Schema migration completed for ${tableName}`);
+  logger.info("Schema migration completed for %s", tableName);
 }
 
 /**
@@ -109,5 +110,5 @@ export function updateColumns(db) {
   // Run VACUUM to optimize database after schema changes
   db.exec("VACUUM");
 
-  console.log(`✅ Migration completed successfully`);
+  logger.info("Migration completed successfully");
 }

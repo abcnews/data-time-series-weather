@@ -6,6 +6,7 @@ import path from "node:path";
 import { eachLimit } from "async";
 import { append, closeDatabase, initializeDatabase } from "./sqlite.js";
 import { graphqlQuery } from "./graphql.js";
+import logger from "./logger.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
@@ -62,7 +63,7 @@ export async function fetchWeatherForLocation(
 ) {
   const { name, auroraId } = location.properties;
   if (!auroraId) {
-    console.warn(`Missing aurora ID for "${name}"`);
+    logger.warn("Missing aurora ID for %s", name);
     return;
   }
   const query = everythingQuery("aurora://location/" + auroraId);
@@ -71,8 +72,8 @@ export async function fetchWeatherForLocation(
     res.data?.locations?.byId?.weather?.detailedHistoricConditions?.[0]
       ?.values?.[0];
   if (!data) {
-    console.error(`No data fetched for ${name} (${auroraId})`);
-    console.log(JSON.stringify(res));
+    logger.error("No data fetched for %s (%s)", name, auroraId);
+    logger.debug("Response: %j", res);
     return;
   }
   await append({
@@ -91,10 +92,9 @@ export default async function fetchWeatherCron({
   await initializeDatabase(databasePath, geojsonPath);
 
   const geojsonText = await fs.readFile(geojsonPath, "utf8").catch((e) => {
-    console.error(
-      "Error: ",
+    logger.error(
+      "Error: %s must first be created by process:geonames-to-geojson",
       geojsonPath,
-      "must first be created by process:geonames-to-geojson",
     );
     process.exit();
   });
@@ -102,15 +102,21 @@ export default async function fetchWeatherCron({
 
   let i = 0;
   await eachLimit(geojson.features, 3, async (feature) => {
-    console.log(
-      "STARTING - ",
-      `${i++}/${geojson.features.length}`,
-      feature.properties.name,
-      feature.properties.auroraId,
-    );
     await fetchWeatherForLocation(feature, queryFn).catch((e) => {
-      console.log(e);
+      logger.error(
+        "Failed to fetch weather for %s: %s",
+        feature.properties.name,
+        e.message,
+      );
     });
+    i++;
+    if (i % 10 === 0 || i === geojson.features.length) {
+      logger.info(
+        "Progress: %d/%d locations processed",
+        i,
+        geojson.features.length,
+      );
+    }
   });
 
   closeDatabase();

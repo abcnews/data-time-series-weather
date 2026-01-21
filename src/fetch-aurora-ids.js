@@ -6,14 +6,14 @@ import { eachLimit } from "async";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { graphqlQuery } from "./graphql.js";
+import logger from "./logger.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const GEOJSON_FILE = path.resolve(__dirname, "../data/au.geo.json");
 const geojsonText = await fs.readFile(GEOJSON_FILE, "utf8").catch((e) => {
-  console.error(
-    "Error: ",
+  logger.error(
+    "Error: %s must first be created by process:geonames-to-geojson",
     GEOJSON_FILE,
-    "must first be created by process:geonames-to-geojson"
   );
   process.exit();
 });
@@ -23,10 +23,8 @@ async function rectifyLocation(location) {
   const [longitude, latitude] = location.geometry.coordinates;
   const { name, auroraId } = location.properties;
   if (auroraId) {
-    console.log("Already fetched", auroraId);
     return;
   }
-  console.log("Rectifying", name);
 
   const auroraLocationsFiveKm = await graphqlQuery(`query ByLatLongWithRadius {
   locations {
@@ -43,27 +41,27 @@ async function rectifyLocation(location) {
 
   const locations = auroraLocationsFiveKm.data?.locations?.byLatLongWithRadius;
   if (!locations?.length) {
-    console.error(`No locations found for name "${name}"`);
+    logger.error("No locations found for name %s", name);
   } else {
     location.properties.auroraId = locations[0].id.replace(
       "aurora://location/",
-      ""
+      "",
     );
     const auroraName = locations[0].suburb;
     if (location.properties.name !== auroraName) {
       location.properties.auroraName = auroraName;
     }
+    logger.info("Rectified %s", name);
   }
   await fs.writeFile(GEOJSON_FILE, JSON.stringify(geojson, null, 2));
 }
 
 export default async function fetchAuroraIds() {
-  console.log("Fetching", geojson.features.length, "IDs");
+  logger.info("Fetching %d IDs", geojson.features.length);
   await eachLimit(geojson.features, 3, async (feature) => {
     await rectifyLocation(feature);
-    console.log("did ", feature.properties.name);
   });
-  console.log("done");
+  logger.info("Done fetching Aurora IDs");
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

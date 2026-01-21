@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import logger from "../logger.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const TABLE_NAME = "aurora_map";
@@ -30,7 +31,7 @@ CREATE TABLE IF NOT EXISTS ${TABLE_NAME} (
 
   // 3. Check if table is empty and populate if needed
   const countQuery = dbInstance.prepare(
-    `SELECT COUNT(*) as count FROM ${TABLE_NAME}`
+    `SELECT COUNT(*) as count FROM ${TABLE_NAME}`,
   );
   const result = countQuery.get();
 
@@ -41,7 +42,7 @@ CREATE TABLE IF NOT EXISTS ${TABLE_NAME} (
 
 async function getAuroraIds() {
   const text = await fs.readFile(
-    path.resolve(__dirname, "../../data/au.geo.json")
+    path.resolve(__dirname, "../../data/au.geo.json"),
   );
   const geojson = JSON.parse(text);
   return geojson.features
@@ -53,7 +54,7 @@ async function getAuroraIds() {
  * @param {import('node:sqlite').DatabaseSync} dbInstance
  */
 async function populateAuroraMap(dbInstance) {
-  console.log(`Starting migration: add aurora map`);
+  logger.info("Starting migration: add aurora map");
 
   const ids = await getAuroraIds();
   ids.forEach(([auroraId, name]) => {

@@ -4,7 +4,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { initializeDatabase } from "./sqlite.js";
 import { startOfDay, endOfDay, addDays } from "date-fns";
-import { toZonedTime, fromZonedTime, formatInTimeZone } from "date-fns-tz";
+import { toZonedTime, formatInTimeZone } from "date-fns-tz";
+import logger from "./logger.js";
 
 /**
  * All output times are in Brisbane (UTC+10) since it doesn't have DST. To
@@ -45,7 +46,7 @@ export async function getTimeSeriesForColumn({
         ${column} as value
       FROM ${TABLE_NAME}
       WHERE unixepoch(generationTime) BETWEEN ${Math.round(
-        start / 1000
+        start / 1000,
       )} AND ${Math.round(end / 1000)}
       AND value is not null
       ORDER BY unixepoch(generationTime) ASC
@@ -80,7 +81,7 @@ export async function getTimeSeriesForColumn({
     startDate: formatInTimeZone(
       new Date(start),
       TZ,
-      "yyyy-MM-dd'T'HH:mm:ssXXX"
+      "yyyy-MM-dd'T'HH:mm:ssXXX",
     ),
     series,
   };
@@ -89,14 +90,14 @@ export async function getTimeSeriesForColumn({
 export default async function generateDataset(options) {
   const outputFile = path.resolve(process.cwd(), options.output);
 
-  console.log(`Fetching ${options.column} for day: ${options.dayStart}`);
+  logger.info("Fetching %s for day: %s", options.column, options.dayStart);
 
   const datas = await getTimeSeriesForColumn({
     column: options.column,
     dayStart: parseInt(options.dayStart),
   });
 
-  console.log(`Writing to ${outputFile}`);
+  logger.info("Writing to %s", outputFile);
   await fs.writeFile(outputFile, JSON.stringify(datas));
 }
 
@@ -107,7 +108,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     .option(
       "-o, --output <filename>",
       "Where to write this json",
-      "output.json"
+      "output.json",
     );
 
   program.parse();
