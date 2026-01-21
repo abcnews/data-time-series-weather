@@ -74,7 +74,21 @@ export async function parseRiverHeights(html) {
       const heightStr = cells[3].textContent.trim().replace(/\u00a0/g, " ");
       const heightM = heightStr ? parseFloat(heightStr) : null;
 
+      const plotLink = cells[8].querySelector('a[href*=".plt.shtml"]');
+      if (!plotLink) {
+        throw new Error(
+          `Could not find plot link for station: ${cells[0].textContent.trim()}`,
+        );
+      }
+      const href = plotLink.getAttribute("href");
+      const idMatch = href.match(/\.(\d+)\.plt\.shtml/);
+      if (!idMatch) {
+        throw new Error(`Could not extract ID from link: ${href}`);
+      }
+      const id = idMatch[1];
+
       return {
+        id,
         stationName: cells[0].textContent.trim().replace(/\u00a0/g, " "),
         stationType: cells[1].textContent.trim().replace(/\u00a0/g, " "),
         timeDay: timeDayStr,

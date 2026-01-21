@@ -20,6 +20,7 @@ describe("parseRiverHeights", () => {
     // Check the first record
     // Todd River at Bond Springs 	Automatic 	03.10PM Tue 	1.00 	LGH 	steady 	  	  	Plot | Table
     const first = records[0];
+    assert.strictEqual(first.id, "515008");
     assert.strictEqual(first.stationName, "Todd River at Bond Springs");
     assert.strictEqual(first.timestamp, "2026-01-20T15:10:00+09:30");
     assert.strictEqual(first.heightM, 1.0);
@@ -41,6 +42,7 @@ describe("parseRiverHeights", () => {
         assert.ok(records.length > 0, `Should have records for ${file}`);
 
         records.forEach((r) => {
+          assert.ok(r.id, `Should have id for record in ${file}`);
           assert.strictEqual(
             typeof r.heightM,
             r.heightM === null ? "object" : "number",
