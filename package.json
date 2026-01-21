@@ -6,6 +6,7 @@
     "fetch:weather-cron": "node . fetch-weather-cron",
     "prepare:data": "node . generate-datasets",
     "upload": "node . upload-s3 -s data",
+    "test": "mocha test/*.test.js",
     "get-db": "URL=https://$S3_BUCKET.$S3_END_POINT/${S3_DEST}weather.sqlite.gz;echo $URL;curl $URL|gunzip>data/weather.sqlite",
     "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && gzip data/weather.sqlite && npm run upload"
   },
@@ -13,11 +14,16 @@
     "@turf/turf": "^7.3.1",
     "@types/geojson": "^7946.0.16",
     "async": "^3.2.6",
+    "basic-ftp": "^5.1.0",
     "commander": "^14.0.2",
     "date-fns": "^4.1.0",
     "date-fns-tz": "^3.2.0",
     "dotenv": "^17.2.3",
+    "jsdom": "^27.4.0",
     "mime": "^4.1.0",
     "minio": "^8.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
   }
 }

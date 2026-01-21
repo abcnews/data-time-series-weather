@@ -1,0 +1,345 @@
+[
+  {
+    "id": "IDD60022",
+    "name": "River Height Bulletin - Northern Territory Rivers (NT)",
+    "type": "Observation",
+    "deleteTime": "27",
+    "filename": "IDD60022.html"
+  },
+  {
+    "id": "IDN60140",
+    "name": "Latest River Heights - Northern Rivers (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60140.html"
+  },
+  {
+    "id": "IDN60141",
+    "name": "Latest River Heights - Mid North Coast (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60141.html"
+  },
+  {
+    "id": "IDN60143",
+    "name": "Latest River Heights - Central Coast (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60143.html"
+  },
+  {
+    "id": "IDN60144",
+    "name": "Latest River Heights - South Coast (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60144.html"
+  },
+  {
+    "id": "IDN60145",
+    "name": "Latest River Heights - North West (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60145.html"
+  },
+  {
+    "id": "IDN60146",
+    "name": "Latest River Heights - Central West (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60146.html"
+  },
+  {
+    "id": "IDN60147",
+    "name": "Latest River Heights - South West (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60147.html"
+  },
+  {
+    "id": "IDN60148",
+    "name": "Latest River Heights - Far West (NSW)",
+    "type": "Observation",
+    "deleteTime": "26",
+    "filename": "IDN60148.html"
+  },
+  {
+    "id": "IDQ60285",
+    "name": "River Height Bulletin - Nerang, Logan, Albert (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60285.html"
+  },
+  {
+    "id": "IDQ60286",
+    "name": "River Height Bulletin - Brisbane, Bremer (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60286.html"
+  },
+  {
+    "id": "IDQ60287",
+    "name": "River Height Bulletin - Maroochy, Noosa, Mary (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60287.html"
+  },
+  {
+    "id": "IDQ60288",
+    "name": "River Height Bulletin - Burnett, Kolan, Burrum, Cherwell (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60288.html"
+  },
+  {
+    "id": "IDQ60289",
+    "name": "River Height Bulletin - Dawson, Mackenzie, Fitzroy (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60289.html"
+  },
+  {
+    "id": "IDQ60290",
+    "name": "River Height Bulletin - Pioneer, Proserpine, Don, Burdekin, Haughton (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60290.html"
+  },
+  {
+    "id": "IDQ60291",
+    "name": "River Height Bulletin - Herbert, Tully, Johnstone,Barron, Daintree (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60291.html"
+  },
+  {
+    "id": "IDQ60292",
+    "name": "River Height Bulletin - Macintyre, Dumaresq, Weir, Moonie (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60292.html"
+  },
+  {
+    "id": "IDQ60293",
+    "name": "River Height Bulletin - Upper Condamine, Condamine, Balonne, Maranoa (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60293.html"
+  },
+  {
+    "id": "IDQ60294",
+    "name": "River Height Bulletin - Warrego, Paroo, Bulloo (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60294.html"
+  },
+  {
+    "id": "IDQ60295",
+    "name": "River Height Bulletin - Thomson, Barcoo, Cooper, Diamantina, Georgina (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60295.html"
+  },
+  {
+    "id": "IDQ60296",
+    "name": "River Height Bulletin - Flinders, Norman, Gilbert (Gulf Rivers) (QLD)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDQ60296.html"
+  },
+  {
+    "id": "IDS60147",
+    "name": "River Height Bulletin - Onkaparinga Catchment (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60147.html"
+  },
+  {
+    "id": "IDS60148",
+    "name": "River Height Bulletin - River Torrens Catchment (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60148.html"
+  },
+  {
+    "id": "IDS60149",
+    "name": "River Height Bulletin - Gawler River Catchment (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60149.html"
+  },
+  {
+    "id": "IDS60150",
+    "name": "River Height Bulletin - Mid-North Catchments (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60150.html"
+  },
+  {
+    "id": "IDS60164",
+    "name": "River Height Bulletin - Angas and Bremer River Catchments (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60164.html"
+  },
+  {
+    "id": "IDS60165",
+    "name": "River Height Bulletin - Light and Wakefield River Catchments (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60165.html"
+  },
+  {
+    "id": "IDS60166",
+    "name": "River Height Bulletin - River Murray (SA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDS60166.html"
+  },
+  {
+    "id": "IDT60150",
+    "name": "River Height Collective - North West Rivers (TAS)",
+    "type": "Observation",
+    "deleteTime": "36",
+    "filename": "IDT60150.html"
+  },
+  {
+    "id": "IDT60151",
+    "name": "River Height Collective - Northern Rivers (TAS)",
+    "type": "Observation",
+    "deleteTime": "36",
+    "filename": "IDT60151.html"
+  },
+  {
+    "id": "IDT60152",
+    "name": "River Height Collective - Southern Rivers (TAS)",
+    "type": "Observation",
+    "deleteTime": "36",
+    "filename": "IDT60152.html"
+  },
+  {
+    "id": "IDV60078",
+    "name": "River Height Bulletin - Mitchell, Tambo, Snowy, Cann and Genoa Rivers (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60078.html"
+  },
+  {
+    "id": "IDV60079",
+    "name": "River Height Bulletin - Latrobe, Thomson, Macalister and Avon Rivers (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60079.html"
+  },
+  {
+    "id": "IDV60147",
+    "name": "River Height Bulletin - Barwon, Moorabool, Leigh and Glenelg (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60147.html"
+  },
+  {
+    "id": "IDV60148",
+    "name": "River Height Bulletin - Wimmera and Murray-Mallee (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60148.html"
+  },
+  {
+    "id": "IDV60149",
+    "name": "River Height Bulletin - Campaspe, Loddon, Avoca and Murray-Riverina (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60149.html"
+  },
+  {
+    "id": "IDV60150",
+    "name": "River Height Bulletin - Goulburn, Broken and Murray-Riverina (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60150.html"
+  },
+  {
+    "id": "IDV60151",
+    "name": "River Height Bulletin - Upper Murray, Mitta Mitta, Kiewa, Ovens and King (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60151.html"
+  },
+  {
+    "id": "IDV60201",
+    "name": "River Height Bulletin - Werribee (VIC)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDV60201.html"
+  },
+  {
+    "id": "IDW60400",
+    "name": "River Height Bulletin - Kimberley (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60400.html"
+  },
+  {
+    "id": "IDW60401",
+    "name": "River Height Bulletin - Pilbara (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60401.html"
+  },
+  {
+    "id": "IDW60402",
+    "name": "River Height Bulletin - Gascoyne-Murchison (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60402.html"
+  },
+  {
+    "id": "IDW60403",
+    "name": "River Height Bulletin - Mid West (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60403.html"
+  },
+  {
+    "id": "IDW60404",
+    "name": "River Height Bulletin - Avon-Swan (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60404.html"
+  },
+  {
+    "id": "IDW60405",
+    "name": "River Height Bulletin - Mandurah-Busselton (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60405.html"
+  },
+  {
+    "id": "IDW60406",
+    "name": "River Height Bulletin - Busselton-Albany (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60406.html"
+  },
+  {
+    "id": "IDW60407",
+    "name": "River Height Bulletin - Albany-Esperance (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": "IDW60407.html"
+  },
+  {
+    "id": "IDW60408",
+    "name": "River Height Bulletin - Blackwood River (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": null
+  },
+  {
+    "id": "IDW60409",
+    "name": "River Height Bulletin - South Coast Rivers (WA)",
+    "type": "Observation",
+    "deleteTime": "24",
+    "filename": null
+  }
+]
