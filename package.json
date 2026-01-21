@@ -21,7 +21,8 @@
     "dotenv": "^17.2.3",
     "jsdom": "^27.4.0",
     "mime": "^4.1.0",
-    "minio": "^8.0.6"
+    "minio": "^8.0.6",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "mocha": "^11.7.5"
