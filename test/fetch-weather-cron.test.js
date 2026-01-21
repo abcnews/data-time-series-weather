@@ -73,6 +73,16 @@ describe("fetchWeatherCron", () => {
     assert.strictEqual(row1.auroraId, "0a9a5834157b");
     assert.strictEqual(row1.averageWindSpeedKm, 4);
     assert.strictEqual(row1.tempC, 26.8);
+    assert.strictEqual(row1.maximumTempLocalTime, "10:22 am");
+    assert.strictEqual(
+      row1.maximumTempLocalTimeUTC,
+      "2026-01-21T10:22:00+10:00",
+    );
+    assert.strictEqual(row1.minimumTempLocalTime, "5:53 am");
+    assert.strictEqual(
+      row1.minimumTempLocalTimeUTC,
+      "2026-01-21T05:53:00+10:00",
+    );
 
     const row2 = db
       .prepare("SELECT * FROM weather_data WHERE auroraId = ?")

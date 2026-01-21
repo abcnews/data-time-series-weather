@@ -20,6 +20,24 @@ export const SCHEMA_MAPPING = {
   wetBulbTemp: "REAL",
   windDir: "TEXT",
   windDirDeg: "REAL",
+  gustKmh: "REAL",
+  maximumTempC: "REAL",
+  minimumTempC: "REAL",
+  maximumTempLocalTime: "TEXT", // e.g. "10:22 am"
+  maximumTempLocalTimeUTC: "TEXT",
+  minimumTempLocalTime: "TEXT", // same 👆
+  minimumTempLocalTimeUTC: "TEXT",
+  cloudOktas: "text",
+  averageWindSpdKnots: "REAL",
+  cloud: "TEXT",
+  dayName: "TEXT",
+  maximumGustDir: "TEXT",
+  maximumGustSpdKnots: "REAL",
+  rainfall24hr: "REAL",
+  rainHour: "REAL",
+  rainTen: "REAL",
+  visibilityKm: "REAL",
+  windGustSpdKnots: "REAL",
 };
 
 export function createWeatherData(dbInstance) {

@@ -6,6 +6,7 @@ import path from "node:path";
 import { eachLimit } from "async";
 import { append, closeDatabase, initializeDatabase } from "./sqlite.js";
 import { graphqlQuery } from "./graphql.js";
+import { resolveLocalTimeToUtc } from "./utils.aurora-dates.js";
 import logger from "./logger.js";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
@@ -76,10 +77,23 @@ export async function fetchWeatherForLocation(
     logger.debug("Response: %j", res);
     return;
   }
+
+  const processedData = {
+    ...data,
+    maximumTempLocalTimeUTC: resolveLocalTimeToUtc(
+      data.maximumTempLocalTime,
+      data.endTime,
+    ),
+    minimumTempLocalTimeUTC: resolveLocalTimeToUtc(
+      data.minimumTempLocalTime,
+      data.endTime,
+    ),
+  };
+
   await append({
     auroraId,
     fetchTime: new Date().toISOString(),
-    ...data,
+    ...processedData,
   });
   return res;
 }
