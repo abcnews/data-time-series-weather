@@ -1,0 +1,50 @@
+{
+  "data": {
+    "locations": {
+      "byId": {
+        "weather": {
+          "detailedHistoricConditions": [
+            {
+              "values": [
+                {
+                  "averageWindSpdKnots": 6,
+                  "averageWindSpeedKm": 11,
+                  "cloud": null,
+                  "cloudOktas": null,
+                  "dayName": "Wednesday",
+                  "dewPointC": 11.2,
+                  "endTime": "2026-01-21T18:40:00+11:00",
+                  "feelsLikeTempC": 28.5,
+                  "generationTime": "2026-01-21T12:41:09+11:00",
+                  "gustKmh": 22,
+                  "maximumGustDir": "NE",
+                  "maximumGustKmh": 28,
+                  "maximumGustSpdKnots": null,
+                  "maximumTempC": 30.2,
+                  "maximumTempLocalTime": "12:40 pm",
+                  "minimumTempC": 13.6,
+                  "minimumTempLocalTime": "6:20 am",
+                  "precipitationSince9amMM": 0,
+                  "pressure": null,
+                  "pressureMSLP": null,
+                  "qnhPressure": null,
+                  "rainfall24hr": 0,
+                  "rainHour": null,
+                  "rainTen": null,
+                  "relativeHumidityPct": 31,
+                  "startTime": "2026-01-21T12:40:00+11:00",
+                  "tempC": 30.2,
+                  "visibilityKm": null,
+                  "wetBulbTemp": 11,
+                  "windDir": "WNW",
+                  "windDirDeg": 287,
+                  "windGustSpdKnots": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

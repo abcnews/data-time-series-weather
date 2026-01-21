@@ -13,7 +13,7 @@ const geojsonText = await fs.readFile(GEOJSON_FILE, "utf8").catch((e) => {
   console.error(
     "Error: ",
     GEOJSON_FILE,
-    "must first be created by process:geonames-to-geojson"
+    "must first be created by process:geonames-to-geojson",
   );
   process.exit();
 });
@@ -99,7 +99,7 @@ export default async function fetchWeatherCron() {
       "STARTING - ",
       `${i++}/${geojson.features.length}`,
       feature.properties.name,
-      feature.properties.auroraId
+      feature.properties.auroraId,
     );
     await fetchWeatherForLocation(feature).catch((e) => {
       console.log(e);
