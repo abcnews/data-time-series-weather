@@ -140,9 +140,3 @@ export async function parseAllRiverHeights() {
 
   return results.flat();
 }
-
-const riversJsonPath = path.resolve(__dirname, "../rivers.json");
-await fs.writeFile(
-  riversJsonPath,
-  JSON.stringify(await parseAllRiverHeights(), null, 2),
-);
