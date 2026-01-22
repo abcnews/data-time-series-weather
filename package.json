@@ -9,7 +9,7 @@
     "upload": "node . upload-s3 -s data",
     "test": "NODE_ENV=test mocha test/*.test.js",
     "get-db": "URL=https://$S3_BUCKET.$S3_END_POINT/${S3_DEST}weather.sqlite.gz;echo $URL;curl $URL|gunzip>data/weather.sqlite",
-    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && npm run prepare:river-levels-wip && gzip data/weather.sqlite && npm run upload"
+    "go": "npm run get-db && npm run fetch:weather-cron && npm run prepare:data && gzip data/weather.sqlite && npm run upload"
   },
   "dependencies": {
     "@turf/turf": "^7.3.1",
